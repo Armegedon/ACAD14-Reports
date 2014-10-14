@@ -13,7 +13,7 @@
 <msxsl:script language="JScript" implements-prefix="landUtils"><![CDATA[
 var linearPrec = 2;
 var coordPrec = 6;
-var anglePrec = 3;
+var anglePrec = 0;
 
 var linearUnit="ft";
 var areaUnit="sq ft";
@@ -213,7 +213,7 @@ function formatAngleToDMS(angle)
 	var dSec = 60. * (dMin - minutes);
 	var seconds = formatAngleNumber(dSec);
 
-	return degrees + "-" + minutes + "-" + seconds;
+	return degrees + "°" + minutes + "'" + seconds + "\"";
 }
 
 function formatBearingDMS(angle)
@@ -225,25 +225,25 @@ function formatBearingDMS(angle)
 	{
 		angNum = 90. - angle;
 		var bearing = formatAngleToDMS(angNum);
-		return "N " + bearing + " E";
+		return "NORTH " + bearing + " EAST";
 	}
 	else if(angle > 90 && angle <= 180)
 	{
 		angNum = angle - 90.;
 		var bearing = formatAngleToDMS(angNum);
-		return "N " + bearing + " W";
+		return "NORTH " + bearing + " WEST";
 	}
 	else if(angle > 180 && angle < 270)
 	{
 		angNum = 270. - angle;
 		var bearing = formatAngleToDMS(angNum);
-		return "S " + bearing + " W";
+		return "SOUTH " + bearing + " WEST";
 	}
 	else
 	{
 		angNum = angle - 270.;
 		var bearing = formatAngleToDMS(angNum);
-		return "S " + bearing + " E";
+		return "SOUTH " + bearing + " EAST";
 	}	
 }
 ]]></msxsl:script>

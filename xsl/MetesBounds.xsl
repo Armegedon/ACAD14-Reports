@@ -28,6 +28,7 @@ This form is valid for LandXML 0.88, 1.0, 1.1 and 1.2 data.-->
 <xsl:include href="header.xsl"/>
 
 <xsl:param name="SourceLinearUnit" select="//lx:Units/*/@linearUnit"/>
+<xsl:param name="SourceAreaUnit" select="//lx:Units/*/@areaUnit"/>
 
 <xsl:template match="/">
 	<html>
@@ -50,14 +51,68 @@ This form is valid for LandXML 0.88, 1.0, 1.1 and 1.2 data.-->
 	<xsl:apply-templates select="." mode="set"/>
 	<h2>Metes and Bounds description of parcel <xsl:value-of select="@name"/></h2>
 	<xsl:apply-templates select="./lx:CoordGeom"/>
-	to the point of beginning.<br/><br/><hr/>
+	, TO THE POINT OF BEGINNING,<br/><br/>CONTAINING A CALCULATED AREA OF 
+
+	
+	<xsl:variable name="ParcelArea" select="@area"/>
+	<xsl:choose>
+		<xsl:when test="$Parcel.2D_Area.unit='default'">
+			<xsl:choose>
+				<xsl:when test="$SourceAreaUnit='squareFoot'">
+					<xsl:text/><xsl:value-of select="landUtils:FormatNumber(string($ParcelArea), string($SourceAreaUnit), 'squareFoot', string('0.00'), string($Parcel.2D_Area.rounding))"/><xsl:text/>
+					
+				</xsl:when>
+				<xsl:when test="$SourceAreaUnit='squareMeter'">
+					<xsl:text/><xsl:value-of select="landUtils:FormatNumber(string($ParcelArea), string($SourceAreaUnit), 'squareMeter', string('0.00'), string($Parcel.2D_Area.rounding))"/><xsl:text/>
+					
+				</xsl:when>
+			</xsl:choose>
+		</xsl:when>
+		<xsl:when test="$Parcel.2D_Area.unit='squareFoot'">
+			<xsl:text/><xsl:value-of select="landUtils:FormatNumber(string($ParcelArea), string($SourceAreaUnit), 'squareFoot', string('0.00'), string($Parcel.2D_Area.rounding))"/><xsl:text/>
+			
+		</xsl:when>
+		<xsl:when test="$Parcel.2D_Area.unit='squareMeter'">
+			<xsl:text/><xsl:value-of select="landUtils:FormatNumber(string($ParcelArea), string($SourceAreaUnit), 'squareMeter', string('0.00'), string($Parcel.2D_Area.rounding))"/><xsl:text/>
+			
+		</xsl:when>
+	</xsl:choose>
+	
+	 SQUARE FEET OR
+
+	<xsl:choose>
+		<xsl:when test="$Parcel.2D_Area.unit='default'">
+			<xsl:choose>
+				<xsl:when test="$SourceAreaUnit='squareFoot'">
+					
+					<xsl:text/><xsl:value-of select="landUtils:FormatNumber(string($ParcelArea), string($SourceAreaUnit), 'acre', string($Parcel.2D_Area.precision), string($Parcel.2D_Area.rounding))"/><xsl:text/>
+				</xsl:when>
+				<xsl:when test="$SourceAreaUnit='squareMeter'">
+					
+					<xsl:text/><xsl:value-of select="landUtils:FormatNumber(string($ParcelArea), string($SourceAreaUnit), 'hectare', string($Parcel.2D_Area.precision), string($Parcel.2D_Area.rounding))"/><xsl:text/>
+				</xsl:when>
+			</xsl:choose>
+		</xsl:when>
+		<xsl:when test="$Parcel.2D_Area.unit='squareFoot'">
+			
+			<xsl:text/><xsl:value-of select="landUtils:FormatNumber(string($ParcelArea), string($SourceAreaUnit), 'acre', string($Parcel.2D_Area.precision), string($Parcel.2D_Area.rounding))"/><xsl:text/>
+		</xsl:when>
+		<xsl:when test="$Parcel.2D_Area.unit='squareMeter'">
+			
+			<xsl:text/><xsl:value-of select="landUtils:FormatNumber(string($ParcelArea), string($SourceAreaUnit), 'hectare', string($Parcel.2D_Area.precision), string($Parcel.2D_Area.rounding))"/><xsl:text/>
+		</xsl:when>
+	</xsl:choose>
+
+	 ACRES, MORE OR LESS.<br/><br/><hr/>
+
+
 </xsl:template>
 
 <xsl:template match="lx:CoordGeom">
 	<xsl:variable name="ComNorthing" select="landUtils:GetCommencePointNorthing()"/>
 	<xsl:variable name="ComEasting" select="landUtils:GetCommencePointEasting()"/>
-	Beginning at a point whose Northing is <xsl:value-of select="landUtils:FormatNumber(string($ComNorthing), string($SourceLinearUnit), string($Parcel.Point_Coordinates.unit), string($Parcel.Point_Coordinates.precision), string($Parcel.Point_Coordinates.rounding))"/>
-	and whose Easting is <xsl:value-of select="landUtils:FormatNumber(string($ComEasting), string($SourceLinearUnit), string($Parcel.Point_Coordinates.unit), string($Parcel.Point_Coordinates.precision), string($Parcel.Point_Coordinates.rounding))"/>
+	BEGINNING AT A POINT WHOSE NORTHING IS <xsl:value-of select="landUtils:FormatNumber(string($ComNorthing), string($SourceLinearUnit), string($Parcel.Point_Coordinates.unit), string($Parcel.Point_Coordinates.precision), string($Parcel.Point_Coordinates.rounding))"/>
+	AND WHOSE EASTING IS <xsl:value-of select="landUtils:FormatNumber(string($ComEasting), string($SourceLinearUnit), string($Parcel.Point_Coordinates.unit), string($Parcel.Point_Coordinates.precision), string($Parcel.Point_Coordinates.rounding))"/>
 	<xsl:for-each select="./node()">
 		<xsl:apply-templates select="."/>
 	</xsl:for-each>
@@ -67,50 +122,57 @@ This form is valid for LandXML 0.88, 1.0, 1.1 and 1.2 data.-->
 	<xsl:apply-templates select="." mode="set"/>
 	<xsl:variable name="angle" select="landUtils:GetLineAngle()"/>
 	<xsl:variable name="LineLength" select="landUtils:GetLineLength()"/>
-	;<br/>thence bearing <xsl:value-of select="landUtils:formatBearingDMS($angle)"/>
-	a distance of <xsl:value-of select="landUtils:FormatNumber(string($LineLength), string($SourceLinearUnit), string($Parcel.Line_Segment_Length.unit), string($Parcel.Line_Segment_Length.precision), string($Parcel.Line_Segment_Length.rounding))"/>&#160;
+	;<br/>THENCE <xsl:value-of select="landUtils:formatBearingDMS($angle)"/>,
+	A DISTANCE OF <xsl:value-of select="landUtils:FormatNumber(string($LineLength), string($SourceLinearUnit), string($Parcel.Line_Segment_Length.unit), string('0.00'), string($Parcel.Line_Segment_Length.rounding))"/><!-- &#160;-->
 	<xsl:choose>
 		<xsl:when test="$Parcel.Line_Segment_Length.unit='default'">
 			<xsl:choose>
-				<xsl:when test="$SourceLinearUnit='foot'">feet</xsl:when>
-				<xsl:when test="$SourceLinearUnit='meter'">meters</xsl:when>
+				<xsl:when test="$SourceLinearUnit='USSurveyFoot'"> FEET</xsl:when>
+				<xsl:when test="$SourceLinearUnit='foot'"> FEET</xsl:when>
+				<xsl:when test="$SourceLinearUnit='meter'"> METERS</xsl:when>
 			</xsl:choose>
 		</xsl:when>
-		<xsl:when test="$Parcel.Line_Segment_Length.unit='foot'">feet</xsl:when>
-		<xsl:when test="$Parcel.Line_Segment_Length.unit='meter'">meters</xsl:when>
+		<xsl:when test="$Parcel.Line_Segment_Length.unit='USSurveyFoot'"> FEET</xsl:when>
+		<xsl:when test="$Parcel.Line_Segment_Length.unit='foot'"> FEET</xsl:when>
+		<xsl:when test="$Parcel.Line_Segment_Length.unit='meter'"> METERS</xsl:when>
 	</xsl:choose>
 </xsl:template>
 
 <xsl:template match="lx:Curve">
 	<xsl:apply-templates select="." mode="set"/>
+	<xsl:variable name="CurveLength" select="landUtils:GetCurveLength()"/>
 	<xsl:variable name="CurveAngle" select="landUtils:GetCurveAngle()"/>
 	<xsl:variable name="CurveRadius" select="landUtils:GetCurveRadius()"/>
 	<xsl:variable name="ChordDir" select="landUtils:CalculateBearingDMS(./lx:Start,./lx:End)"/>
 	<xsl:variable name="ChordLength" select="landUtils:GetChordLength()"/>
-	;<br/>thence along a curve to the <xsl:value-of select="landUtils:GetCurveDirection()"/>,
-	having a radius of <xsl:value-of select="landUtils:FormatNumber(string($CurveRadius), string($SourceLinearUnit), string($Parcel.Curve_Segment_Radius.unit), string($Parcel.Curve_Segment_Radius.precision), string($Parcel.Curve_Segment_Radius.rounding))"/>&#160;
+	, TO A POINT ON A CURVE;<br/>THENCE ALONG THE ARC OF A CURVE TO THE <xsl:value-of select="landUtils:GetCurveDirection()"/> HAVING A RADIUS OF <xsl:value-of select="landUtils:FormatNumber(string($CurveRadius), string($SourceLinearUnit), string($Parcel.Curve_Segment_Radius.unit), string('0.00'), string($Parcel.Curve_Segment_Radius.rounding))"/>&#160;
 	<xsl:choose>
 		<xsl:when test="$Parcel.Curve_Segment_Radius.unit='default'">
 			<xsl:choose>
-				<xsl:when test="$SourceLinearUnit='foot'">feet,</xsl:when>
-				<xsl:when test="$SourceLinearUnit='meter'">meters,</xsl:when>
+				<xsl:when test="$SourceLinearUnit='foot'">FEET,</xsl:when>
+				<xsl:when test="$SourceLinearUnit='USSurveyFoot'">FEET,</xsl:when>
+				<xsl:when test="$SourceLinearUnit='meter'">METERS,</xsl:when>
 			</xsl:choose>
 		</xsl:when>
-		<xsl:when test="$Parcel.Curve_Segment_Radius.unit='foot'">feet,</xsl:when>
-		<xsl:when test="$Parcel.Curve_Segment_Radius.unit='meter'">meters,</xsl:when>
+		<xsl:when test="$Parcel.Curve_Segment_Radius.unit='foot'">FEET,</xsl:when>
+		<xsl:when test="$Parcel.Curve_Segment_Radius.unit='USSurveyFoot'">FEET,</xsl:when>
+		<xsl:when test="$Parcel.Curve_Segment_Radius.unit='meter'">METERS,</xsl:when>
 	</xsl:choose>
-	a delta angle of <xsl:value-of select="landUtils:FormatAngle(string($CurveAngle), string('default'), string($Parcel.Curve_Segment_Radius.unit), string($Parcel.Curve_Segment_Delta_Angle.format), string($Parcel.Curve_Segment_Delta_Angle.precision), string($Parcel.Curve_Segment_Delta_Angle.rounding))"/>,
-	and whose long chord bears <xsl:value-of select="$ChordDir"/>
-	a distance of <xsl:value-of select="landUtils:FormatNumber(string($ChordLength), string($SourceLinearUnit), string($Parcel.Curve_Segment_Chord_Length.unit), string($Parcel.Curve_Segment_Chord_Length.precision), string($Parcel.Curve_Segment_Chord_Length.rounding))"/>&#160;
+	A CENTRAL ANGLE OF <xsl:value-of select="landUtils:FormatAngle(string($CurveAngle), string('default'), string($Parcel.Curve_Segment_Radius.unit), string($Parcel.Curve_Segment_Delta_Angle.format), string($Parcel.Curve_Segment_Delta_Angle.precision), string($Parcel.Curve_Segment_Delta_Angle.rounding))"/>,
+	AN ARC LENGTH OF <xsl:value-of select="landUtils:FormatNumber(string($CurveLength), string($SourceLinearUnit), string($Parcel.Curve_Segment_Length.unit), string('0.00'), string($Parcel.Curve_Segment_Length.rounding))"/> FEET,
+	THE CHORD OF WHICH BEARS <xsl:value-of select="$ChordDir"/>, 
+	<xsl:value-of select="landUtils:FormatNumber(string($ChordLength), string($SourceLinearUnit), string($Parcel.Curve_Segment_Chord_Length.unit), string('0.00'), string($Parcel.Curve_Segment_Chord_Length.rounding))"/>&#160;
 	<xsl:choose>
 		<xsl:when test="$Parcel.Curve_Segment_Chord_Length.unit='default'">
 			<xsl:choose>
-				<xsl:when test="$SourceLinearUnit='foot'">feet</xsl:when>
-				<xsl:when test="$SourceLinearUnit='meter'">meters</xsl:when>
+				<xsl:when test="$SourceLinearUnit='foot'">FEET</xsl:when>
+				<xsl:when test="$SourceLinearUnit='USSurveyFoot'">FEET</xsl:when>
+				<xsl:when test="$SourceLinearUnit='meter'">METERS</xsl:when>
 			</xsl:choose>
 		</xsl:when>
-		<xsl:when test="$Parcel.Curve_Segment_Chord_Length.unit='foot'">feet</xsl:when>
-		<xsl:when test="$Parcel.Curve_Segment_Chord_Length.unit='meter'">meters</xsl:when>
+		<xsl:when test="$Parcel.Curve_Segment_Chord_Length.unit='foot'">FEET</xsl:when>
+		<xsl:when test="$Parcel.Curve_Segment_Chord_Length.unit='USSurveyFoot'">FEET</xsl:when>
+		<xsl:when test="$Parcel.Curve_Segment_Chord_Length.unit='meter'">METERS</xsl:when>
 	</xsl:choose>
 </xsl:template>
 

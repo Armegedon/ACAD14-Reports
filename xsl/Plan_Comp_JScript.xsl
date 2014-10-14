@@ -105,25 +105,25 @@ function CalculateBearingDMS(pointOne, pointTwo)
 	{
 		angNum = 90. - ang;
 		var bearing = formatAngleToDMS(angNum);
-		return "N " + bearing + " E";
+		return "NORTH " + bearing + " EAST";
 	}
 	else if(ang > 90 && ang <= 180)
 	{
 		angNum = ang - 90.;
 		var bearing = formatAngleToDMS(angNum);
-		return "N " + bearing + " W";
+		return "NORTH " + bearing + " WEST";
 	}
 	else if(ang > 180 && ang < 270)
 	{
 		angNum = 270. - ang;
 		var bearing = formatAngleToDMS(angNum);
-		return "S " + bearing + " W";
+		return "SOUTH " + bearing + " WEST";
 	}
 	else
 	{
 		angNum = ang - 270.;
 		var bearing = formatAngleToDMS(angNum);
-		return "S " + bearing + " E";
+		return "SOUTH " + bearing + " EAST";
 	}	
 }
 

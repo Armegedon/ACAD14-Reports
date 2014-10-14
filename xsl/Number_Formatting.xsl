@@ -516,9 +516,9 @@ function FormatDMS(angle, precisionStr, roundingStr, isAngle)
 	if(seconds < 10) { Ssec = "0" + String(seconds); } else { Ssec = String(seconds); }	
 	
 	if(isAngle)
-	  return Sdeg + angleDegreeLabel + " " + Smin + angleMinuteLabel  + " " + Ssec + angleSecondLabel;
+	  return Sdeg + angleDegreeLabel + Smin + angleMinuteLabel  + Ssec + angleSecondLabel;
   else
-    return Sdeg + dirDegreeLabel + " " + Smin + dirMinuteLabel  + " " + Ssec + dirSecondLabel;
+    return Sdeg + dirDegreeLabel + Smin + dirMinuteLabel  + Ssec + dirSecondLabel;
 }
 
 function FormatPrecision(numStr, precisionStr, roundingStr)
