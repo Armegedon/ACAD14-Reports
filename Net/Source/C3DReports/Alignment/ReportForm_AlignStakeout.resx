@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GroupBox_StakeoutOption.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="Edit_BacksightPoint.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Edit_BacksightPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 71</value>
+  </data>
+  <data name="Edit_BacksightPoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Edit_BacksightPoint.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Edit_BacksightPoint.Name" xml:space="preserve">
+    <value>Edit_BacksightPoint</value>
+  </data>
+  <data name="&gt;&gt;Edit_BacksightPoint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Edit_BacksightPoint.Parent" xml:space="preserve">
+    <value>GroupBox_StakeoutOption</value>
+  </data>
+  <data name="&gt;&gt;Edit_BacksightPoint.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Edit_PointOccupied.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Edit_PointOccupied.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 32</value>
+  </data>
+  <data name="Edit_PointOccupied.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 20</value>
+  </data>
+  <data name="Edit_PointOccupied.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Edit_PointOccupied.Name" xml:space="preserve">
+    <value>Edit_PointOccupied</value>
+  </data>
+  <data name="&gt;&gt;Edit_PointOccupied.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Edit_PointOccupied.Parent" xml:space="preserve">
+    <value>GroupBox_StakeoutOption</value>
+  </data>
+  <data name="&gt;&gt;Edit_PointOccupied.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Radio_Direction.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="Radio_Direction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 84</value>
+  </data>
+  <data name="Radio_Direction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 17</value>
+  </data>
+  <data name="Radio_Direction.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Radio_Direction.Text" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="&gt;&gt;Radio_Direction.Name" xml:space="preserve">
+    <value>Radio_Direction</value>
+  </data>
+  <data name="&gt;&gt;Radio_Direction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Radio_Direction.Parent" xml:space="preserve">
+    <value>GroupBox_StakeoutOption</value>
+  </data>
+  <data name="&gt;&gt;Radio_Direction.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Button_Backsight.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="Button_Backsight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 69</value>
+  </data>
+  <data name="Button_Backsight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="Button_Backsight.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Button_Backsight.Name" xml:space="preserve">
+    <value>Button_Backsight</value>
+  </data>
+  <data name="&gt;&gt;Button_Backsight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Backsight.Parent" xml:space="preserve">
+    <value>GroupBox_StakeoutOption</value>
+  </data>
+  <data name="&gt;&gt;Button_Backsight.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Radio_DeflectMinus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="Radio_DeflectMinus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 56</value>
+  </data>
+  <data name="Radio_DeflectMinus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 19</value>
+  </data>
+  <data name="Radio_DeflectMinus.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Radio_DeflectMinus.Text" xml:space="preserve">
+    <value>Deflect -</value>
+  </data>
+  <data name="&gt;&gt;Radio_DeflectMinus.Name" xml:space="preserve">
+    <value>Radio_DeflectMinus</value>
+  </data>
+  <data name="&gt;&gt;Radio_DeflectMinus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Radio_DeflectMinus.Parent" xml:space="preserve">
+    <value>GroupBox_StakeoutOption</value>
+  </data>
+  <data name="&gt;&gt;Radio_DeflectMinus.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Radio_TurnedPlus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="Radio_TurnedPlus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 32</value>
+  </data>
+  <data name="Radio_TurnedPlus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 20</value>
+  </data>
+  <data name="Radio_TurnedPlus.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Radio_TurnedPlus.Text" xml:space="preserve">
+    <value>Turned +</value>
+  </data>
+  <data name="&gt;&gt;Radio_TurnedPlus.Name" xml:space="preserve">
+    <value>Radio_TurnedPlus</value>
+  </data>
+  <data name="&gt;&gt;Radio_TurnedPlus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Radio_TurnedPlus.Parent" xml:space="preserve">
+    <value>GroupBox_StakeoutOption</value>
+  </data>
+  <data name="&gt;&gt;Radio_TurnedPlus.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Radio_DeflectPlus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="Radio_DeflectPlus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 58</value>
+  </data>
+  <data name="Radio_DeflectPlus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 20</value>
+  </data>
+  <data name="Radio_DeflectPlus.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Radio_DeflectPlus.Text" xml:space="preserve">
+    <value>Deflect +</value>
+  </data>
+  <data name="&gt;&gt;Radio_DeflectPlus.Name" xml:space="preserve">
+    <value>Radio_DeflectPlus</value>
+  </data>
+  <data name="&gt;&gt;Radio_DeflectPlus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Radio_DeflectPlus.Parent" xml:space="preserve">
+    <value>GroupBox_StakeoutOption</value>
+  </data>
+  <data name="&gt;&gt;Radio_DeflectPlus.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Radio_TurnedMinus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="Radio_TurnedMinus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 30</value>
+  </data>
+  <data name="Radio_TurnedMinus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 20</value>
+  </data>
+  <data name="Radio_TurnedMinus.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Radio_TurnedMinus.Text" xml:space="preserve">
+    <value>Turned -</value>
+  </data>
+  <data name="&gt;&gt;Radio_TurnedMinus.Name" xml:space="preserve">
+    <value>Radio_TurnedMinus</value>
+  </data>
+  <data name="&gt;&gt;Radio_TurnedMinus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Radio_TurnedMinus.Parent" xml:space="preserve">
+    <value>GroupBox_StakeoutOption</value>
+  </data>
+  <data name="&gt;&gt;Radio_TurnedMinus.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Label_PtOccupied.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_PtOccupied.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="Label_PtOccupied.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="Label_PtOccupied.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Label_PtOccupied.Text" xml:space="preserve">
+    <value>Point occupied:</value>
+  </data>
+  <data name="&gt;&gt;Label_PtOccupied.Name" xml:space="preserve">
+    <value>Label_PtOccupied</value>
+  </data>
+  <data name="&gt;&gt;Label_PtOccupied.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_PtOccupied.Parent" xml:space="preserve">
+    <value>GroupBox_StakeoutOption</value>
+  </data>
+  <data name="&gt;&gt;Label_PtOccupied.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Label_AngleType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="Label_AngleType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_AngleType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 16</value>
+  </data>
+  <data name="Label_AngleType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="Label_AngleType.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Label_AngleType.Text" xml:space="preserve">
+    <value>Select angle type:</value>
+  </data>
+  <data name="Label_AngleType.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;Label_AngleType.Name" xml:space="preserve">
+    <value>Label_AngleType</value>
+  </data>
+  <data name="&gt;&gt;Label_AngleType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_AngleType.Parent" xml:space="preserve">
+    <value>GroupBox_StakeoutOption</value>
+  </data>
+  <data name="&gt;&gt;Label_AngleType.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Button_Occupied.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="Button_Occupied.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 30</value>
+  </data>
+  <data name="Button_Occupied.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="Button_Occupied.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Button_Occupied.Name" xml:space="preserve">
+    <value>Button_Occupied</value>
+  </data>
+  <data name="&gt;&gt;Button_Occupied.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Occupied.Parent" xml:space="preserve">
+    <value>GroupBox_StakeoutOption</value>
+  </data>
+  <data name="&gt;&gt;Button_Occupied.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Label_BacksightPt.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_BacksightPt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="Label_BacksightPt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="Label_BacksightPt.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Label_BacksightPt.Text" xml:space="preserve">
+    <value>Backsight point:</value>
+  </data>
+  <data name="&gt;&gt;Label_BacksightPt.Name" xml:space="preserve">
+    <value>Label_BacksightPt</value>
+  </data>
+  <data name="&gt;&gt;Label_BacksightPt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_BacksightPt.Parent" xml:space="preserve">
+    <value>GroupBox_StakeoutOption</value>
+  </data>
+  <data name="&gt;&gt;Label_BacksightPt.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="GroupBox_StakeoutOption.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 227</value>
+  </data>
+  <data name="GroupBox_StakeoutOption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>468, 107</value>
+  </data>
+  <data name="GroupBox_StakeoutOption.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GroupBox_StakeoutOption.Text" xml:space="preserve">
+    <value>Stakeout options</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_StakeoutOption.Name" xml:space="preserve">
+    <value>GroupBox_StakeoutOption</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_StakeoutOption.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_StakeoutOption.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_StakeoutOption.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="GroupBox_ReportDesc.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Label_ReportDesc.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="Label_ReportDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_ReportDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="Label_ReportDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>455, 53</value>
+  </data>
+  <data name="Label_ReportDesc.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_ReportDesc.Text" xml:space="preserve">
+    <value>The stakeout alignment report displays the angle, distance, northing and easting from the point occupied, to each alignment station which is determined by the station increment value and at the offset value.</value>
+  </data>
+  <data name="&gt;&gt;Label_ReportDesc.Name" xml:space="preserve">
+    <value>Label_ReportDesc</value>
+  </data>
+  <data name="&gt;&gt;Label_ReportDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_ReportDesc.Parent" xml:space="preserve">
+    <value>GroupBox_ReportDesc</value>
+  </data>
+  <data name="&gt;&gt;Label_ReportDesc.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox_ReportDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="GroupBox_ReportDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>468, 76</value>
+  </data>
+  <data name="GroupBox_ReportDesc.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="GroupBox_ReportDesc.Text" xml:space="preserve">
+    <value>Stakeout alignment report</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_ReportDesc.Name" xml:space="preserve">
+    <value>GroupBox_ReportDesc</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_ReportDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_ReportDesc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_ReportDesc.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="GroupBox_Alignments.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ListView_Alignments.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ListView_Alignments.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="ListView_Alignments.Size" type="System.Drawing.Size, System.Drawing">
+    <value>455, 101</value>
+  </data>
+  <data name="ListView_Alignments.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ListView_Alignments.Name" xml:space="preserve">
+    <value>ListView_Alignments</value>
+  </data>
+  <data name="&gt;&gt;ListView_Alignments.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListView_Alignments.Parent" xml:space="preserve">
+    <value>GroupBox_Alignments</value>
+  </data>
+  <data name="&gt;&gt;ListView_Alignments.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox_Alignments.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 94</value>
+  </data>
+  <data name="GroupBox_Alignments.Size" type="System.Drawing.Size, System.Drawing">
+    <value>468, 127</value>
+  </data>
+  <data name="GroupBox_Alignments.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GroupBox_Alignments.Text" xml:space="preserve">
+    <value>List of alignments</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Alignments.Name" xml:space="preserve">
+    <value>GroupBox_Alignments</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Alignments.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Alignments.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Alignments.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="GroupBox_Settings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="NumericUpDown_Offset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 33</value>
+  </data>
+  <data name="NumericUpDown_Offset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="NumericUpDown_Offset.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NumericUpDown_Offset.Name" xml:space="preserve">
+    <value>NumericUpDown_Offset</value>
+  </data>
+  <data name="&gt;&gt;NumericUpDown_Offset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumericUpDown_Offset.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;NumericUpDown_Offset.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 16</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Offset:</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NumericUpDown_StationInc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 32</value>
+  </data>
+  <data name="NumericUpDown_StationInc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="NumericUpDown_StationInc.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;NumericUpDown_StationInc.Name" xml:space="preserve">
+    <value>NumericUpDown_StationInc</value>
+  </data>
+  <data name="&gt;&gt;NumericUpDown_StationInc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumericUpDown_StationInc.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;NumericUpDown_StationInc.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label_StationInc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_StationInc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_StationInc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 16</value>
+  </data>
+  <data name="Label_StationInc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="Label_StationInc.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Label_StationInc.Text" xml:space="preserve">
+    <value>Station increment:</value>
+  </data>
+  <data name="&gt;&gt;Label_StationInc.Name" xml:space="preserve">
+    <value>Label_StationInc</value>
+  </data>
+  <data name="&gt;&gt;Label_StationInc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_StationInc.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;Label_StationInc.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Button_Save.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="Button_Save.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 69</value>
+  </data>
+  <data name="Button_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="Button_Save.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Button_Save.Name" xml:space="preserve">
+    <value>Button_Save</value>
+  </data>
+  <data name="&gt;&gt;Button_Save.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Save.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;Button_Save.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TextBox_SaveReport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="TextBox_SaveReport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 71</value>
+  </data>
+  <data name="TextBox_SaveReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 20</value>
+  </data>
+  <data name="TextBox_SaveReport.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;TextBox_SaveReport.Name" xml:space="preserve">
+    <value>TextBox_SaveReport</value>
+  </data>
+  <data name="&gt;&gt;TextBox_SaveReport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBox_SaveReport.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;TextBox_SaveReport.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="TextBox_EndStation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 71</value>
+  </data>
+  <data name="TextBox_EndStation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="TextBox_EndStation.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TextBox_EndStation.Name" xml:space="preserve">
+    <value>TextBox_EndStation</value>
+  </data>
+  <data name="&gt;&gt;TextBox_EndStation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBox_EndStation.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;TextBox_EndStation.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TextBox_StartStation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 32</value>
+  </data>
+  <data name="TextBox_StartStation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="TextBox_StartStation.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TextBox_StartStation.Name" xml:space="preserve">
+    <value>TextBox_StartStation</value>
+  </data>
+  <data name="&gt;&gt;TextBox_StartStation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBox_StartStation.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;TextBox_StartStation.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Label_SaveTo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_SaveTo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_SaveTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 55</value>
+  </data>
+  <data name="Label_SaveTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 13</value>
+  </data>
+  <data name="Label_SaveTo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_SaveTo.Text" xml:space="preserve">
+    <value>Save report to:</value>
+  </data>
+  <data name="&gt;&gt;Label_SaveTo.Name" xml:space="preserve">
+    <value>Label_SaveTo</value>
+  </data>
+  <data name="&gt;&gt;Label_SaveTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_SaveTo.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;Label_SaveTo.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Label_EndStation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_EndStation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_EndStation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="Label_EndStation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="Label_EndStation.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_EndStation.Text" xml:space="preserve">
+    <value>End station:</value>
+  </data>
+  <data name="&gt;&gt;Label_EndStation.Name" xml:space="preserve">
+    <value>Label_EndStation</value>
+  </data>
+  <data name="&gt;&gt;Label_EndStation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_EndStation.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;Label_EndStation.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Start station:</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="GroupBox_Settings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 340</value>
+  </data>
+  <data name="GroupBox_Settings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>468, 98</value>
+  </data>
+  <data name="GroupBox_Settings.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GroupBox_Settings.Text" xml:space="preserve">
+    <value>Report settings</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Settings.Name" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Settings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Settings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Settings.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GroupBox_Progress.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="ProgressBar_Creating.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ProgressBar_Creating.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProgressBar_Creating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="ProgressBar_Creating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 12</value>
+  </data>
+  <data name="ProgressBar_Creating.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar_Creating.Name" xml:space="preserve">
+    <value>ProgressBar_Creating</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar_Creating.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar_Creating.Parent" xml:space="preserve">
+    <value>GroupBox_Progress</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar_Creating.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox_Progress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 444</value>
+  </data>
+  <data name="GroupBox_Progress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 37</value>
+  </data>
+  <data name="GroupBox_Progress.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="GroupBox_Progress.Text" xml:space="preserve">
+    <value>Creating report</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Progress.Name" xml:space="preserve">
+    <value>GroupBox_Progress</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Progress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Progress.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Progress.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Button_CreateReport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="Button_CreateReport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_CreateReport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 452</value>
+  </data>
+  <data name="Button_CreateReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 23</value>
+  </data>
+  <data name="Button_CreateReport.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Button_CreateReport.Text" xml:space="preserve">
+    <value>Create Report</value>
+  </data>
+  <data name="&gt;&gt;Button_CreateReport.Name" xml:space="preserve">
+    <value>Button_CreateReport</value>
+  </data>
+  <data name="&gt;&gt;Button_CreateReport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_CreateReport.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_CreateReport.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Button_Help.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="Button_Help.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Help.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 452</value>
+  </data>
+  <data name="Button_Help.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Button_Help.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Button_Help.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="&gt;&gt;Button_Help.Name" xml:space="preserve">
+    <value>Button_Help</value>
+  </data>
+  <data name="&gt;&gt;Button_Help.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Help.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Help.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Button_Done.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="Button_Done.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Done.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 452</value>
+  </data>
+  <data name="Button_Done.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Button_Done.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Button_Done.Text" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="&gt;&gt;Button_Done.Name" xml:space="preserve">
+    <value>Button_Done</value>
+  </data>
+  <data name="&gt;&gt;Button_Done.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Done.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Done.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>492, 493</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>500, 520</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Create Reports - Stakeout Alignment Report</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ReportForm_AlignStakeout</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

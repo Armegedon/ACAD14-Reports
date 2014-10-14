@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4A5C8A47-E9F6-4894-AD1E-28DC3B634D22}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>Report</RootNamespace>
+    <AssemblyName>C3DReport</AssemblyName>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <!--Common-->
+  <PropertyGroup>
+    <OutputPath>..\..\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,40010,42353,42354,42355</NoWarn>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DocumentationFile>C3DReport.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <DefineTrace>true</DefineTrace>
+    <CodeAnalysisRules>-Microsoft.Design#CA1012;-Microsoft.Design#CA2210;-Microsoft.Design#CA1040;-Microsoft.Design#CA1005;-Microsoft.Design#CA1020;-Microsoft.Design#CA1021;-Microsoft.Design#CA1010;-Microsoft.Design#CA1011;-Microsoft.Design#CA1009;-Microsoft.Design#CA1050;-Microsoft.Design#CA1026;-Microsoft.Design#CA1019;-Microsoft.Design#CA1031;-Microsoft.Design#CA1047;-Microsoft.Design#CA1000;-Microsoft.Design#CA1048;-Microsoft.Design#CA1051;-Microsoft.Design#CA1002;-Microsoft.Design#CA1061;-Microsoft.Design#CA1006;-Microsoft.Design#CA1046;-Microsoft.Design#CA1045;-Microsoft.Design#CA1038;-Microsoft.Design#CA1008;-Microsoft.Design#CA1028;-Microsoft.Design#CA1004;-Microsoft.Design#CA1035;-Microsoft.Design#CA1063;-Microsoft.Design#CA1032;-Microsoft.Design#CA1023;-Microsoft.Design#CA1033;-Microsoft.Design#CA1039;-Microsoft.Design#CA1016;-Microsoft.Design#CA1014;-Microsoft.Design#CA1017;-Microsoft.Design#CA1018;-Microsoft.Design#CA1027;-Microsoft.Design#CA1059;-Microsoft.Design#CA1060;-Microsoft.Design#CA1034;-Microsoft.Design#CA1013;-Microsoft.Design#CA1036;-Microsoft.Design#CA1044;-Microsoft.Design#CA1041;-Microsoft.Design#CA1025;-Microsoft.Design#CA1052;-Microsoft.Design#CA1053;-Microsoft.Design#CA1057;-Microsoft.Design#CA1058;-Microsoft.Design#CA1001;-Microsoft.Design#CA1049;-Microsoft.Design#CA1054;-Microsoft.Design#CA1056;-Microsoft.Design#CA1055;-Microsoft.Design#CA1030;-Microsoft.Design#CA1003;-Microsoft.Design#CA1007;-Microsoft.Design#CA1043;-Microsoft.Design#CA1024;-Microsoft.Design#CA1062;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1303;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA1300;-Microsoft.Interoperability#CA1403;-Microsoft.Interoperability#CA1406;-Microsoft.Interoperability#CA1413;-Microsoft.Interoperability#CA1402;-Microsoft.Interoperability#CA1407;-Microsoft.Interoperability#CA1404;-Microsoft.Interoperability#CA1410;-Microsoft.Interoperability#CA1411;-Microsoft.Interoperability#CA1405;-Microsoft.Interoperability#CA1409;-Microsoft.Interoperability#CA1415;-Microsoft.Interoperability#CA1408;-Microsoft.Interoperability#CA1414;-Microsoft.Interoperability#CA1412;-Microsoft.Interoperability#CA1400;-Microsoft.Interoperability#CA1401;-Microsoft.Maintainability#CA1502;-Microsoft.Maintainability#CA1501;-Microsoft.Maintainability#CA1500;-Microsoft.Mobility#CA1600;-Microsoft.Mobility#CA1601;-Microsoft.Performance#CA1809;-Microsoft.Performance#CA1811;-Microsoft.Performance#CA1812;-Microsoft.Performance#CA1807;-Microsoft.Performance#CA1813;-Microsoft.Performance#CA1823;-Microsoft.Performance#CA1816;-Microsoft.Performance#CA1817;-Microsoft.Performance#CA1800;-Microsoft.Performance#CA1818;-Microsoft.Performance#CA1805;-Microsoft.Performance#CA1810;-Microsoft.Performance#CA1822;-Microsoft.Performance#CA1815;-Microsoft.Performance#CA1814;-Microsoft.Performance#CA1819;-Microsoft.Performance#CA1804;-Microsoft.Performance#CA1820;-Microsoft.Performance#CA1802;-Microsoft.Portability#CA1901;-Microsoft.Portability#CA1900;-Microsoft.Reliability#CA2000;-Microsoft.Reliability#CA2002;-Microsoft.Reliability#CA2003;-Microsoft.Reliability#CA2004;-Microsoft.Reliability#CA2006;-Microsoft.Security#CA2116;-Microsoft.Security#CA2117;-Microsoft.Security#CA2105;-Microsoft.Security#CA2115;-Microsoft.Security#CA2104;-Microsoft.Security#CA2122;-Microsoft.Security#CA2114;-Microsoft.Security#CA2123;-Microsoft.Security#CA2111;-Microsoft.Security#CA2108;-Microsoft.Security#CA2107;-Microsoft.Security#CA2103;-Microsoft.Security#CA2100;-Microsoft.Security#CA2118;-Microsoft.Security#CA2109;-Microsoft.Security#CA2119;-Microsoft.Security#CA2106;-Microsoft.Security#CA2112;-Microsoft.Security#CA2110;-Microsoft.Security#CA2120;-Microsoft.Security#CA2101;-Microsoft.Security#CA2121;-Microsoft.Security#CA2126;-Microsoft.Security#CA2124;-Microsoft.Usage#CA2209;-Microsoft.Usage#CA2236;-Microsoft.Usage#CA2227;-Microsoft.Usage#CA2213;-Microsoft.Usage#CA2216;-Microsoft.Usage#CA2215;-Microsoft.Usage#CA2214;-Microsoft.Usage#CA2222;-Microsoft.Usage#CA2202;-Microsoft.Usage#CA1806;-Microsoft.Usage#CA2217;-Microsoft.Usage#CA2212;-Microsoft.Usage#CA2219;-Microsoft.Usage#CA2201;-Microsoft.Usage#CA2228;-Microsoft.Usage#CA2221;-Microsoft.Usage#CA2220;-Microsoft.Usage#CA2240;-Microsoft.Usage#CA2229;-Microsoft.Usage#CA2238;-Microsoft.Usage#CA2207;-Microsoft.Usage#CA2208;-Microsoft.Usage#CA2235;-Microsoft.Usage#CA2237;-Microsoft.Usage#CA2232;-Microsoft.Usage#CA2223;-Microsoft.Usage#CA2211;-Microsoft.Usage#CA2233;-Microsoft.Usage#CA2225;-Microsoft.Usage#CA2226;-Microsoft.Usage#CA2231;-Microsoft.Usage#CA2224;-Microsoft.Usage#CA2218;-Microsoft.Usage#CA2234;-Microsoft.Usage#CA2241;-Microsoft.Usage#CA2239;-Microsoft.Usage#CA2200;-Microsoft.Usage#CA1801;-Microsoft.Usage#CA2205;-Microsoft.Usage#CA2230</CodeAnalysisRules>
+  </PropertyGroup>
+  <!--Debug-->
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <AeccModVer>D</AeccModVer>
+  </PropertyGroup>
+  <!--Release-->
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <Optimize>true</Optimize>
+    <AeccModVer />
+  </PropertyGroup>
+  <!--Win32-->
+  <PropertyGroup Condition=" '$(Platform)' == 'Win32' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <!--x64-->
+  <PropertyGroup Condition=" '$(Platform)' == 'x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <!--Reference Path-->
+  <PropertyGroup>
+    <AeccBinPath>..\..\..\..\..\..\..\..\builddir\$(Platform)\$(Configuration)\bin</AeccBinPath>
+    <ArxMgdPath>..\..\..\..\..\..\..\..\3rdParty\Arx\inc</ArxMgdPath>
+    <ArxMgdBinPath>..\..\..\..\..\..\..\..\3rdParty\Arx\bin_inc\$(Platform)\</ArxMgdBinPath>
+    <OMFMgdPath>..\..\..\..\..\..\..\..\3rdParty\OMF\Bin\$(Platform)\$(Configuration)</OMFMgdPath>
+    <AeccExpertPdfPath>..\..\..\..\..\..\..\..\3rdParty\ExpertPDF\ExpertPDF-Toolkit\$(AeccExpertPdfPath)</AeccExpertPdfPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AcdbMgd">
+      <Private>False</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(ArxMgdPath)\AcdbMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="AcCoreMgd">
+      <HintPath>$(ArxMgdPath)\AcCoreMgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AcMgd">
+      <HintPath>$(ArxMgdPath)\AcMgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AecBaseMgd">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(OMFMgdPath)\AecBaseMgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AeccDbMgd">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(AeccBinPath)\AeccDbMgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.AEC.Interop.Base">
+      <HintPath>$(OMFMgdPath)\Autodesk.AEC.Interop.Base.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.AECC.Interop.Land">
+      <HintPath>$(AeccBinPath)\Autodesk.AECC.Interop.Land.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.AECC.Interop.Roadway">
+      <HintPath>$(AeccBinPath)\Autodesk.AECC.Interop.Roadway.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.AECC.Interop.Survey">
+      <HintPath>$(AeccBinPath)\Autodesk.AECC.Interop.Survey.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.AECC.Interop.UiLand">
+      <HintPath>$(AeccBinPath)\Autodesk.AECC.Interop.UiLand.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.AECC.Interop.UiRoadway">
+      <HintPath>$(AeccBinPath)\Autodesk.AECC.Interop.UiRoadway.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.AECC.Interop.UiSurvey">
+      <HintPath>$(AeccBinPath)\Autodesk.AECC.Interop.UiSurvey.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.AEC.Interop.UIBase">
+      <HintPath>$(OMFMgdPath)/Autodesk.AEC.Interop.UIBase.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.AutoCAD.Interop">
+      <HintPath>$(ArxMgdBinPath)\Autodesk.AutoCAD.Interop.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.AutoCAD.Interop.Common">
+      <HintPath>$(ArxMgdBinPath)\Autodesk.AutoCAD.Interop.Common.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="AeccUiMgd, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(AeccBinPath)\AeccUiMgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.Win32" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alignment\AlignCriVer_ExtractData.vb" />
+    <Compile Include="Alignment\AlignStaInc_ExtractData.vb" />
+    <Compile Include="Alignment\AlignStakeout_ExtractData.vb" />
+    <Compile Include="Alignment\AlignSta_ExtractData.vb" />
+    <Compile Include="Alignment\ReportForm_AlignCriVer.Designer.vb">
+      <DependentUpon>ReportForm_AlignCriVer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Alignment\ReportForm_AlignCriVer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alignment\ReportForm_AlignSta.Designer.vb">
+      <DependentUpon>ReportForm_AlignSta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Alignment\ReportForm_AlignSta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alignment\ReportForm_AlignStaInc.Designer.vb">
+      <DependentUpon>ReportForm_AlignStaInc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Alignment\ReportForm_AlignStaInc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alignment\ReportForm_AlignStakeout.Designer.vb">
+      <DependentUpon>ReportForm_AlignStakeout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Alignment\ReportForm_AlignStakeout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application\ReportApplication.vb" />
+    <Compile Include="Application\ReportCommand.vb" />
+    <Compile Include="Application\ReportEntry.vb" />
+    <Compile Include="Application\ReportHelpID.vb" />
+    <Compile Include="Corridor\ReportForm_CorridorSectionPoints.Designer.vb">
+      <DependentUpon>ReportForm_CorridorSectionPoints.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Corridor\ReportForm_CorridorSectionPoints.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Corridor\CorridorMilling_ExtractData.vb" />
+    <Compile Include="Corridor\ReportForm_CorridorMilling.Designer.vb">
+      <DependentUpon>ReportForm_CorridorMilling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Corridor\ReportForm_CorridorMilling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Corridor\CorridorCrossSection_ExtractData.vb" />
+    <Compile Include="Corridor\CorridorSlopeStake_Baseline.vb" />
+    <Compile Include="Corridor\CorridorSlopeStake_Corridor.vb" />
+    <Compile Include="Corridor\CorridorSlopeStake_Corridor_EMIA.vb" />
+    <Compile Include="Corridor\CorridorSlopeStake_ExtractData.vb" />
+    <Compile Include="Corridor\CorridorSlopeStake_ExtractData_EMIA.vb" />
+    <Compile Include="Corridor\CorridorSlopeStake_Graphics.vb" />
+    <Compile Include="Corridor\CorridorSlopeStake_LinkCodes.vb" />
+    <Compile Include="Corridor\CorridorSlopeStake_SampleLineGroup.vb" />
+    <Compile Include="Corridor\ReportForm_CorridorCrossSection.Designer.vb">
+      <DependentUpon>ReportForm_CorridorCrossSection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Corridor\ReportForm_CorridorCrossSection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Corridor\ReportForm_CorridorSlopeStake.Designer.vb">
+      <DependentUpon>ReportForm_CorridorSlopeStake.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Corridor\ReportForm_CorridorSlopeStake.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Corridor\ReportForm_CorridorVolume.Designer.vb">
+      <DependentUpon>ReportForm_CorridorVolume.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Corridor\ReportForm_CorridorVolume.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocalizedStrings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LocalizedStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Parcel\ParcelVol_Point.vb" />
+    <Compile Include="Parcel\ParcelMapCheck_ExtractData.vb" />
+    <Compile Include="Parcel\ParcelCheckData.vb" />
+    <Compile Include="Parcel\ParcelVol_ExtractData.vb" />
+    <Compile Include="Parcel\ReportForm_ParcelMapCheck.Designer.vb">
+      <DependentUpon>ReportForm_ParcelMapCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parcel\ReportForm_ParcelMapCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parcel\ReportForm_ParcelVol.Designer.vb">
+      <DependentUpon>ReportForm_ParcelVol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parcel\ReportForm_ParcelVol.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parcel\SegmentCurve.vb" />
+    <Compile Include="Parcel\SegmentLine.vb" />
+    <Compile Include="Points\PointsStaOffset_ExtractData.vb" />
+    <Compile Include="Points\ReportForm_PointsStaOffset.Designer.vb">
+      <DependentUpon>ReportForm_PointsStaOffset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Points\ReportForm_PointsStaOffset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile\CrossSection_ExtractData.vb" />
+    <Compile Include="Profile\Daylight_ExtractData.vb" />
+    <Compile Include="Profile\ExistingPP_ExtractData.vb" />
+    <Compile Include="Profile\ProfPVCurve_ExtractData.vb" />
+    <Compile Include="Profile\ProfileCriVer_ExtractData.vb" />
+    <Compile Include="Profile\ProfPVICurve_ExtractData.vb" />
+    <Compile Include="Profile\ProfStaInc_ExtractData.vb" />
+    <Compile Include="Profile\ReportForm_CrossSection.designer.vb">
+      <DependentUpon>ReportForm_CrossSection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\ReportForm_CrossSection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile\ReportForm_Daylight.Designer.vb">
+      <DependentUpon>ReportForm_Daylight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\ReportForm_Daylight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile\ReportForm_ExistingProfilePoints.Designer.vb">
+      <DependentUpon>ReportForm_ExistingProfilePoints.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\ReportForm_ExistingProfilePoints.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile\ReportForm_ProfPVCurve.Designer.vb">
+      <DependentUpon>ReportForm_ProfPVCurve.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\ReportForm_ProfPVCurve.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile\ReportForm_ProfileCriVer.Designer.vb">
+      <DependentUpon>ReportForm_ProfileCriVer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\ReportForm_ProfileCriVer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile\ReportForm_ProfPVICurve.Designer.vb">
+      <DependentUpon>ReportForm_ProfPVICurve.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\ReportForm_ProfPVICurve.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile\ReportForm_ProfStaInc.Designer.vb">
+      <DependentUpon>ReportForm_ProfStaInc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\ReportForm_ProfStaInc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl\CtrlAlignmentListView.vb" />
+    <Compile Include="UserControl\CtrlCorridorListView.vb" />
+    <Compile Include="UserControl\CtrlCrossSectionListView.vb" />
+    <Compile Include="UserControl\CtrlDistanceTextBox.vb" />
+    <Compile Include="UserControl\CtrlListViewWithStation.vb" />
+    <Compile Include="UserControl\CtrlProfileListExistingView.vb" />
+    <Compile Include="UserControl\CtrlProfileListView.vb" />
+    <Compile Include="UserControl\CtrlProgressBar.vb" />
+    <Compile Include="UserControl\CtrlSaveFile.vb" />
+    <Compile Include="UserControl\CtrlSaveReportFile.vb" />
+    <Compile Include="UserControl\CtrlStationTextBox.vb" />
+    <Compile Include="Utilities\ReportConverter.vb" />
+    <Compile Include="Utilities\ReportFormat.vb" />
+    <Compile Include="Utilities\ReportFormat_DotNet.vb" />
+    <Compile Include="Utilities\ReportUserSetting.vb" />
+    <Compile Include="Utilities\ReportUtilities.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Utilities\ReportWriter.vb" />
+    <Compile Include="VersionInfo.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Alignment\ReportForm_AlignCriVer.resx">
+      <DependentUpon>ReportForm_AlignCriVer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alignment\ReportForm_AlignSta.resx">
+      <DependentUpon>ReportForm_AlignSta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alignment\ReportForm_AlignStaInc.resx">
+      <DependentUpon>ReportForm_AlignStaInc.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alignment\ReportForm_AlignStakeout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportForm_AlignStakeout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Corridor\ReportForm_CorridorSectionPoints.resx">
+      <DependentUpon>ReportForm_CorridorSectionPoints.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Corridor\ReportForm_CorridorMilling.resx">
+      <DependentUpon>ReportForm_CorridorMilling.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Corridor\ReportForm_CorridorCrossSection.resx">
+      <DependentUpon>ReportForm_CorridorCrossSection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Corridor\ReportForm_CorridorSlopeStake.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportForm_CorridorSlopeStake.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Corridor\ReportForm_CorridorVolume.resx">
+      <DependentUpon>ReportForm_CorridorVolume.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocalizedStrings.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LocalizedStrings.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parcel\ReportForm_ParcelMapCheck.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportForm_ParcelMapCheck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parcel\ReportForm_ParcelVol.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportForm_ParcelVol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Points\ReportForm_PointsStaOffset.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportForm_PointsStaOffset.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\ReportForm_CrossSection.resx">
+      <DependentUpon>ReportForm_CrossSection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\ReportForm_Daylight.resx">
+      <DependentUpon>ReportForm_Daylight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\ReportForm_ExistingProfilePoints.resx">
+      <DependentUpon>ReportForm_ExistingProfilePoints.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\ReportForm_ProfPVCurve.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportForm_ProfPVCurve.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\ReportForm_ProfileCriVer.resx">
+      <DependentUpon>ReportForm_ProfileCriVer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\ReportForm_ProfPVICurve.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportForm_ProfPVICurve.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\ReportForm_ProfStaInc.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportForm_ProfStaInc.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PickEntityBmp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FileSelectionBmp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddButton.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChkAll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnchkAll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="..\C3DReports.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,35 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <PropertyGroup>
+    <UICultureToGen>en-US</UICultureToGen>
+    <IntermediateOutputPath>$(ProjectDir)\Obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+    <LocalLocaleDir>$(IntermediateOutputPath)$(UICultureToGen)\</LocalLocaleDir>
+  </PropertyGroup>
+
+  <Target Name="AfterResGen">
+    <GenerateResource 
+      SdkToolsPath="$(TargetFrameworkSDKToolsDirectory)"
+      Sources="@(ResxWithNoCulture)" 
+      UseSourcePath="$(UseSourcePath)" 
+      References="@(ReferencePath)"
+      NeverLockTypeAssemblies="$(GenerateResourceNeverLockTypeAssemblies)"
+      StateFile="$(IntermediateOutputPath)$(MSBuildProjectFile).GenerateResource.Cache"
+      OutputResources="@(ManifestResourceWithNoCultureName->'$(IntermediateOutputPath)%(Identity).$(UICultureToGen).resources')"
+      Condition=" '@(ResxWithNoCulture)' != '' ">
+      <Output TaskParameter="OutputResources" ItemName="_ManifestResourceWithCulture"/>
+      <Output TaskParameter="FilesWritten" ItemName="FileWrites"/>
+    </GenerateResource>
+
+    <CreateItem Include="@(_ManifestResourceWithCulture->'%(Identity)')" AdditionalMetadata="Culture=$(UICultureToGen)">
+      <Output TaskParameter="Include" ItemName="ManifestResourceWithCulture"/>
+    </CreateItem>
+  </Target>
+  
+  <Target Name ="BeforeBuild" >
+    <MakeDir Directories="$(OutputPath)$(UICultureToGen)\" Condition="!Exists('$(OutputPath)$(UICultureToGen)\')" /> 
+    <MakeDir Directories="$(LocalLocaleDir)" Condition="!Exists('$(LocalLocaleDir)')" /> 
+  </Target>
+
+  <Target Name="AfterBuild">
+    <Copy SourceFiles="$(LocalLocaleDir)$(TargetName).resources.dll" DestinationFolder="$(OutputPath)$(UICultureToGen)\" Condition="Exists('$(LocalLocaleDir)$(TargetName).resources.dll') "/>
+  </Target>
+</Project>

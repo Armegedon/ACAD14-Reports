@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GroupBox_ReportCom.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="SplitContainer1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SplitContainer1.IsSplitterFixed" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="SplitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 17</value>
+  </data>
+  <data name="Combo_Material_List.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="Combo_Material_List.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 96</value>
+  </data>
+  <data name="Combo_Material_List.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 21</value>
+  </data>
+  <data name="Combo_Material_List.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Combo_Material_List.Name" xml:space="preserve">
+    <value>Combo_Material_List</value>
+  </data>
+  <data name="&gt;&gt;Combo_Material_List.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Combo_Material_List.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Combo_Material_List.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 80</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Select material list:</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Combo_Align.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="Combo_Align.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="Combo_Align.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 21</value>
+  </data>
+  <data name="Combo_Align.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Combo_Align.Name" xml:space="preserve">
+    <value>Combo_Align</value>
+  </data>
+  <data name="&gt;&gt;Combo_Align.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Combo_Align.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Combo_Align.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Combo_Corridor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="Combo_Corridor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 15</value>
+  </data>
+  <data name="Combo_Corridor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 21</value>
+  </data>
+  <data name="Combo_Corridor.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Combo_Corridor.Name" xml:space="preserve">
+    <value>Combo_Corridor</value>
+  </data>
+  <data name="&gt;&gt;Combo_Corridor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Combo_Corridor.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Combo_Corridor.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, -1</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Select corridor:</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 39</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Select alignment:</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Button_SelectCorridor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="Button_SelectCorridor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 13</value>
+  </data>
+  <data name="Button_SelectCorridor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="Button_SelectCorridor.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Button_SelectCorridor.Name" xml:space="preserve">
+    <value>Button_SelectCorridor</value>
+  </data>
+  <data name="&gt;&gt;Button_SelectCorridor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_SelectCorridor.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Button_SelectCorridor.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel1.Name" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>SplitContainer1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Combo_Link.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Combo_Link.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="Combo_Link.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 21</value>
+  </data>
+  <data name="Combo_Link.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Combo_Link.Name" xml:space="preserve">
+    <value>Combo_Link</value>
+  </data>
+  <data name="&gt;&gt;Combo_Link.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Combo_Link.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;Combo_Link.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Combo_LineGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Combo_LineGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 15</value>
+  </data>
+  <data name="Combo_LineGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 21</value>
+  </data>
+  <data name="Combo_LineGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Combo_LineGroup.Name" xml:space="preserve">
+    <value>Combo_LineGroup</value>
+  </data>
+  <data name="&gt;&gt;Combo_LineGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Combo_LineGroup.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;Combo_LineGroup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Button_AddLink.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="Button_AddLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 53</value>
+  </data>
+  <data name="Button_AddLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="Button_AddLink.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Button_AddLink.Name" xml:space="preserve">
+    <value>Button_AddLink</value>
+  </data>
+  <data name="&gt;&gt;Button_AddLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_AddLink.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;Button_AddLink.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 39</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Select corridor link:</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, -1</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 13</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Select sample line group:</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel2.Name" xml:space="preserve">
+    <value>SplitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>SplitContainer1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SplitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 130</value>
+  </data>
+  <data name="SplitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>227</value>
+  </data>
+  <data name="SplitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Name" xml:space="preserve">
+    <value>SplitContainer1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Parent" xml:space="preserve">
+    <value>GroupBox_ReportCom</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox_ReportCom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 96</value>
+  </data>
+  <data name="GroupBox_ReportCom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>471, 153</value>
+  </data>
+  <data name="GroupBox_ReportCom.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GroupBox_ReportCom.Text" xml:space="preserve">
+    <value>Select report components</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_ReportCom.Name" xml:space="preserve">
+    <value>GroupBox_ReportCom</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_ReportCom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_ReportCom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_ReportCom.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="GroupBox_ReportDesc.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Label_ReportDesc.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="Label_ReportDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_ReportDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="Label_ReportDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 55</value>
+  </data>
+  <data name="Label_ReportDesc.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_ReportDesc.Text" xml:space="preserve">
+    <value>The slope stake report displays the cross sectional and slope break data along the selected link within the selected corridor in tabulation format.</value>
+  </data>
+  <data name="&gt;&gt;Label_ReportDesc.Name" xml:space="preserve">
+    <value>Label_ReportDesc</value>
+  </data>
+  <data name="&gt;&gt;Label_ReportDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_ReportDesc.Parent" xml:space="preserve">
+    <value>GroupBox_ReportDesc</value>
+  </data>
+  <data name="&gt;&gt;Label_ReportDesc.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox_ReportDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="GroupBox_ReportDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>471, 78</value>
+  </data>
+  <data name="GroupBox_ReportDesc.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="GroupBox_ReportDesc.Text" xml:space="preserve">
+    <value>Slope stake report</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_ReportDesc.Name" xml:space="preserve">
+    <value>GroupBox_ReportDesc</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_ReportDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_ReportDesc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_ReportDesc.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="GroupBox_Progress.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="ProgressBar_Creating.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ProgressBar_Creating.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProgressBar_Creating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="ProgressBar_Creating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 12</value>
+  </data>
+  <data name="ProgressBar_Creating.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar_Creating.Name" xml:space="preserve">
+    <value>ProgressBar_Creating</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar_Creating.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar_Creating.Parent" xml:space="preserve">
+    <value>GroupBox_Progress</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar_Creating.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox_Progress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 583</value>
+  </data>
+  <data name="GroupBox_Progress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 37</value>
+  </data>
+  <data name="GroupBox_Progress.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="GroupBox_Progress.Text" xml:space="preserve">
+    <value>Creating report</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Progress.Name" xml:space="preserve">
+    <value>GroupBox_Progress</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Progress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Progress.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Progress.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Button_CreateReport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="Button_CreateReport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_CreateReport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 591</value>
+  </data>
+  <data name="Button_CreateReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 23</value>
+  </data>
+  <data name="Button_CreateReport.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Button_CreateReport.Text" xml:space="preserve">
+    <value>Create Report</value>
+  </data>
+  <data name="&gt;&gt;Button_CreateReport.Name" xml:space="preserve">
+    <value>Button_CreateReport</value>
+  </data>
+  <data name="&gt;&gt;Button_CreateReport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_CreateReport.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_CreateReport.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Button_Help.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="Button_Help.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Help.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 591</value>
+  </data>
+  <data name="Button_Help.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Button_Help.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Button_Help.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="&gt;&gt;Button_Help.Name" xml:space="preserve">
+    <value>Button_Help</value>
+  </data>
+  <data name="&gt;&gt;Button_Help.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Help.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Help.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Button_Done.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="Button_Done.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Done.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 591</value>
+  </data>
+  <data name="Button_Done.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Button_Done.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Button_Done.Text" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="&gt;&gt;Button_Done.Name" xml:space="preserve">
+    <value>Button_Done</value>
+  </data>
+  <data name="&gt;&gt;Button_Done.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Done.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Done.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="GroupBox_Settings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="Button_Save.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="Button_Save.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 69</value>
+  </data>
+  <data name="Button_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="Button_Save.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Button_Save.Name" xml:space="preserve">
+    <value>Button_Save</value>
+  </data>
+  <data name="&gt;&gt;Button_Save.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Save.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;Button_Save.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TextBox_SaveReport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="TextBox_SaveReport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 71</value>
+  </data>
+  <data name="TextBox_SaveReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 20</value>
+  </data>
+  <data name="TextBox_SaveReport.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TextBox_SaveReport.Name" xml:space="preserve">
+    <value>TextBox_SaveReport</value>
+  </data>
+  <data name="&gt;&gt;TextBox_SaveReport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBox_SaveReport.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;TextBox_SaveReport.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TextBox_EndStation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 71</value>
+  </data>
+  <data name="TextBox_EndStation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="TextBox_EndStation.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TextBox_EndStation.Name" xml:space="preserve">
+    <value>TextBox_EndStation</value>
+  </data>
+  <data name="&gt;&gt;TextBox_EndStation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBox_EndStation.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;TextBox_EndStation.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TextBox_StartStation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 32</value>
+  </data>
+  <data name="TextBox_StartStation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="TextBox_StartStation.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TextBox_StartStation.Name" xml:space="preserve">
+    <value>TextBox_StartStation</value>
+  </data>
+  <data name="&gt;&gt;TextBox_StartStation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBox_StartStation.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;TextBox_StartStation.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label_SaveTo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_SaveTo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_SaveTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 55</value>
+  </data>
+  <data name="Label_SaveTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 13</value>
+  </data>
+  <data name="Label_SaveTo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_SaveTo.Text" xml:space="preserve">
+    <value>Save report to:</value>
+  </data>
+  <data name="&gt;&gt;Label_SaveTo.Name" xml:space="preserve">
+    <value>Label_SaveTo</value>
+  </data>
+  <data name="&gt;&gt;Label_SaveTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_SaveTo.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;Label_SaveTo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label_EndStation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_EndStation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_EndStation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="Label_EndStation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="Label_EndStation.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_EndStation.Text" xml:space="preserve">
+    <value>End station:</value>
+  </data>
+  <data name="&gt;&gt;Label_EndStation.Name" xml:space="preserve">
+    <value>Label_EndStation</value>
+  </data>
+  <data name="&gt;&gt;Label_EndStation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_EndStation.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;Label_EndStation.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Start station:</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="GroupBox_Settings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 479</value>
+  </data>
+  <data name="GroupBox_Settings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>471, 98</value>
+  </data>
+  <data name="GroupBox_Settings.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GroupBox_Settings.Text" xml:space="preserve">
+    <value>Report settings</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Settings.Name" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Settings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Settings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Settings.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GroupBox_Corridors.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="Button_Delete.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="Button_Delete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 19</value>
+  </data>
+  <data name="Button_Delete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="Button_Delete.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Button_Delete.Name" xml:space="preserve">
+    <value>Button_Delete</value>
+  </data>
+  <data name="&gt;&gt;Button_Delete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Delete.Parent" xml:space="preserve">
+    <value>GroupBox_Corridors</value>
+  </data>
+  <data name="&gt;&gt;Button_Delete.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListView_Corridors.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ListView_Corridors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="ListView_Corridors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>429, 97</value>
+  </data>
+  <data name="ListView_Corridors.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ListView_Corridors.Name" xml:space="preserve">
+    <value>ListView_Corridors</value>
+  </data>
+  <data name="&gt;&gt;ListView_Corridors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListView_Corridors.Parent" xml:space="preserve">
+    <value>GroupBox_Corridors</value>
+  </data>
+  <data name="&gt;&gt;ListView_Corridors.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GroupBox_Corridors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 255</value>
+  </data>
+  <data name="GroupBox_Corridors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>471, 123</value>
+  </data>
+  <data name="GroupBox_Corridors.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GroupBox_Corridors.Text" xml:space="preserve">
+    <value>List of corridors</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Corridors.Name" xml:space="preserve">
+    <value>GroupBox_Corridors</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Corridors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Corridors.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_Corridors.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GroupBox_ROW_Settings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="Label_ROW_PointCode.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="Label_ROW_PointCode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_ROW_PointCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 20</value>
+  </data>
+  <data name="Label_ROW_PointCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 13</value>
+  </data>
+  <data name="Label_ROW_PointCode.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="Label_ROW_PointCode.Text" xml:space="preserve">
+    <value>Select the point code for Right Of Way:</value>
+  </data>
+  <data name="&gt;&gt;Label_ROW_PointCode.Name" xml:space="preserve">
+    <value>Label_ROW_PointCode</value>
+  </data>
+  <data name="&gt;&gt;Label_ROW_PointCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_ROW_PointCode.Parent" xml:space="preserve">
+    <value>GroupBox_ROW_Settings</value>
+  </data>
+  <data name="&gt;&gt;Label_ROW_PointCode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ComboBox_ROW_PointCode.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ComboBox_ROW_PointCode.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ComboBox_ROW_PointCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 37</value>
+  </data>
+  <data name="ComboBox_ROW_PointCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>455, 21</value>
+  </data>
+  <data name="ComboBox_ROW_PointCode.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;ComboBox_ROW_PointCode.Name" xml:space="preserve">
+    <value>ComboBox_ROW_PointCode</value>
+  </data>
+  <data name="&gt;&gt;ComboBox_ROW_PointCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComboBox_ROW_PointCode.Parent" xml:space="preserve">
+    <value>GroupBox_ROW_Settings</value>
+  </data>
+  <data name="&gt;&gt;ComboBox_ROW_PointCode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CheckBox_DisplayROW.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBox_DisplayROW.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CheckBox_DisplayROW.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 0</value>
+  </data>
+  <data name="CheckBox_DisplayROW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 17</value>
+  </data>
+  <data name="CheckBox_DisplayROW.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="CheckBox_DisplayROW.Text" xml:space="preserve">
+    <value>Display Right Of Way in graphics</value>
+  </data>
+  <data name="&gt;&gt;CheckBox_DisplayROW.Name" xml:space="preserve">
+    <value>CheckBox_DisplayROW</value>
+  </data>
+  <data name="&gt;&gt;CheckBox_DisplayROW.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBox_DisplayROW.Parent" xml:space="preserve">
+    <value>GroupBox_ROW_Settings</value>
+  </data>
+  <data name="&gt;&gt;CheckBox_DisplayROW.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GroupBox_ROW_Settings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 403</value>
+  </data>
+  <data name="GroupBox_ROW_Settings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>471, 70</value>
+  </data>
+  <data name="GroupBox_ROW_Settings.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_ROW_Settings.Name" xml:space="preserve">
+    <value>GroupBox_ROW_Settings</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_ROW_Settings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_ROW_Settings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox_ROW_Settings.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CheckBox_AllowGraphics.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="CheckBox_AllowGraphics.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBox_AllowGraphics.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CheckBox_AllowGraphics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 384</value>
+  </data>
+  <data name="CheckBox_AllowGraphics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 17</value>
+  </data>
+  <data name="CheckBox_AllowGraphics.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="CheckBox_AllowGraphics.Text" xml:space="preserve">
+    <value>Display section images in the report</value>
+  </data>
+  <data name="&gt;&gt;CheckBox_AllowGraphics.Name" xml:space="preserve">
+    <value>CheckBox_AllowGraphics</value>
+  </data>
+  <data name="&gt;&gt;CheckBox_AllowGraphics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBox_AllowGraphics.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CheckBox_AllowGraphics.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CheckBox_DisplayCutFill.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="CheckBox_DisplayCutFill.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBox_DisplayCutFill.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CheckBox_DisplayCutFill.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 384</value>
+  </data>
+  <data name="CheckBox_DisplayCutFill.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 17</value>
+  </data>
+  <data name="CheckBox_DisplayCutFill.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="CheckBox_DisplayCutFill.Text" xml:space="preserve">
+    <value>Display Cut/Fill areas</value>
+  </data>
+  <data name="&gt;&gt;CheckBox_DisplayCutFill.Name" xml:space="preserve">
+    <value>CheckBox_DisplayCutFill</value>
+  </data>
+  <data name="&gt;&gt;CheckBox_DisplayCutFill.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBox_DisplayCutFill.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CheckBox_DisplayCutFill.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>495, 632</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>500, 605</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Create Reports - Slope Stake Report</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ReportForm_CorridorSlopeStake</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

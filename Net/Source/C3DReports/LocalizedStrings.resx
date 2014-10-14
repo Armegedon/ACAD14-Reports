@@ -1,0 +1,1816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlignCriVer_Html_Align_CirCurve" xml:space="preserve">
+    <value>Circular Curve</value>
+  </data>
+  <data name="AlignCriVer_Html_Align_Cleared" xml:space="preserve">
+    <value>Cleared</value>
+  </data>
+  <data name="AlignCriVer_Html_Align_DesignChecks" xml:space="preserve">
+    <value>Design Checks:</value>
+  </data>
+  <data name="AlignCriVer_Html_Align_DesignCriteria" xml:space="preserve">
+    <value>Design Criteria:</value>
+  </data>
+  <data name="AlignCriVer_Html_Align_MinRadius" xml:space="preserve">
+    <value>Minimum Radius:</value>
+  </data>
+  <data name="AlignCriVer_Html_Align_Name" xml:space="preserve">
+    <value>Alignment Name:</value>
+  </data>
+  <data name="AlignCriVer_Html_Align_SpiralCurve" xml:space="preserve">
+    <value>Spiral Curve:Clothoid</value>
+  </data>
+  <data name="Alignment_Html_Station_Range" xml:space="preserve">
+    <value>Station Range: Start: {0}, End: {1}</value>
+  </data>
+  <data name="AlignCriVer_Html_Align_Tangent" xml:space="preserve">
+    <value>Tangent</value>
+  </data>
+  <data name="AlignCriVer_Html_Align_Violated" xml:space="preserve">
+    <value>Violated</value>
+  </data>
+  <data name="AlignCriVer_Html_BiQuadratic" xml:space="preserve">
+    <value>BiQuadratic</value>
+  </data>
+  <data name="AlignCriVer_Html_Bloss" xml:space="preserve">
+    <value>Bloss</value>
+  </data>
+  <data name="AlignCriVer_Html_Clothoid" xml:space="preserve">
+    <value>Clothoid</value>
+  </data>
+  <data name="AlignCriVer_Html_CS" xml:space="preserve">
+    <value>CS</value>
+  </data>
+  <data name="AlignCriVer_Html_CubicParabola" xml:space="preserve">
+    <value>CubicParabola</value>
+  </data>
+  <data name="AlignCriVer_Html_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="AlignCriVer_Html_Header" xml:space="preserve">
+    <value>Alignment Design Criteria Verification Report</value>
+  </data>
+  <data name="AlignCriVer_Html_JapCubic" xml:space="preserve">
+    <value>JapCubic</value>
+  </data>
+  <data name="AlignCriVer_Html_Left" xml:space="preserve">
+    <value>LEFT</value>
+  </data>
+  <data name="AlignCriVer_Html_PC" xml:space="preserve">
+    <value>PC</value>
+  </data>
+  <data name="AlignCriVer_Html_PCC" xml:space="preserve">
+    <value>PCC</value>
+  </data>
+  <data name="AlignCriVer_Html_PRC" xml:space="preserve">
+    <value>PRC</value>
+  </data>
+  <data name="AlignCriVer_Html_PT" xml:space="preserve">
+    <value>PT</value>
+  </data>
+  <data name="AlignCriVer_Html_Right" xml:space="preserve">
+    <value>RIGHT</value>
+  </data>
+  <data name="AlignCriVer_Html_RP" xml:space="preserve">
+    <value>RP</value>
+  </data>
+  <data name="AlignCriVer_Html_SC" xml:space="preserve">
+    <value>SC</value>
+  </data>
+  <data name="AlignCriVer_Html_SineHalfWave" xml:space="preserve">
+    <value>SineHalfWave</value>
+  </data>
+  <data name="AlignCriVer_Html_Sinusoidal" xml:space="preserve">
+    <value>Sinusoidal</value>
+  </data>
+  <data name="AlignCriVer_Html_SS" xml:space="preserve">
+    <value>SS</value>
+  </data>
+  <data name="AlignCriVer_Html_ST" xml:space="preserve">
+    <value>ST</value>
+  </data>
+  <data name="AlignCriVer_Html_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="AlignCriVer_Html_Title" xml:space="preserve">
+    <value>Alignment Design Criteria Verification</value>
+  </data>
+  <data name="AlignCriVer_Html_TS" xml:space="preserve">
+    <value>TS</value>
+  </data>
+  <data name="AlignStaInc_Html_Increment" xml:space="preserve">
+    <value>Station Increment:</value>
+  </data>
+  <data name="AlignStaInc_Html_TblTitle_Direction" xml:space="preserve">
+    <value>Tangential Direction</value>
+  </data>
+  <data name="AlignStaInc_Html_TblTitle_Easting" xml:space="preserve">
+    <value>Easting</value>
+  </data>
+  <data name="AlignStaInc_Html_TblTitle_Northing" xml:space="preserve">
+    <value>Northing</value>
+  </data>
+  <data name="AlignStaInc_Html_TblTitle_Sta" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="AlignStaInc_Html_Title" xml:space="preserve">
+    <value>Alignment Incremental Station Report</value>
+  </data>
+  <data name="AlignStakeout_Html_AngleType_DeflectMinus" xml:space="preserve">
+    <value>DeflectMinus</value>
+  </data>
+  <data name="AlignStakeout_Html_AngleType_DeflectPlus" xml:space="preserve">
+    <value>DeflectPlus</value>
+  </data>
+  <data name="AlignStakeout_Html_AngleType_Direction" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="AlignStakeout_Html_AngleType_TurnedMinus" xml:space="preserve">
+    <value>TurnedMinus</value>
+  </data>
+  <data name="AlignStakeout_Html_AngleType_TurnedPlus" xml:space="preserve">
+    <value>TurnedPlus</value>
+  </data>
+  <data name="AlignStakeout_Html_BacksightPt" xml:space="preserve">
+    <value>BackSight Pt:  Northing {0}, Easting {1}</value>
+  </data>
+  <data name="AlignStakeout_Html_OccupiedPt" xml:space="preserve">
+    <value>Occupied Pt: Northing {0}, Easting {1}</value>
+  </data>
+  <data name="AlignStakeout_Html_Offset" xml:space="preserve">
+    <value>Offset:</value>
+  </data>
+  <data name="AlignStakeout_Html_StakeoutAngleType" xml:space="preserve">
+    <value>Stakeout Angle Type:</value>
+  </data>
+  <data name="AlignStakeout_Html_TblTitle_CoordinateE" xml:space="preserve">
+    <value>Coordinate.E</value>
+  </data>
+  <data name="AlignStakeout_Html_TblTitle_CoordinateN" xml:space="preserve">
+    <value>Coordinate.N</value>
+  </data>
+  <data name="AlignStakeout_Html_TblTitle_DeflL" xml:space="preserve">
+    <value>Deflect.Left</value>
+  </data>
+  <data name="AlignStakeout_Html_TblTitle_DeflR" xml:space="preserve">
+    <value>Deflect.Right</value>
+  </data>
+  <data name="AlignStakeout_Html_TblTitle_Direction" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="AlignStakeout_Html_TblTitle_Distance" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="AlignStakeout_Html_TblTitle_Station" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="AlignStakeout_Html_TblTitle_TurnedL" xml:space="preserve">
+    <value>Turned.Left</value>
+  </data>
+  <data name="AlignStakeout_Html_TblTitle_TurnedR" xml:space="preserve">
+    <value>Turned.Right</value>
+  </data>
+  <data name="AlignStakeout_Html_Title" xml:space="preserve">
+    <value>Stakeout Alignment Report</value>
+  </data>
+  <data name="AlignStakeout_Msg_2Points" xml:space="preserve">
+    <value>Less than 2 points in current drawing.</value>
+  </data>
+  <data name="AlignStakeout_Msg_InputPoint" xml:space="preserve">
+    <value>Please input the correct point number</value>
+  </data>
+  <data name="AlignStakeout_Msg_SamePoint" xml:space="preserve">
+    <value>The backsight point can not be the same as occupied point</value>
+  </data>
+  <data name="AlignStakeout_Msg_SelectBacksightPoint" xml:space="preserve">
+    <value>Please select a backsight point.</value>
+  </data>
+  <data name="AlignStakeout_Msg_SelectOccupiedPoint" xml:space="preserve">
+    <value>Please select a occupied point.</value>
+  </data>
+  <data name="AlignSta_Html_Align_Name" xml:space="preserve">
+    <value>Alignment Name:</value>
+  </data>
+  <data name="AlignSta_Html_ReadConfigError" xml:space="preserve">
+    <value>Read config file error.</value>
+  </data>
+  <data name="AlignSta_Html_TblTitle_Direction" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="AlignSta_Html_TblTitle_Distance" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="AlignSta_Html_TblTitle_Easting" xml:space="preserve">
+    <value>Easting</value>
+  </data>
+  <data name="AlignSta_Html_TblTitle_Northing" xml:space="preserve">
+    <value>Northing</value>
+  </data>
+  <data name="AlignSta_Html_TblTitle_Sta" xml:space="preserve">
+    <value>PI Station</value>
+  </data>
+  <data name="AlignSta_Html_Title" xml:space="preserve">
+    <value>Alignment PI Station Report</value>
+    <comment>report html file header</comment>
+  </data>
+  <data name="AlignSta_Msg_InitErr" xml:space="preserve">
+    <value>Error: Unable to initialize Civil 3D Object Model.</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_At" xml:space="preserve">
+    <value>@</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_BaseAlign" xml:space="preserve">
+    <value>Base Alignment Name:</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_C" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_CorridorName" xml:space="preserve">
+    <value>Corridor Name: {0}</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_F" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_LineGrp" xml:space="preserve">
+    <value>Sample Line Group Name:</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_Link" xml:space="preserve">
+    <value>Link Code Name:</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_Station" xml:space="preserve">
+    <value>Station: {0}</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_Title" xml:space="preserve">
+    <value>Corridor Slope Stake Report</value>
+  </data>
+  <data name="CorridorSlopeStake_Msg_Added" xml:space="preserve">
+    <value>The component has already been reported.</value>
+  </data>
+  <data name="CorridorSlopeStake_Msg_NoAlignment" xml:space="preserve">
+    <value>No Alignment available.</value>
+  </data>
+  <data name="CorridorSlopeStake_Msg_NoComponent" xml:space="preserve">
+    <value>Please add at least one component.</value>
+  </data>
+  <data name="Msg_No_Corridors_In_Drawing" xml:space="preserve">
+    <value>No corridors in  {0}.</value>
+  </data>
+  <data name="CorridorSlopeStake_Msg_NoLine" xml:space="preserve">
+    <value>No link available in select alignment.</value>
+  </data>
+  <data name="CorridorSlopeStake_Msg_NoLineGrp" xml:space="preserve">
+    <value>No sample line group available in selected alignment.</value>
+  </data>
+  <data name="CorridorSlopeStake_Msg_NoSampleLine" xml:space="preserve">
+    <value>The selected sample line group has no Sample line.</value>
+  </data>
+  <data name="CorridorSlopeStake_Msg_SelectCorridor" xml:space="preserve">
+    <value>Select a corridor</value>
+  </data>
+  <data name="CorridorSlopeStake_Msg_SelectReject" xml:space="preserve">
+    <value>Please select a corridor.</value>
+  </data>
+  <data name="HECRAS_Form_ColumnTitle_EndPt" xml:space="preserve">
+    <value>End Point</value>
+  </data>
+  <data name="HECRAS_Form_ColumnTitle_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="HECRAS_Msg_AddErr" xml:space="preserve">
+    <value>The reach's name already exists, or there is an input error in the begin or end point.</value>
+  </data>
+  <data name="HECRAS_Msg_NoAlignment" xml:space="preserve">
+    <value>There is no alignment with an associated sample line group.</value>
+  </data>
+  <data name="HECRAS_Msg_NoReach" xml:space="preserve">
+    <value>Please create at least one reach.</value>
+  </data>
+  <data name="HECRAS_Txt_BeginCross" xml:space="preserve">
+    <value>BEGIN CROSS SECTIONS:</value>
+  </data>
+  <data name="HECRAS_Txt_BeginHeader" xml:space="preserve">
+    <value>BEGIN HEADER:</value>
+  </data>
+  <data name="HECRAS_Txt_BeginStream" xml:space="preserve">
+    <value>BEGIN STREAM NETWORK:</value>
+  </data>
+  <data name="HECRAS_Txt_CenterLine" xml:space="preserve">
+    <value>CENTERLINE:</value>
+  </data>
+  <data name="HECRAS_Txt_Complete" xml:space="preserve">
+    <value>FILE COMPLETE:</value>
+  </data>
+  <data name="HECRAS_Txt_CrossSection" xml:space="preserve">
+    <value>CROSS SECTION:</value>
+  </data>
+  <data name="HECRAS_Txt_CutLine" xml:space="preserve">
+    <value>CUT LINE:</value>
+  </data>
+  <data name="Common_Html_Date" xml:space="preserve">
+    <value>Date: {0}</value>
+  </data>
+  <data name="HECRAS_Txt_Datum" xml:space="preserve">
+    <value>DATUM:</value>
+  </data>
+  <data name="HECRAS_Txt_Dtm" xml:space="preserve">
+    <value>DTM:</value>
+  </data>
+  <data name="HECRAS_Txt_DtmType" xml:space="preserve">
+    <value>DTM TYPE:</value>
+  </data>
+  <data name="HECRAS_Txt_End" xml:space="preserve">
+    <value>End:</value>
+  </data>
+  <data name="HECRAS_Txt_EndCross" xml:space="preserve">
+    <value>END CROSS SECTIONS:</value>
+  </data>
+  <data name="HECRAS_Txt_EndHeader" xml:space="preserve">
+    <value>END HEADER:</value>
+  </data>
+  <data name="HECRAS_Txt_EndPoint" xml:space="preserve">
+    <value>ENDPOINT: {0}, {1}, {2}, {3}</value>
+  </data>
+  <data name="HECRAS_Txt_EndStream" xml:space="preserve">
+    <value>END STREAM NETWORK:</value>
+  </data>
+  <data name="HECRAS_Txt_English" xml:space="preserve">
+    <value>ENGLISH</value>
+  </data>
+  <data name="HECRAS_Txt_FromPt" xml:space="preserve">
+    <value>FROM POINT:</value>
+  </data>
+  <data name="HECRAS_Txt_Grid" xml:space="preserve">
+    <value>GRID</value>
+  </data>
+  <data name="HECRAS_Txt_GridVolume" xml:space="preserve">
+    <value>GRIDVOLUME</value>
+  </data>
+  <data name="HECRAS_Txt_MapProj" xml:space="preserve">
+    <value>MAP PROJECTION:</value>
+  </data>
+  <data name="HECRAS_Txt_Metric" xml:space="preserve">
+    <value>METRIC</value>
+  </data>
+  <data name="HECRAS_Txt_Reach" xml:space="preserve">
+    <value>REACH:</value>
+  </data>
+  <data name="HECRAS_Txt_ReachID" xml:space="preserve">
+    <value>REACH ID:</value>
+  </data>
+  <data name="HECRAS_Txt_ReachNum" xml:space="preserve">
+    <value>NUMBER OF REACHES:</value>
+  </data>
+  <data name="HECRAS_Txt_Report" xml:space="preserve">
+    <value>HEC-RAS Report</value>
+  </data>
+  <data name="HECRAS_Txt_SectionNum" xml:space="preserve">
+    <value>NUMBER OF CROSS-SECTIONS:</value>
+  </data>
+  <data name="HECRAS_Txt_Station" xml:space="preserve">
+    <value>STATION:</value>
+  </data>
+  <data name="HECRAS_Txt_StreamID" xml:space="preserve">
+    <value>STREAM ID:</value>
+  </data>
+  <data name="HECRAS_Txt_Tin" xml:space="preserve">
+    <value>TIN</value>
+  </data>
+  <data name="HECRAS_Txt_TinVolume" xml:space="preserve">
+    <value>TINVOLUME</value>
+  </data>
+  <data name="HECRAS_Txt_ToPt" xml:space="preserve">
+    <value>TO POINT:</value>
+  </data>
+  <data name="HECRAS_Txt_Units" xml:space="preserve">
+    <value>UNITS:</value>
+  </data>
+  <data name="ParcelMapCheck_Html_Area" xml:space="preserve">
+    <value>Area:</value>
+  </data>
+  <data name="ParcelMapCheck_Html_Chord" xml:space="preserve">
+    <value>Chord:</value>
+  </data>
+  <data name="ParcelMapCheck_Html_CounterClockwise_True" xml:space="preserve">
+    <value>Process segment order counterclockwise: True</value>
+  </data>
+  <data name="ParcelMapCheck_Html_Course" xml:space="preserve">
+    <value>Course:</value>
+  </data>
+  <data name="ParcelMapCheck_Html_CourseIn" xml:space="preserve">
+    <value>Course In:</value>
+  </data>
+  <data name="ParcelMapCheck_Html_CourseOut" xml:space="preserve">
+    <value>Course Out:</value>
+  </data>
+  <data name="ParcelMapCheck_Html_Curve" xml:space="preserve">
+    <value>Segment# {0}: Curve</value>
+  </data>
+  <data name="ParcelMapCheck_Html_Delta" xml:space="preserve">
+    <value>Delta:</value>
+  </data>
+  <data name="Common_Html_Description_One_Param" xml:space="preserve">
+    <value>Description: {0}</value>
+  </data>
+  <data name="ParcelMapCheck_Html_East" xml:space="preserve">
+    <value>East:</value>
+  </data>
+  <data name="ParcelMapCheck_Html_EndNorth" xml:space="preserve">
+    <value>End North:</value>
+  </data>
+  <data name="ParcelMapCheck_Html_ErrClosure" xml:space="preserve">
+    <value>Error Closure:</value>
+  </data>
+  <data name="ParcelMapCheck_Html_ErrNorth" xml:space="preserve">
+    <value>Error North :</value>
+  </data>
+  <data name="ParcelMapCheck_Html_Length" xml:space="preserve">
+    <value>Length:</value>
+  </data>
+  <data name="ParcelMapCheck_Html_Line" xml:space="preserve">
+    <value>Segment# {0}: Line</value>
+  </data>
+  <data name="ParcelMapCheck_Html_MapCheck_True" xml:space="preserve">
+    <value>Enable mapcheck across chord: True</value>
+  </data>
+  <data name="ParcelMapCheck_Html_North" xml:space="preserve">
+    <value>North:</value>
+  </data>
+  <data name="ParcelMapCheck_Html_ParcelName" xml:space="preserve">
+    <value>Parcel Name:</value>
+  </data>
+  <data name="ParcelMapCheck_Html_Perimeter" xml:space="preserve">
+    <value>Perimeter:</value>
+  </data>
+  <data name="ParcelMapCheck_Html_Precision1" xml:space="preserve">
+    <value>Precision 1:</value>
+  </data>
+  <data name="ParcelMapCheck_Html_Radius" xml:space="preserve">
+    <value>Radius:</value>
+  </data>
+  <data name="ParcelMapCheck_Html_RPNorth" xml:space="preserve">
+    <value>RP North:</value>
+  </data>
+  <data name="ParcelMapCheck_Html_Tangent" xml:space="preserve">
+    <value>Tangent:</value>
+  </data>
+  <data name="ParcelMapCheck_Html_Title" xml:space="preserve">
+    <value>Parcel Map Check Report</value>
+  </data>
+  <data name="ParcelMapCheck_Msg_SelectParcel" xml:space="preserve">
+    <value>Please select at least one parcel.</value>
+  </data>
+  <data name="ParcelVol_Form_SelectParcel" xml:space="preserve">
+    <value>Select a parcel</value>
+  </data>
+  <data name="ParcelVol_Form_SelectReject" xml:space="preserve">
+    <value>Please select a parcel</value>
+  </data>
+  <data name="ParcelVol_Form_Tin" xml:space="preserve">
+    <value>Tin</value>
+  </data>
+  <data name="ParcelVol_Html_Cut" xml:space="preserve">
+    <value>Cut correction:</value>
+  </data>
+  <data name="ParcelVol_Html_Ele" xml:space="preserve">
+    <value>Elevation Tolerance:</value>
+  </data>
+  <data name="ParcelVol_Html_Fill" xml:space="preserve">
+    <value>Fill correction:</value>
+  </data>
+  <data name="ParcelVol_Html_TblTitle_Cut" xml:space="preserve">
+    <value>Cut Volume</value>
+  </data>
+  <data name="ParcelVol_Html_TblTitle_Fill" xml:space="preserve">
+    <value>Fill Volume</value>
+  </data>
+  <data name="ParcelVol_Html_TblTitle_Net" xml:space="preserve">
+    <value>Net Volume</value>
+  </data>
+  <data name="ParcelVol_Html_Title" xml:space="preserve">
+    <value>Parcel Volume Report</value>
+  </data>
+  <data name="ParcelVol_Html_VolSurface" xml:space="preserve">
+    <value>Volume Surface:</value>
+  </data>
+  <data name="ParcelVol_Msg_EleInput" xml:space="preserve">
+    <value>Please input a number between 0.000 and 1.000.</value>
+  </data>
+  <data name="ParcelVol_Msg_FillCutInput" xml:space="preserve">
+    <value>Please input a number between 1.000 and 2.000.</value>
+  </data>
+  <data name="Msg_No_VolSurface_Parcel_In_Drawing" xml:space="preserve">
+    <value>No volume surfaces or parcels in {0}.</value>
+  </data>
+  <data name="ParcelVol_Msg_SelectParcelSurface" xml:space="preserve">
+    <value>Please select a parcel and a volume surface</value>
+  </data>
+  <data name="ParceMapCheck_Form_ColumnTitle_Area" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="ParceMapCheck_Form_ColumnTitle_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ParceMapCheck_Form_ColumnTitle_Include" xml:space="preserve">
+    <value>Include</value>
+  </data>
+  <data name="ParceMapCheck_Form_ColumnTitle_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ParceMapCheck_Form_ColumnTitle_Number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="ParceMapCheck_Form_ColumnTitle_Perimeter" xml:space="preserve">
+    <value>Perimeter</value>
+  </data>
+  <data name="ParceMapCheck_Form_Settings_Format_D" xml:space="preserve">
+    <value>(d)</value>
+  </data>
+  <data name="ParceMapCheck_Form_Settings_Format_DDMS" xml:space="preserve">
+    <value>DD.MMSSSS</value>
+  </data>
+  <data name="ParceMapCheck_Form_Settings_Format_DMS" xml:space="preserve">
+    <value>DD°MM'SS</value>
+    <comment>°  = Chr(176) ' = Chr(39)</comment>
+  </data>
+  <data name="ParceMapCheck_Form_Settings_Format_DMSS" xml:space="preserve">
+    <value>DD° MM' SS</value>
+  </data>
+  <data name="Msg_No_Parcels_In_Drawing" xml:space="preserve">
+    <value>No parcels in  {0}.</value>
+  </data>
+  <data name="PointsStaOffset_Form_ColumnTitle_Easting" xml:space="preserve">
+    <value>Easting</value>
+  </data>
+  <data name="PointsStaOffset_Form_ColumnTitle_Elevation" xml:space="preserve">
+    <value>Point Elevation</value>
+  </data>
+  <data name="PointsStaOffset_Form_ColumnTitle_FullDesc" xml:space="preserve">
+    <value>Full Description</value>
+  </data>
+  <data name="PointsStaOffset_Form_ColumnTitle_Include" xml:space="preserve">
+    <value>Include</value>
+  </data>
+  <data name="PointsStaOffset_Form_ColumnTitle_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="PointsStaOffset_Form_ColumnTitle_Northing" xml:space="preserve">
+    <value>Northing</value>
+  </data>
+  <data name="PointsStaOffset_Form_ColumnTitle_PointNum" xml:space="preserve">
+    <value>Point Number</value>
+  </data>
+  <data name="PointsStaOffset_Form_ColumnTitle_RawDesc" xml:space="preserve">
+    <value>Raw Description</value>
+  </data>
+  <data name="PointsStaOffset_Form_EquationApp" xml:space="preserve">
+    <value>Applied</value>
+  </data>
+  <data name="PointsStaOffset_Form_EquationNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="PointsStaOffset_Form_OutRange" xml:space="preserve">
+    <value>Out of range</value>
+  </data>
+  <data name="PointsStaOffset_Form_Reject" xml:space="preserve">
+    <value>Please select an alignment.</value>
+  </data>
+  <data name="PointsStaOffset_Form_SelectAlign" xml:space="preserve">
+    <value>Select an alignment</value>
+  </data>
+  <data name="PointsStaOffset_Form_StaRange" xml:space="preserve">
+    <value>Start: {0} -- End: {1}</value>
+  </data>
+  <data name="PointsStaOffset_Html_AlignName" xml:space="preserve">
+    <value>Alignment Name:</value>
+  </data>
+  <data name="PointsStaOffset_Html_TblTitle_Desc" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="PointsStaOffset_Html_TblTitle_Ele" xml:space="preserve">
+    <value>Elevation</value>
+  </data>
+  <data name="PointsStaOffset_Html_TblTitle_Offset" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="PointsStaOffset_Html_TblTitle_OutRange" xml:space="preserve">
+    <value>Out of Range: The Point is not adjacent to alignment.</value>
+  </data>
+  <data name="PointsStaOffset_Html_TblTitle_Point" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="PointsStaOffset_Html_TblTitle_Station" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="PointsStaOffset_Html_Title" xml:space="preserve">
+    <value>Station Offset to Points Report</value>
+  </data>
+  <data name="Msg_No_Alignments_In_Drawing" xml:space="preserve">
+    <value>No alignments in {0}.</value>
+  </data>
+  <data name="Msg_No_Points_In_Drawing" xml:space="preserve">
+    <value>No points in {0}.</value>
+  </data>
+  <data name="PointsStaOffset_Msg_SelectPoint" xml:space="preserve">
+    <value>Please select at least one Point.</value>
+  </data>
+  <data name="ProfileCriVer_Html_Cleared" xml:space="preserve">
+    <value>Cleared</value>
+  </data>
+  <data name="ProfileCriVer_Html_CrestCurve" xml:space="preserve">
+    <value>Crest Curve:Parabolic</value>
+  </data>
+  <data name="ProfileCriVer_Html_CurveLength" xml:space="preserve">
+    <value>Curve Length:</value>
+  </data>
+  <data name="ProfileCriVer_Html_DesignChecks" xml:space="preserve">
+    <value>Design Checks:</value>
+  </data>
+  <data name="ProfileCriVer_Html_DesignCriteria" xml:space="preserve">
+    <value>Design Criteria:</value>
+  </data>
+  <data name="ProfileCriVer_Html_DesignSpeed" xml:space="preserve">
+    <value>Design Speed:</value>
+  </data>
+  <data name="ProfileCriVer_Html_GradeIn" xml:space="preserve">
+    <value>Grade in(%):</value>
+  </data>
+  <data name="ProfileCriVer_Html_GradeOut" xml:space="preserve">
+    <value>Grade out(%):</value>
+  </data>
+  <data name="ProfileCriVer_Html_Header" xml:space="preserve">
+    <value>Profile Design Criteria Verification Report</value>
+  </data>
+  <data name="ProfileCriVer_Html_K" xml:space="preserve">
+    <value>K:</value>
+  </data>
+  <data name="ProfileCriVer_Html_MinKForHeadlightSightDis" xml:space="preserve">
+    <value>Minimum K for Headlight Sight Distance:</value>
+  </data>
+  <data name="ProfileCriVer_Html_MinKForPassingSightDis" xml:space="preserve">
+    <value>Minimum K for Passing Sight Distance:</value>
+  </data>
+  <data name="ProfileCriVer_Html_MinKForStoppingSightDis" xml:space="preserve">
+    <value>Minimum K for Stopping Sight Distance:</value>
+  </data>
+  <data name="ProfileCriVer_Html_ProfileNameLabel" xml:space="preserve">
+    <value>Vertical Alignment:</value>
+  </data>
+  <data name="ProfileCriVer_Html_PVCStation" xml:space="preserve">
+    <value>PVC Station:</value>
+  </data>
+  <data name="ProfileCriVer_Html_PVIStation" xml:space="preserve">
+    <value>PVI Station:</value>
+  </data>
+  <data name="ProfileCriVer_Html_PVTStation" xml:space="preserve">
+    <value>PVT Station:</value>
+  </data>
+  <data name="ProfileCriVer_Html_SagCurve" xml:space="preserve">
+    <value>Sag Curve:Parabolic</value>
+  </data>
+  <data name="ProfileCriVer_Html_Title" xml:space="preserve">
+    <value>Profile Design Criteria Verification</value>
+  </data>
+  <data name="ProfileCriVer_Html_Violated" xml:space="preserve">
+    <value>Violated</value>
+  </data>
+  <data name="Msg_No_FG_Profile_In_Drawing" xml:space="preserve">
+    <value>No FG profiles in {0}.</value>
+  </data>
+  <data name="Msg_No_Profile_In_Drawing" xml:space="preserve">
+    <value>No profiles in {0}.</value>
+  </data>
+  <data name="Profile_Msg_SelectOneFirst" xml:space="preserve">
+    <value>Please select at least one profile.</value>
+  </data>
+  <data name="ProfPVCurve_Html_CurveRadius" xml:space="preserve">
+    <value>Curve Radius</value>
+  </data>
+  <data name="ProfPVCurve_Html_Header" xml:space="preserve">
+    <value>Profile Vertical Curve Report</value>
+  </data>
+  <data name="ProfPVCurve_Html_Title" xml:space="preserve">
+    <value>Vertical Curve Report</value>
+  </data>
+  <data name="ProfPVICurve_Html_Change" xml:space="preserve">
+    <value>Change:</value>
+  </data>
+  <data name="ProfPVICurve_Html_CrestCurve" xml:space="preserve">
+    <value>Vertical Curve Information:(crest curve)</value>
+  </data>
+  <data name="ProfPVICurve_Html_CurveLength" xml:space="preserve">
+    <value>Curve Length:</value>
+  </data>
+  <data name="ProfPVICurve_Html_Elevation" xml:space="preserve">
+    <value>Elevation:</value>
+  </data>
+  <data name="ProfPVICurve_Html_GradeIn" xml:space="preserve">
+    <value>Grade in:</value>
+  </data>
+  <data name="ProfPVICurve_Html_GradeOut" xml:space="preserve">
+    <value>Grade out:</value>
+  </data>
+  <data name="ProfPVICurve_Html_Header" xml:space="preserve">
+    <value>Profile PVI Station &amp; Curve Report</value>
+  </data>
+  <data name="ProfPVICurve_Html_HeadlightDistance" xml:space="preserve">
+    <value>Headlight Distance:</value>
+  </data>
+  <data name="ProfPVICurve_Html_HighPoint" xml:space="preserve">
+    <value>High Point:</value>
+  </data>
+  <data name="ProfPVICurve_Html_K" xml:space="preserve">
+    <value>K:</value>
+  </data>
+  <data name="ProfPVICurve_Html_LowPoint" xml:space="preserve">
+    <value>Low Point:</value>
+  </data>
+  <data name="ProfPVICurve_Html_PassingDistance" xml:space="preserve">
+    <value>Passing Distance:</value>
+  </data>
+  <data name="ProfPVICurve_Html_ProfileNameLabel" xml:space="preserve">
+    <value>Vertical Alignment:</value>
+  </data>
+  <data name="ProfPVICurve_Html_PVCStation" xml:space="preserve">
+    <value>PVC Station:</value>
+  </data>
+  <data name="ProfPVICurve_Html_PVIStation" xml:space="preserve">
+    <value>PVI Station:</value>
+  </data>
+  <data name="ProfPVICurve_Html_PVTStation" xml:space="preserve">
+    <value>PVT Station:</value>
+  </data>
+  <data name="ProfPVICurve_Html_SagCurve" xml:space="preserve">
+    <value>Vertical Curve Information:(sag curve)</value>
+  </data>
+  <data name="ProfPVICurve_Html_StoppingDistance" xml:space="preserve">
+    <value>Stopping Distance:</value>
+  </data>
+  <data name="ProfPVICurve_Html_TblTitle_CurveLength" xml:space="preserve">
+    <value>Curve Length</value>
+  </data>
+  <data name="ProfPVICurve_Html_TblTitle_GradeOut" xml:space="preserve">
+    <value>Grade Out</value>
+  </data>
+  <data name="ProfPVICurve_Html_TblTitle_PVI" xml:space="preserve">
+    <value>PVI</value>
+  </data>
+  <data name="ProfPVICurve_Html_TblTitle_Station" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="ProfPVICurve_Html_Title" xml:space="preserve">
+    <value>PVI Station&amp;Curve Report</value>
+  </data>
+  <data name="ProfStaInc_Html_Crest" xml:space="preserve">
+    <value>Crest</value>
+  </data>
+  <data name="ProfStaInc_Html_Profile_Name" xml:space="preserve">
+    <value>Vertical Alignment:</value>
+  </data>
+  <data name="ProfStaInc_Html_PVC" xml:space="preserve">
+    <value>PVC</value>
+  </data>
+  <data name="ProfStaInc_Html_PVI" xml:space="preserve">
+    <value>PVI</value>
+  </data>
+  <data name="ProfStaInc_Html_PVT" xml:space="preserve">
+    <value>PVT</value>
+  </data>
+  <data name="ProfStaInc_Html_Sag" xml:space="preserve">
+    <value>Sag</value>
+  </data>
+  <data name="ProfStaInc_Html_StationInc" xml:space="preserve">
+    <value>Station Increment:</value>
+  </data>
+  <data name="ProfStaInc_Html_TblTitle_Elevation" xml:space="preserve">
+    <value>Elevation</value>
+  </data>
+  <data name="ProfStaInc_Html_TblTitle_GradePercent" xml:space="preserve">
+    <value>Grade Percent (%)</value>
+  </data>
+  <data name="ProfStaInc_Html_TblTitle_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="ProfStaInc_Html_TblTitle_Station" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="ProfStaInc_Html_Title" xml:space="preserve">
+    <value>PVI Station Increment Report</value>
+  </data>
+  <data name="ReportFormat_Acre" xml:space="preserve">
+    <value>Acre</value>
+  </data>
+  <data name="ReportFormat_CuFt" xml:space="preserve">
+    <value>Cu.Ft</value>
+  </data>
+  <data name="ReportFormat_CuM" xml:space="preserve">
+    <value>Cu.M.</value>
+  </data>
+  <data name="ReportFormat_CuYd" xml:space="preserve">
+    <value>Cu.Yd</value>
+  </data>
+  <data name="ReportFormat_Decimal" xml:space="preserve">
+    <value>(d)</value>
+  </data>
+  <data name="ReportFormat_Dms" xml:space="preserve">
+    <value>(dms)</value>
+  </data>
+  <data name="ReportFormat_EastLowercase" xml:space="preserve">
+    <value>east</value>
+  </data>
+  <data name="ReportFormat_EastTitleCaps" xml:space="preserve">
+    <value>East</value>
+  </data>
+  <data name="ReportFormat_EastUppercase" xml:space="preserve">
+    <value>EAST</value>
+  </data>
+  <data name="ReportFormat_ELowercase" xml:space="preserve">
+    <value>e</value>
+  </data>
+  <data name="ReportFormat_EUppercase" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="ReportFormat_Foot" xml:space="preserve">
+    <value>'</value>
+  </data>
+  <data name="ReportFormat_G" xml:space="preserve">
+    <value>(g)</value>
+  </data>
+  <data name="ReportFormat_Hectare" xml:space="preserve">
+    <value>Hectare</value>
+  </data>
+  <data name="ReportFormat_Inch" xml:space="preserve">
+    <value>"</value>
+  </data>
+  <data name="ReportFormat_Km" xml:space="preserve">
+    <value>km</value>
+  </data>
+  <data name="ReportFormat_M" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="ReportFormat_Miles" xml:space="preserve">
+    <value>miles</value>
+  </data>
+  <data name="ReportFormat_NLowercase" xml:space="preserve">
+    <value>n</value>
+  </data>
+  <data name="ReportFormat_NorthLowercase" xml:space="preserve">
+    <value>north</value>
+  </data>
+  <data name="ReportFormat_NorthTitleCaps" xml:space="preserve">
+    <value>North</value>
+  </data>
+  <data name="ReportFormat_NorthUppercase" xml:space="preserve">
+    <value>NORTH</value>
+  </data>
+  <data name="ReportFormat_NUppercase" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="ReportFormat_R" xml:space="preserve">
+    <value>(r)</value>
+  </data>
+  <data name="ReportFormat_SLowercase" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="ReportFormat_SouthLowercase" xml:space="preserve">
+    <value>south</value>
+  </data>
+  <data name="ReportFormat_SouthTitleCaps" xml:space="preserve">
+    <value>South</value>
+  </data>
+  <data name="ReportFormat_SouthUppercase" xml:space="preserve">
+    <value>SOUTH</value>
+  </data>
+  <data name="ReportFormat_SqFt" xml:space="preserve">
+    <value>Sq.Ft.</value>
+  </data>
+  <data name="ReportFormat_SqKm" xml:space="preserve">
+    <value>Sq.Km.</value>
+  </data>
+  <data name="ReportFormat_SqM" xml:space="preserve">
+    <value>Sq.M.</value>
+  </data>
+  <data name="ReportFormat_SqMile" xml:space="preserve">
+    <value>Sq.Mile</value>
+  </data>
+  <data name="ReportFormat_SqYd" xml:space="preserve">
+    <value>Sq.Yd.</value>
+  </data>
+  <data name="ReportFormat_SUppercase" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="ReportFormat_WestLowercase" xml:space="preserve">
+    <value>west</value>
+  </data>
+  <data name="ReportFormat_WestTitleCaps" xml:space="preserve">
+    <value>West</value>
+  </data>
+  <data name="ReportFormat_WestUppercase" xml:space="preserve">
+    <value>WEST</value>
+  </data>
+  <data name="ReportFormat_WLowercase" xml:space="preserve">
+    <value>w</value>
+  </data>
+  <data name="ReportFormat_WUppercase" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="ReportFormat_yd" xml:space="preserve">
+    <value>yd</value>
+  </data>
+  <data name="ReportUtilitie_Msg_Title" xml:space="preserve">
+    <value>AutoCAD Civil 3D</value>
+  </data>
+  <data name="ReportWriter_Client" xml:space="preserve">
+    <value>Client:</value>
+  </data>
+  <data name="ReportWriter_PreparedBy" xml:space="preserve">
+    <value>Prepared by:</value>
+  </data>
+  <data name="Report_InitError" xml:space="preserve">
+    <value>Civil 3D Reports</value>
+  </data>
+  <data name="FileDialog_Filter_Geo" xml:space="preserve">
+    <value>GEO Files|*.GEO</value>
+  </data>
+  <data name="FileDialog_Filter_Html" xml:space="preserve">
+    <value>HTML Files|*.HTML</value>
+  </data>
+  <data name="ListView_Column_Alignment" xml:space="preserve">
+    <value>Alignment</value>
+  </data>
+  <data name="ListView_Column_Corridor_LinkCode" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="ListView_Column_Corridor_SampleLineGroup" xml:space="preserve">
+    <value>Sample Line Group</value>
+  </data>
+  <data name="ListView_Column_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ListView_Column_Include" xml:space="preserve">
+    <value>Include</value>
+  </data>
+  <data name="ListView_Column_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ListView_Column_StationEnd" xml:space="preserve">
+    <value>Station End</value>
+  </data>
+  <data name="ListView_Column_StationStart" xml:space="preserve">
+    <value>Station Start</value>
+  </data>
+  <data name="Msg_EndStation_Greater_StartStation" xml:space="preserve">
+    <value>The end station should be greater than the start station.</value>
+  </data>
+  <data name="Msg_Input_Right_Format_Station" xml:space="preserve">
+    <value>Please input right format for station.</value>
+  </data>
+  <data name="Msg_StartStation_Less_EndStation" xml:space="preserve">
+    <value>The start station should be less than the end station.</value>
+  </data>
+  <data name="Msg_Station_Out_Range" xml:space="preserve">
+    <value>The station value is out of range.</value>
+  </data>
+  <data name="AlignCriVer_Form_ReportSettings_A" xml:space="preserve">
+    <value>A:</value>
+  </data>
+  <data name="AlignCriVer_Form_ReportSettings_DesignSpeed" xml:space="preserve">
+    <value>Design Speed:</value>
+  </data>
+  <data name="AlignCriVer_Form_ReportSettings_EndSta" xml:space="preserve">
+    <value>End Station:</value>
+  </data>
+  <data name="AlignCriVer_Form_ReportSettings_Length" xml:space="preserve">
+    <value>Length:</value>
+  </data>
+  <data name="AlignCriVer_Form_ReportSettings_MinTransLen" xml:space="preserve">
+    <value>Minimum Transition Length:</value>
+  </data>
+  <data name="AlignCriVer_Form_ReportSettings_Radius" xml:space="preserve">
+    <value>Radius:</value>
+  </data>
+  <data name="AlignCriVer_Form_ReportSettings_StartSta" xml:space="preserve">
+    <value>Start Station:</value>
+  </data>
+  <data name="Alignment_Msg_SelectOneFirst" xml:space="preserve">
+    <value>Please select at least one alignment.</value>
+  </data>
+  <data name="AlignStakeout_Form_SelectPoint" xml:space="preserve">
+    <value>Select a point</value>
+  </data>
+  <data name="AlignStakeout_Form_SelectReject" xml:space="preserve">
+    <value>Please select a point</value>
+  </data>
+  <data name="HECRAS_Form_ColumnTitle_BeginPt" xml:space="preserve">
+    <value>Begin Point</value>
+  </data>
+  <data name="HECRAS_Form_SelectFile" xml:space="preserve">
+    <value>Select a File</value>
+  </data>
+  <data name="ParcelVol_Form_Grid" xml:space="preserve">
+    <value>Grid</value>
+  </data>
+  <data name="HECRAS_Txt_CenterLine_Value" xml:space="preserve">
+    <value>{0}, {1}, {2}, {3}</value>
+  </data>
+  <data name="HECRAS_Txt_CutLine_Value" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="ParcelMapCheck_Html_CounterClockwise_False" xml:space="preserve">
+    <value>Process segment order counterclockwise: False</value>
+  </data>
+  <data name="ParcelMapCheck_Html_MapCheck_False" xml:space="preserve">
+    <value>Enable mapcheck across chord: False</value>
+  </data>
+  <data name="Alignment_Msg_SelectOneCBFirst" xml:space="preserve">
+    <value>Select at least one output check box firstly.</value>
+  </data>
+  <data name="CorridorCrossSection_Form_ColumnTitle_Check" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="CorridorCrossSection_Form_ColumnTitle_Codes" xml:space="preserve">
+    <value>Point codes</value>
+  </data>
+  <data name="CorridorCrossSection_Html_Alignment" xml:space="preserve">
+    <value>Alignment :</value>
+  </data>
+  <data name="CorridorCrossSection_Html_Chainage" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="CorridorCrossSection_Html_ChainageInterval" xml:space="preserve">
+    <value>Corridor Coordinates and Elevations at Station Interval</value>
+  </data>
+  <data name="CorridorCrossSection_Html_TblTitleEasting" xml:space="preserve">
+    <value>Easting</value>
+  </data>
+  <data name="CorridorCrossSection_Html_TblTitleLevel" xml:space="preserve">
+    <value>Elevation</value>
+  </data>
+  <data name="CorridorCrossSection_Html_TblTitleNorthing" xml:space="preserve">
+    <value>Northing</value>
+  </data>
+  <data name="CorridorCrossSection_Html_TblTitle_Crown" xml:space="preserve">
+    <value>Crown</value>
+  </data>
+  <data name="CorridorCrossSection_Html_TblTitle_Left" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="CorridorCrossSection_Html_TblTitle_Right" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="CorridorCrossSection_Html_Title" xml:space="preserve">
+    <value>Feature Line Report</value>
+  </data>
+  <data name="CorridorCrossSection_Html_To" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="CorridorCrossSection_Msg_CorridorRebuild" xml:space="preserve">
+    <value>The sample lines occur at a different increment than the value specified for Station Interval. Would you like to add sample stations to the corridor?</value>
+  </data>
+  <data name="CorridorCrossSection_Msg_NoAlignment" xml:space="preserve">
+    <value>No Alignment available.</value>
+  </data>
+  <data name="CorridorCrossSection_Msg_NoCorridors" xml:space="preserve">
+    <value>No corridors in  &amp;DrawingName&amp; exist.</value>
+    <comment>&amp;DrawingName&amp; will be replaced by drawing name in code, don't change!</comment>
+  </data>
+  <data name="CorridorCrossSection_Msg_NoFeatureLine" xml:space="preserve">
+    <value>No feature line for any corridor exist.</value>
+  </data>
+  <data name="CorridorCrossSection_Msg_NoFeatureLinesSelected" xml:space="preserve">
+    <value>Please select at least a feature line from list first.</value>
+  </data>
+  <data name="HECRAS_Txt_Data" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="MS_ExcelNotFound" xml:space="preserve">
+    <value>Microsoft Excel was not found.</value>
+  </data>
+  <data name="MS_Excel_range_ERR" xml:space="preserve">
+    <value>Error: MS Excel range == null</value>
+  </data>
+  <data name="MS_Excel_save_ERR" xml:space="preserve">
+    <value>Error: Can not save to Excel file!</value>
+  </data>
+  <data name="MS_Excel_worksheet_ERR" xml:space="preserve">
+    <value>Error: MS Excel worksheet == null</value>
+  </data>
+  <data name="FileDialog_Filter_All" xml:space="preserve">
+    <value>All Files|*.*</value>
+  </data>
+  <data name="FileDialog_Title_ReportFile" xml:space="preserve">
+    <value>Select a Report File</value>
+  </data>
+  <data name="CrossSection_Html_AlignmentDescription" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="CrossSection_Html_AlignmentNameLabel" xml:space="preserve">
+    <value>Base Alignment Name:</value>
+  </data>
+  <data name="CrossSection_Html_Alignment_EndRange" xml:space="preserve">
+    <value>Les pentes de dévers sont calculées en l'axe de la chaussée et le 1er point codé 'Bord de chaussée'</value>
+  </data>
+  <data name="CrossSection_Html_Alignment_StaEnd" xml:space="preserve">
+    <value>,  End:</value>
+  </data>
+  <data name="CrossSection_Html_Alignment_StaRange" xml:space="preserve">
+    <value>Station Range:</value>
+  </data>
+  <data name="CrossSection_Html_Alignment_StaStart" xml:space="preserve">
+    <value>Start:</value>
+  </data>
+  <data name="CrossSection_Html_Header" xml:space="preserve">
+    <value>Lane Slope Report</value>
+  </data>
+  <data name="CrossSection_Html_TblTitle_DevD" xml:space="preserve">
+    <value>Slope Right</value>
+  </data>
+  <data name="CrossSection_Html_TblTitle_DevG" xml:space="preserve">
+    <value>Slope Left</value>
+  </data>
+  <data name="CrossSection_Html_TblTitle_Num" xml:space="preserve">
+    <value>SL Name</value>
+  </data>
+  <data name="CrossSection_Html_TblTitle_PK" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="CrossSection_Html_TblTitle_X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="CrossSection_Html_TblTitle_Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="CrossSection_Html_TblTitle_Z_Proj" xml:space="preserve">
+    <value>Z Proj</value>
+  </data>
+  <data name="CrossSection_Html_TblTitle_Z_TN" xml:space="preserve">
+    <value>Z TN</value>
+  </data>
+  <data name="CrossSection_Html_Title" xml:space="preserve">
+    <value>Lane Slope Report</value>
+  </data>
+  <data name="CrossSection_ListView_ColumnTitle_Alignment" xml:space="preserve">
+    <value>Alignment</value>
+  </data>
+  <data name="CrossSection_ListView_ColumnTitle_Corridor" xml:space="preserve">
+    <value>Corridor</value>
+  </data>
+  <data name="CrossSection_ListView_ColumnTitle_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="CrossSection_ListView_ColumnTitle_Include" xml:space="preserve">
+    <value>Include</value>
+  </data>
+  <data name="CrossSection_ListView_ColumnTitle_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CrossSection_ListView_ColumnTitle_Profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="CrossSection_ListView_ColumnTitle_StationEnd" xml:space="preserve">
+    <value>Station End</value>
+  </data>
+  <data name="CrossSection_ListView_ColumnTitle_StationStart" xml:space="preserve">
+    <value>Station Start</value>
+  </data>
+  <data name="CrossSection_ListView_NoCorridorInDrawing" xml:space="preserve">
+    <value>No corridors in &amp;DrawingName&amp; exist.</value>
+    <comment>&amp;DrawingName&amp; will be replaced by drawing name in code, don't change!</comment>
+  </data>
+  <data name="CrossSection_ListView_NoProfileInDrawing" xml:space="preserve">
+    <value>No profiles in &amp;DrawingName&amp; exist.</value>
+    <comment>&amp;DrawingName&amp; will be replaced by drawing name in code, don't change!</comment>
+  </data>
+  <data name="CrossSection_ListView_NoSampleLineGroupsInDrawing" xml:space="preserve">
+    <value>No sample line groups in &amp;DrawingName&amp; exist.</value>
+    <comment>&amp;DrawingName&amp; will be replaced by drawing name in code, don't change!</comment>
+  </data>
+  <data name="CrossSection_Msg_SelectOneFirst" xml:space="preserve">
+    <value>Select at least a sample line groupe firstly.</value>
+  </data>
+  <data name="Daylight_Html_AlignmentDescription" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="Daylight_Html_AlignmentNameLabel" xml:space="preserve">
+    <value>Base Alignment Name:</value>
+  </data>
+  <data name="Daylight_Html_Alignment_StaEnd" xml:space="preserve">
+    <value>,  End:</value>
+  </data>
+  <data name="Daylight_Html_Alignment_StaRange" xml:space="preserve">
+    <value>Station Range:</value>
+  </data>
+  <data name="Daylight_Html_Alignment_StaStart" xml:space="preserve">
+    <value>Start:</value>
+  </data>
+  <data name="Daylight_Html_Header" xml:space="preserve">
+    <value>Daylight Line Report</value>
+  </data>
+  <data name="Daylight_Html_TblTitle_Num" xml:space="preserve">
+    <value>SL Name</value>
+  </data>
+  <data name="Daylight_Html_TblTitle_XD" xml:space="preserve">
+    <value>X Right</value>
+  </data>
+  <data name="Daylight_Html_TblTitle_XG" xml:space="preserve">
+    <value>X Left</value>
+  </data>
+  <data name="Daylight_Html_TblTitle_YD" xml:space="preserve">
+    <value>Y Right</value>
+  </data>
+  <data name="Daylight_Html_TblTitle_YG" xml:space="preserve">
+    <value>Y Left</value>
+  </data>
+  <data name="Daylight_Html_TblTitle_ZD" xml:space="preserve">
+    <value>Z Right</value>
+  </data>
+  <data name="Daylight_Html_TblTitle_ZG" xml:space="preserve">
+    <value>Z Left</value>
+  </data>
+  <data name="Daylight_Html_Title" xml:space="preserve">
+    <value>Daylight Line Report</value>
+  </data>
+  <data name="Daylight_Msg_SelectOneFirst" xml:space="preserve">
+    <value>Select at least a sample line groupe firstly.</value>
+  </data>
+  <data name="ExistingProfilePoints_AnnotationEnd" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="ExistingProfilePoints_AnnotationStart" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="ExistingProfilePoints_BeginOfAlignment" xml:space="preserve">
+    <value>Begin of Alignment</value>
+  </data>
+  <data name="ExistingProfilePoints_CompCurveCurve" xml:space="preserve">
+    <value>Curve - Curve</value>
+  </data>
+  <data name="ExistingProfilePoints_CompTransitionTransition" xml:space="preserve">
+    <value>Transition - Transition</value>
+  </data>
+  <data name="ExistingProfilePoints_CPI" xml:space="preserve">
+    <value>CPI</value>
+  </data>
+  <data name="ExistingProfilePoints_CreatedFromSameAlignment" xml:space="preserve">
+    <value>Profiles must be referenced to the same Alignment!</value>
+  </data>
+  <data name="ExistingProfilePoints_CurveLine" xml:space="preserve">
+    <value>Curve - Line</value>
+  </data>
+  <data name="ExistingProfilePoints_CurveTransition" xml:space="preserve">
+    <value>Curve - Transition</value>
+  </data>
+  <data name="ExistingProfilePoints_EndOfAlignment" xml:space="preserve">
+    <value>End of Alignment</value>
+  </data>
+  <data name="ExistingProfilePoints_EndStartVerticalTP" xml:space="preserve">
+    <value>End Vertical TP</value>
+  </data>
+  <data name="ExistingProfilePoints_Existing" xml:space="preserve">
+    <value>Existing</value>
+  </data>
+  <data name="ExistingProfilePoints_HighPoint" xml:space="preserve">
+    <value>High Point</value>
+  </data>
+  <data name="ExistingProfilePoints_Html_Alignment_End" xml:space="preserve">
+    <value>, End:</value>
+  </data>
+  <data name="ExistingProfilePoints_Html_Alignment_Start" xml:space="preserve">
+    <value>Start:</value>
+  </data>
+  <data name="ExistingProfilePoints_Html_Alignment_StationRange" xml:space="preserve">
+    <value>Station Range:</value>
+  </data>
+  <data name="ExistingProfilePoints_Html_Description" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="ExistingProfilePoints_Html_Header" xml:space="preserve">
+    <value>Profile Elevation Differences Report</value>
+  </data>
+  <data name="ExistingProfilePoints_Html_TblTitle_Easting" xml:space="preserve">
+    <value>Easting</value>
+  </data>
+  <data name="ExistingProfilePoints_Html_TblTitle_ElevationDesign" xml:space="preserve">
+    <value>Elevation Design</value>
+  </data>
+  <data name="ExistingProfilePoints_Html_TblTitle_ElevationDifference" xml:space="preserve">
+    <value>Elevation Difference</value>
+  </data>
+  <data name="ExistingProfilePoints_Html_TblTitle_ElevationExisting" xml:space="preserve">
+    <value>Elevation Existing</value>
+  </data>
+  <data name="ExistingProfilePoints_Html_TblTitle_Northing" xml:space="preserve">
+    <value>Northing</value>
+  </data>
+  <data name="ExistingProfilePoints_Html_TblTitle_PointType" xml:space="preserve">
+    <value>Point Type</value>
+  </data>
+  <data name="ExistingProfilePoints_Html_TblTitle_PVI" xml:space="preserve">
+    <value>PVI</value>
+  </data>
+  <data name="ExistingProfilePoints_Html_TblTitle_Station" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="ExistingProfilePoints_Html_Title" xml:space="preserve">
+    <value>Profile Elevation Differences Report</value>
+  </data>
+  <data name="ExistingProfilePoints_Html_VertAlignName" xml:space="preserve">
+    <value>Vertical Alignment:</value>
+  </data>
+  <data name="ExistingProfilePoints_LineCurve" xml:space="preserve">
+    <value>Line - Curve</value>
+  </data>
+  <data name="ExistingProfilePoints_LineLine" xml:space="preserve">
+    <value>Line - Line</value>
+  </data>
+  <data name="ExistingProfilePoints_LineTransition" xml:space="preserve">
+    <value>Line - Transition</value>
+  </data>
+  <data name="ExistingProfilePoints_LowPoint" xml:space="preserve">
+    <value>Low Point</value>
+  </data>
+  <data name="ExistingProfilePoints_Msg_NoProfiles" xml:space="preserve">
+    <value>No profiles in &amp;DrawingName&amp; exist.</value>
+    <comment>&amp;DrawingName&amp; will be replaced by drawing name in code, don't change!</comment>
+  </data>
+  <data name="ExistingProfilePoints_PI" xml:space="preserve">
+    <value>PI</value>
+  </data>
+  <data name="ExistingProfilePoints_Regular" xml:space="preserve">
+    <value>Regular</value>
+  </data>
+  <data name="ExistingProfilePoints_RevCurveCurve" xml:space="preserve">
+    <value>Curve - Curve</value>
+  </data>
+  <data name="ExistingProfilePoints_RevTransitionTransition" xml:space="preserve">
+    <value>Transition - Transition</value>
+  </data>
+  <data name="ExistingProfilePoints_SPI" xml:space="preserve">
+    <value>SPI</value>
+  </data>
+  <data name="ExistingProfilePoints_StartVerticalTP" xml:space="preserve">
+    <value>Start Vertical TP</value>
+  </data>
+  <data name="ExistingProfilePoints_TransitionCurve" xml:space="preserve">
+    <value>Transition - Curve</value>
+  </data>
+  <data name="ExistingProfilePoints_TransitionLine" xml:space="preserve">
+    <value>Transition - Line</value>
+  </data>
+  <data name="ExistingProfilePoints_VPI" xml:space="preserve">
+    <value>PVI</value>
+  </data>
+  <data name="ProfileListView_ColumnTitle_Alignment" xml:space="preserve">
+    <value>Alignment</value>
+  </data>
+  <data name="ProfileListView_ColumnTitle_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ProfileListView_ColumnTitle_Include" xml:space="preserve">
+    <value>Include</value>
+  </data>
+  <data name="ProfileListView_ColumnTitle_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ProfileListView_ColumnTitle_StationEnd" xml:space="preserve">
+    <value>Station End</value>
+  </data>
+  <data name="ProfileListView_ColumnTitle_StationStart" xml:space="preserve">
+    <value>Station Start</value>
+  </data>
+  <data name="ProfileListView_NoProfile" xml:space="preserve">
+    <value>No FG profiles in &amp;DrawingName&amp; exist.</value>
+    <comment>&amp;DrawingName&amp; will be replaced by drawing name in code, don't change!</comment>
+  </data>
+  <data name="ProfileListView_NoProfileInDrawing" xml:space="preserve">
+    <value>No profiles in &amp;DrawingName&amp; exist.</value>
+    <comment>&amp;DrawingName&amp; will be replaced by drawing name in code, don't change!</comment>
+  </data>
+  <data name="FileDialog_Filter_Doc" xml:space="preserve">
+    <value>Word 97-2003 Document|*.DOC</value>
+  </data>
+  <data name="FileDialog_Filter_Txt" xml:space="preserve">
+    <value>Text Documents|*.TXT</value>
+  </data>
+  <data name="FileDialog_Filter_Xls" xml:space="preserve">
+    <value>Excel 97-2003 Workbook|*.XLS</value>
+  </data>
+  <data name="FileDialog_Filter_Pdf" xml:space="preserve">
+    <value>Adobe PDF Files|*.PDF</value>
+  </data>
+  <data name="CorridorCrossSection_Form_ColumnTitle_LinkCodes" xml:space="preserve">
+    <value>Link codes</value>
+  </data>
+  <data name="CorridorCrossSection_Form_ColumnTitle_PointCodes" xml:space="preserve">
+    <value>Point codes</value>
+  </data>
+  <data name="CorridorCrossSection_Form_ColumnTitle_Surfaces" xml:space="preserve">
+    <value>Surfaces</value>
+  </data>
+  <data name="CorridorCrossSection_Form_List_FeatLns" xml:space="preserve">
+    <value>List of feature lines</value>
+  </data>
+  <data name="CorridorCrossSection_Form_List_Links" xml:space="preserve">
+    <value>List of corridor links</value>
+  </data>
+  <data name="CorridorCrossSection_Form_List_Surfaces" xml:space="preserve">
+    <value>List of surfaces</value>
+  </data>
+  <data name="CorridorCrossSection_Html_AlignmentDescription" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="CorridorCrossSection_Html_AlignmentNameLabel" xml:space="preserve">
+    <value>Base Alignment Name:</value>
+  </data>
+  <data name="CorridorCrossSection_Html_Alignment_StaEnd" xml:space="preserve">
+    <value>,  End:</value>
+  </data>
+  <data name="CorridorCrossSection_Html_Alignment_StaRange" xml:space="preserve">
+    <value>Station Range:</value>
+  </data>
+  <data name="CorridorCrossSection_Html_Alignment_StaStart" xml:space="preserve">
+    <value>Start:</value>
+  </data>
+  <data name="CorridorCrossSection_Html_CorridorName" xml:space="preserve">
+    <value>Corridor Name:</value>
+  </data>
+  <data name="CorridorCrossSection_Msg_NoCorridorsOrSurfaces" xml:space="preserve">
+    <value>No corridors or surfaces in  &amp;DrawingName&amp; exist.</value>
+    <comment>&amp;DrawingName&amp; will be replaced by drawing name in code, don't change!</comment>
+  </data>
+  <data name="CorridorCrossSection_Msg_NoSLG" xml:space="preserve">
+    <value>No Sample Line Group available.</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_Description" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_Easting" xml:space="preserve">
+    <value>Easting</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_Level" xml:space="preserve">
+    <value>Elevation</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_Northing" xml:space="preserve">
+    <value>Northing</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_Offset" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_One" xml:space="preserve">
+    <value>1:</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_Range" xml:space="preserve">
+    <value>Station Range: Start: &amp;StartStation&amp;, End: &amp;EndStation&amp;</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_SampleLineGroupName" xml:space="preserve">
+    <value>Sample Line Group Name:</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_Slope" xml:space="preserve">
+    <value>Slope</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_Station_Emia" xml:space="preserve">
+    <value>Station:</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_Surface" xml:space="preserve">
+    <value>Surface name:</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_CorridorName_Emia" xml:space="preserve">
+    <value>Corridor Name:</value>
+  </data>
+  <data name="CrossSection_Html_CorridorName" xml:space="preserve">
+    <value>Corridor Name:</value>
+  </data>
+  <data name="CrossSection_Html_SampleLineGroupName" xml:space="preserve">
+    <value>Sample Line Group Name:</value>
+  </data>
+  <data name="CrossSection_Html_TblTitle_Z_Proj_LN1" xml:space="preserve">
+    <value>Layout Profile</value>
+  </data>
+  <data name="CrossSection_Html_TblTitle_Z_Proj_LN2" xml:space="preserve">
+    <value>Elevation</value>
+  </data>
+  <data name="CrossSection_Html_TblTitle_Z_TN_LN1" xml:space="preserve">
+    <value>Existing Ground</value>
+  </data>
+  <data name="CrossSection_Html_TblTitle_Z_TN_LN2" xml:space="preserve">
+    <value>Elevation</value>
+  </data>
+  <data name="Daylight_Html_CorridorName" xml:space="preserve">
+    <value>Corridor Name:</value>
+  </data>
+  <data name="Daylight_Html_SampleLineGroupName" xml:space="preserve">
+    <value>Sample Line Group Name:</value>
+  </data>
+  <data name="Daylight_Html_TblTitle_EMPD_LN1" xml:space="preserve">
+    <value>Right Daylight</value>
+  </data>
+  <data name="Daylight_Html_TblTitle_EMPD_LN2" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="Daylight_Html_TblTitle_EMPG_LN1" xml:space="preserve">
+    <value>Left Daylight</value>
+  </data>
+  <data name="Daylight_Html_TblTitle_EMPG_LN2" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="Daylight_Html_TblTitle_PK" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="ExistingProfilePoints_Html_ExistingProfileName" xml:space="preserve">
+    <value>Existing Profile:</value>
+  </data>
+  <data name="FileDialog_Error_Ext" xml:space="preserve">
+    <value>Please Choose the right file type.</value>
+  </data>
+  <data name="CrossSectionListView_NoSurfaceProfile" xml:space="preserve">
+    <value>No surface profile for the corridor baseline.</value>
+  </data>
+  <data name="ReportForm_CrossSection_NoSurfaceProfile" xml:space="preserve">
+    <value>Can't find surface profile for alignment {0}, no existing ground elevation data will be reported.{1}Do you want to continue?</value>
+  </data>
+  <data name="CorridorGrinding_Area" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="CorridorGrinding_Html_Title" xml:space="preserve">
+    <value>Corridor Milling Report</value>
+  </data>
+  <data name="CorridorGrinding_OffsetAtBegin" xml:space="preserve">
+    <value>Offset from CL @ Begin</value>
+  </data>
+  <data name="CorridorGrinding_OffsetAtEnd" xml:space="preserve">
+    <value>Offset from CL @ End</value>
+  </data>
+  <data name="CorridorGrinding_OffsetFrom" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="CorridorGrinding_OffsetTo" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="CorridorGrinding_Station" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="CorridorGrinding_StationBegin" xml:space="preserve">
+    <value>Begin</value>
+  </data>
+  <data name="CorridorGrinding_StationEnd" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="CorridorVolume_Msg_NoAlignment" xml:space="preserve">
+    <value>No alignment available.</value>
+  </data>
+  <data name="CorridorVolume_Msg_NoMaterialList" xml:space="preserve">
+    <value>No material list available in selected sample line group.</value>
+  </data>
+  <data name="CorridorVolume_Msg_NoSampleLineGroup" xml:space="preserve">
+    <value>No sample line group available in selected alignment.</value>
+  </data>
+  <data name="CorridorSlopeStake_None" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="CorridorVolume_None" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_Cumulative_Net_Volume" xml:space="preserve">
+    <value>Cumulative Net Volume: {0}</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_Cut_Area" xml:space="preserve">
+    <value>Cut Area: {0}</value>
+  </data>
+  <data name="CorridorSlopeStake_Html_Fill_Area" xml:space="preserve">
+    <value>Fill Area: {0}</value>
+  </data>
+  <data name="ListView_Column_Material_List" xml:space="preserve">
+    <value>Material List</value>
+  </data>
+  <data name="CorridorVolume_Html_Alignment" xml:space="preserve">
+    <value>Aignment: {0}</value>
+  </data>
+  <data name="CorridorVolume_Html_CumCutVolume" xml:space="preserve">
+    <value>Cum. Cut Vol. ({0})</value>
+  </data>
+  <data name="CorridorVolume_Html_CumFillVolume" xml:space="preserve">
+    <value>Cum. Fill Vol. ({0})</value>
+  </data>
+  <data name="CorridorVolume_Html_CumNetVol" xml:space="preserve">
+    <value>Cum. Net Vol. ({0})</value>
+  </data>
+  <data name="CorridorVolume_Html_CumReusableVolume" xml:space="preserve">
+    <value>Cum. Reusable Vol. ({0})</value>
+  </data>
+  <data name="CorridorVolume_Html_CutArea" xml:space="preserve">
+    <value>Cut Area ({0})</value>
+  </data>
+  <data name="CorridorVolume_Html_CutVolume" xml:space="preserve">
+    <value>Cut Volume ({0})</value>
+  </data>
+  <data name="CorridorVolume_Html_EndStation" xml:space="preserve">
+    <value>End Sta: {0}</value>
+  </data>
+  <data name="CorridorVolume_Html_FillArea" xml:space="preserve">
+    <value>Fill Area ({0})</value>
+  </data>
+  <data name="CorridorVolume_Html_FillVolume" xml:space="preserve">
+    <value>Fill Volume ({0})</value>
+  </data>
+  <data name="CorridorVolume_Html_MassHaulDiagram" xml:space="preserve">
+    <value>Mass Haul Diagram: {0}</value>
+  </data>
+  <data name="CorridorVolume_Html_ReusableVolume" xml:space="preserve">
+    <value>Reusable Volume ({0})</value>
+  </data>
+  <data name="CorridorVolume_Html_SampleLineGroup" xml:space="preserve">
+    <value>Sample Line Group: {0}</value>
+  </data>
+  <data name="CorridorVolume_Html_StartStation" xml:space="preserve">
+    <value>Start Sta: {0}</value>
+  </data>
+  <data name="CorridorVolume_Html_Station" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="CorridorVolume_Html_Title" xml:space="preserve">
+    <value>Volume Report</value>
+  </data>
+  <data name="Alignment_Html_Chainage_Range" xml:space="preserve">
+    <value>Chainage Range: Start: {0}, End: {1}</value>
+  </data>
+  <data name="CorridorSectionPoints_Html_Chainage" xml:space="preserve">
+    <value>CHAINAGE           {0}</value>
+  </data>
+  <data name="CorridorSectionPoints_Html_CorridorName" xml:space="preserve">
+    <value>Corridor Name: {0}</value>
+  </data>
+  <data name="CorridorSectionPoints_Html_Offset" xml:space="preserve">
+    <value>OFFSET</value>
+  </data>
+  <data name="CorridorSectionPoints_Html_Point" xml:space="preserve">
+    <value>POINT</value>
+  </data>
+  <data name="CorridorSectionPoints_Html_StringCut" xml:space="preserve">
+    <value>STRING CUT</value>
+  </data>
+  <data name="CorridorSectionPoints_Html_Title" xml:space="preserve">
+    <value>Corridor Section Points Report</value>
+  </data>
+  <data name="CorridorSectionPoints_Html_X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="CorridorSectionPoints_Html_Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="CorridorSectionPoints_Html_Z" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="CorridorSectionPoints_Msg_CorridorRebuild" xml:space="preserve">
+    <value>The sample lines occur at a different increment than the value specified for Station Interval. Would you like to add sample stations to the corridor?</value>
+  </data>
+  <data name="CorridorSectionPoints_Msg_NoAlignment" xml:space="preserve">
+    <value>No Alignment available.</value>
+  </data>
+  <data name="CorridorSectionPoints_Msg_NoCorridors" xml:space="preserve">
+    <value>No corridors in  &amp;DrawingName&amp; exist.</value>
+  </data>
+  <data name="CorridorCrossSection_Msg_NoLinkCode" xml:space="preserve">
+    <value>No Link Code Availablde</value>
+  </data>
+  <data name="Profile_Msg_NoStaticProfiles" xml:space="preserve">
+    <value>There are no static profiles. No existing ground elevation data will be reported. Do you want to continue?</value>
+  </data>
+  <data name="CrossSection_Msg_NoCrownData" xml:space="preserve">
+    <value>No crown data is available. Do you still want to display the columns of crown data in the resulting report?</value>
+  </data>
+  <data name="WarningDialog_Title" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="CorridorSlopeStake_Msg_NoAlignment_In_Corridor" xml:space="preserve">
+    <value>No Alignment available in {0}. {0} will be exculded.</value>
+  </data>
+  <data name="CorridorSlopeStake_Msg_NoLineGrp_In_Corridor" xml:space="preserve">
+    <value>No sample line group available in selected alignment in {0}. {0} will be exculded.</value>
+  </data>
+  <data name="CorridorSlopeStake_Msg_NoLine_In_Corridor" xml:space="preserve">
+    <value>No link available in select alignment in {0}. {0} will be exculded.</value>
+  </data>
+  <data name="CorridorSlopeStake_Msg_NoSampleLine_In_Corridor" xml:space="preserve">
+    <value>The selected sample line group has no Sample line in {0}. {0} will be exculded.</value>
+  </data>
+</root>

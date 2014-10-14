@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ShowPhrasings.xsl"?>
+<LegalDescription name="General" desc="General Legal Description">
+	<Style name="Imperial">
+		<Geometry type="LocationTraverse">
+			<Bounds>
+				<Bound type="POB">
+					<b>COMMENCING </b>from point N {startPointNorthing} E {startPointEasting}.<p/>
+				</Bound>
+			</Bounds>
+			<Metes>
+				<Mete type="Point" connect="Line">Thence along a tangent line {lineDirection} a distance of {lineDistanceFoot} </Mete>
+				<Mete type="Line" connect="TangentCurve">Thence, {lineDirection} for a distance of {lineDistanceFoot} feet to the beginning of a curve, </Mete>
+				<Mete type="Line" connect="NonTangentCurve">Thence, {lineDirection} for a distance of {lineDistanceFoot} feet to the beginning of a non-tangential curve, </Mete>
+				<Mete type="Line" connect="Line">Thence, {lineDirection} for a distance of {lineDistanceFoot} feet to the beginning of a line, </Mete>
+				<Mete type="Line" connect="PointOfEnding">Thence {lineDirection} a distance of {lineDistanceFoot} feet to the <b> POINT OF BEGINNING</b>.  </Mete>
+				<Mete type="Line" connect="Spiral"/>
+				<Mete type="Curve" connect="CompoundCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet to the beginning of a curve.  </Mete>
+				<Mete type="Curve" connect="ReverseCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet to the beginning of a reverse curve.  </Mete>
+				<Mete type="Curve" connect="NonTangentCompoundCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet to the beginning of a non-tangential curve.  </Mete>
+				<Mete type="Curve" connect="NonTangentReverseCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet to the beginning of a non-tangential reverse curve.</Mete>
+				<Mete type="Curve" connect="Line">Said curve turning to the {curveRotation} through an angle of {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet. </Mete>
+				<Mete type="Curve" connect="NonTangentLine">Said curve turning to the {curveRotation} through an angle of {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet to a point of intersection with a non-tangential line. </Mete>
+				<Mete type="Curve" connect="PointOfEnding">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet to the <b> POINT OF BEGINNING</b>.  </Mete>
+				<Mete type="Curve" connect="Spiral"/>
+				<Mete type="Spiral" connect="Curve"/>
+				<Mete type="Spiral" connect="Line"/>
+				<Mete type="Spiral" connect="Spiral"/>
+				<Mete type="Spiral" connect="ReverseCurve"/>
+				<Mete type="Spiral" connect="ReverseSpiral"/>
+				<Mete type="Spiral" connect="PointOfEnding"/>
+			</Metes>
+		</Geometry>
+		<Geometry type="Parcel">
+			<Bounds>
+				<Bound type="POB">From the <b> POINT OF BEGINNING</b>;  </Bound>
+			</Bounds>
+			<Metes>
+				<Mete type="Line" connect="Line">Thence, {lineDirection} for a distance of {lineDistanceFoot} feet to a point on a line.  </Mete>
+				<Mete type="Line" connect="Point">Thence, {lineDirection} for a distance of {lineDistanceFoot} feet to a point on the boundary.  </Mete>
+				<Mete type="Line" connect="PointOfBegining">thence {lineDirection} a distance of {lineDistanceFoot} feet to the <b> POINT OF BEGINNING</b>; </Mete>
+				<Mete type="Line" connect="TangentCurve">Thence,   {lineDirection}  for a distance of {lineDistanceFoot}  feet to the beginning of a curve, </Mete>
+				<Mete type="Line" connect="NonTangentCurve">Thence,  {lineDirection} for a distance of {lineDistanceFoot} feet to the beginning of a non-tangential curve, </Mete>
+				<Mete type="Curve" connect="TangentLine">Said curve turning to the {curveRotation} through an angle of {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet. </Mete>
+				<Mete type="Curve" connect="NonTangentLine">Said curve turning to the {curveRotation} through an angle of {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet to a point of intersection with a non-tangential line. </Mete>
+				<Mete type="Curve" connect="TangentCompoundCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet to the beginning of a curve.  </Mete>
+				<Mete type="Curve" connect="NonTangentCompoundCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet to the beginning of a non-tangential curve.</Mete>
+				<Mete type="Curve" connect="TangentReverseCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet to the beginning of a reverse curve.  </Mete>
+				<Mete type="Curve" connect="NonTangentReverseCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet to the beginning of a non-tangential reverse curve.</Mete>
+				<Mete type="Curve" connect="PointOfBegining">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet to the <b> POINT OF BEGINNING</b>.  </Mete>
+			</Metes>
+		</Geometry>
+		<Geometry type="Alignment">
+			<Bounds>
+				<Bound type="POB">
+					<b>Commencing </b> at a point.   </Bound>
+			</Bounds>
+			<Metes>
+				<Mete type="Line" connect="TangentCurve">Thence along a tangent line {lineDirection} a distance of {lineDistanceFoot} feet ({lineDistanceMeter} m) to Station {lineEndStation}; </Mete>
+				<Mete type="Line" connect="NonTangentCurve">Thence along a non-tangential line {lineDirection} a distance of {lineDistanceFoot} feet ({lineDistanceMeter} m) to Station {lineEndStation}; </Mete>
+				<Mete type="Line" connect="Line">Thence along a tangent line {lineDirection} a distance of {lineDistanceFoot} feet ({lineDistanceMeter} m) to Station {lineEndStation}; </Mete>
+				<Mete type="Line" connect="PointOfEnding">Thence, {lineDirection} for a distance of {lineDistanceFoot} feet ({lineDistanceMeter} m).</Mete>
+				<Mete type="Line" connect="Spiral">Thence along a tangent line {lineDirection} a distance of {lineDistanceFoot} feet ({lineDistanceMeter} m) to Station {lineEndStation}; </Mete>
+				<Mete type="Curve" connect="CompoundCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet to the beginning of a curve.  </Mete>
+				<Mete type="Curve" connect="ReverseCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet to the beginning of a reverse curve.  </Mete>
+				<Mete type="Curve" connect="NonTangentCompoundCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet to the beginning of a non-tangential curve.  </Mete>
+				<Mete type="Curve" connect="NonTangentReverseCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet to the beginning of a non-tangential reverse curve.</Mete>
+				<Mete type="Curve" connect="Line">Said curve turning to the {curveRotation} through an angle of {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet. </Mete>
+                <Mete type="Curve" connect="NonTangentLine">Said curve turning to the {curveRotation} through an angle of {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet to a point of intersection with a non-tangential line. </Mete>
+                <Mete type="Curve" connect="TangentLine">Said curve turning to the {curveRotation} through an angle of {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet to a point of intersection with a tangential line. </Mete>
+				<Mete type="Curve" connect="PointOfEnding">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusFoot} feet, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthFoot} feet.</Mete>
+				<Mete type="Curve" connect="Spiral"/>
+				<Mete type="Spiral" connect="Curve"/>
+				<Mete type="Spiral" connect="Line"/>
+				<Mete type="Spiral" connect="Spiral"/>
+				<Mete type="Spiral" connect="ReverseCurve"/>
+				<Mete type="Spiral" connect="ReverseSpiral"/>
+				<Mete type="Spiral" connect="PointOfEnding"/>
+			</Metes>
+		</Geometry>
+	</Style>
+	<Style name="Metric">
+		<Geometry type="LocationTraverse">
+			<Bounds>
+				<Bound type="POB">
+					<b>COMMENCING </b>from a point N {startPointNorthing} E {startPointEasting}; <p/>
+				</Bound>
+			</Bounds>
+			<Metes>
+				<Mete type="Point" connect="Line">Thence {lineDirection} a distance of {lineDistanceMeter} meters; </Mete>
+				<Mete type="Line" connect="TangentCurve">Thence, {lineDirection} for a distance of {lineDistanceMeter} meters to the beginning of a curve, </Mete>
+				<Mete type="Line" connect="NonTangentCurve">Thence, {lineDirection} for a distance of {lineDistanceMeter} meters to the beginning of a non-tangential curve, </Mete>
+				<Mete type="Line" connect="Line">Thence, {lineDirection} for a distance of {lineDistanceMeter} meters to the beginning of a line, </Mete>
+				<Mete type="Line" connect="PointOfEnding">Thence {lineDirection} a distance of {lineDistanceMeter} meters to the <b> POINT OF BEGINNING</b>. </Mete>
+				<Mete type="Line" connect="Spiral"/>
+				<Mete type="Curve" connect="CompoundCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters to the beginning of a curve.  </Mete>
+				<Mete type="Curve" connect="ReverseCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters to the beginning of a reverse curve.  </Mete>
+				<Mete type="Curve" connect="NonTangentCompoundCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters to the beginning of a non-tangential curve.  </Mete>
+				<Mete type="Curve" connect="NonTangentReverseCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters to the beginning of a non-tangential reverse curve.</Mete>
+				<Mete type="Curve" connect="Line">Said curve turning to the {curveRotation} through an angle of {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters. </Mete>
+				<Mete type="Curve" connect="NonTangentLine">Said curve turning to the {curveRotation} through an angle of {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters to a point of intersection with a non-tangential line. </Mete>
+				<Mete type="Curve" connect="PointOfEnding">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters to the Point of Beginning.</Mete>
+				<Mete type="Curve" connect="Spiral"/>
+				<Mete type="Spiral" connect="Curve"/>
+				<Mete type="Spiral" connect="Line"/>
+				<Mete type="Spiral" connect="Spiral"/>
+				<Mete type="Spiral" connect="ReverseCurve"/>
+				<Mete type="Spiral" connect="ReverseSpiral"/>
+				<Mete type="Spiral" connect="PointOfEnding"/>
+			</Metes>
+		</Geometry>
+		<Geometry type="Parcel">
+			<Bounds>
+				<Bound type="POB">From the Point of Beginning at a location of N {startPointNorthing} E {startPointEasting}.  </Bound>
+			</Bounds>
+			<Metes>
+				<Mete type="Line" connect="Line">Thence, {lineDirection} for a distance of {lineDistanceMeter} meters to a point on a line.  </Mete>
+				<Mete type="Line" connect="Point">Thence, {lineDirection} for a distance of {lineDistanceMeter} meters to a point on the boundary.  </Mete>
+				<Mete type="Line" connect="PointOfBegining">thence {lineDirection} a distance of {lineDistanceMeter} meters to the POINT OF BEGINNING; </Mete>
+				<Mete type="Line" connect="TangentCurve">Thence, {lineDirection}  for a distance of {lineDistanceMeter} meters to the beginning of a curve, </Mete>
+				<Mete type="Line" connect="NonTangentCurve">Thence,  {lineDirection} for a distance of {lineDistanceMeter} meters to the beginning of a non-tangential curve, </Mete>
+				<Mete type="Curve" connect="TangentLine">Said curve turning to the {curveRotation} through an angle of {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters. </Mete>
+				<Mete type="Curve" connect="NonTangentLine">Said curve turning to the {curveRotation} through an angle of {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters to a point of intersection with a non-tangential line. </Mete>
+				<Mete type="Curve" connect="TangentCompoundCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters to the beginning of a curve.  </Mete>
+				<Mete type="Curve" connect="NonTangentCompoundCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters to the beginning of a non-tangential curve.</Mete>
+				<Mete type="Curve" connect="TangentReverseCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters to the beginning of a reverse curve.  </Mete>
+				<Mete type="Curve" connect="NonTangentReverseCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters to the beginning of a non-tangential reverse curve.</Mete>
+				<Mete type="Curve" connect="PointOfBegining">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters to the Point of Beginning.  </Mete>
+			</Metes>
+		</Geometry>
+		<Geometry type="Alignment">
+			<Bounds>
+				<Bound type="POB">From the Point of Beginning at a location of N {startPointNorthing} E {startPointEasting}.  </Bound>
+			</Bounds>
+			<Metes>
+				<Mete type="Line" connect="TangentCurve">Thence along a tangent line {lineDirection} a distance of {lineDistanceMeter} meters ({lineDistanceFoot}') to Station {lineEndStation}; </Mete>
+				<Mete type="Line" connect="NonTangentCurve">Thence along a tangent line {lineDirection} a distance of {lineDistanceMeter} meters ({lineDistanceFoot}') to Station {lineEndStation};</Mete>
+				<Mete type="Line" connect="Line">Thence along a tangent line {lineDirection} a distance of {lineDistanceMeter} meters ({lineDistanceFoot}') to Station {lineEndStation};</Mete>
+				<Mete type="Line" connect="Spiral">Thence along a tangent line {lineDirection} a distance of {lineDistanceMeter} meters ({lineDistanceFoot}') to Station {lineEndStation};</Mete>
+				<Mete type="Curve" connect="CompoundCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters to the beginning of a curve.  </Mete>
+				<Mete type="Curve" connect="ReverseCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters to the beginning of a reverse curve.  </Mete>
+				<Mete type="Curve" connect="NonTangentCompoundCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters to the beginning of a non-tangential curve.  </Mete>
+				<Mete type="Curve" connect="NonTangentReverseCurve">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters to the beginning of a non-tangential reverse curve.</Mete>
+				<Mete type="Curve" connect="Line">Said curve turning to the {curveRotation} through an angle of {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters. </Mete>
+				<Mete type="Curve" connect="NonTangentLine">Said curve turning to the {curveRotation} through an angle of {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters to a point of intersection with a non-tangential line. </Mete>
+				<Mete type="Curve" connect="PointOfEnding">Said curve turning to the {curveRotation} through {curveAngle}, having a radius of {curveRadiusMeter} meters, and whose long chord bears {curveChordDirection} for a distance of {curveChordLengthMeter} meters.</Mete>
+				<Mete type="Curve" connect="Spiral"/>
+				<Mete type="Spiral" connect="Curve"/>
+				<Mete type="Spiral" connect="Line"/>
+				<Mete type="Spiral" connect="Spiral"/>
+				<Mete type="Spiral" connect="ReverseCurve"/>
+				<Mete type="Spiral" connect="ReverseSpiral"/>
+				<Mete type="Spiral" connect="PointOfEnding"/>
+			</Metes>
+		</Geometry>
+	</Style>
+</LegalDescription>
