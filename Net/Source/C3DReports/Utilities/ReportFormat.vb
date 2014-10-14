@@ -433,7 +433,7 @@ Friend Class ReportFormat
     '-----------------------------------------------------------------------
     Public Shared Function FormatAngle(ByVal dRadAng As Double, _
     Optional ByVal angUnit As AeccLandLib.AeccAngleUnitType = AeccLandLib.AeccAngleUnitType.aeccAngleUnitDegree, _
-    Optional ByVal angPrec As Integer = 6, _
+    Optional ByVal angPrec As Integer = 4, _
     Optional ByVal angRounding As AeccLandLib.AeccRoundingType = AeccLandLib.AeccRoundingType.aeccRoundingNormal, _
     Optional ByVal angFormat As AeccLandLib.AeccFormatType = AeccLandLib.AeccFormatType.aeccFormatDegreeMinuteSecond, _
     Optional ByVal angSign As AeccLandLib.AeccSignType = AeccLandLib.AeccSignType.aeccSignNegative) As String
@@ -466,7 +466,7 @@ Friend Class ReportFormat
             Case AeccLandLib.AeccAngleUnitType.aeccAngleUnitDegree
                 Dim dAng As Double
                 dAng = dRadAng * 180.0# / Math.PI
-                
+
                 If angFormat = AeccLandLib.AeccFormatType.aeccFormatDecimal Then
                     sAngle = RoundVal(dAng, angPrec, angRounding)
                     sAngle = sAngle + " " + LocalizedRes.ReportFormat_Decimal '" (d)"
@@ -492,7 +492,7 @@ Friend Class ReportFormat
     '-----------------------------------------------------------------------
     Public Shared Function FormatDirection(ByVal dRadAng As Double, _
     Optional ByVal angUnit As AeccLandLib.AeccAngleUnitType = AeccLandLib.AeccAngleUnitType.aeccAngleUnitDegree, _
-    Optional ByVal angPrec As Integer = 6, _
+    Optional ByVal angPrec As Integer = 4, _
     Optional ByVal angRounding As AeccLandLib.AeccRoundingType = AeccLandLib.AeccRoundingType.aeccRoundingNormal, _
     Optional ByVal angFormat As AeccLandLib.AeccFormatType = AeccLandLib.AeccFormatType.aeccFormatDegreeMinuteSecond, _
     Optional ByVal angDirection As AeccLandLib.AeccDirectionType = AeccLandLib.AeccDirectionType.aeccDirectionShortName, _

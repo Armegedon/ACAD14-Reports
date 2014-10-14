@@ -411,36 +411,41 @@ Friend Class ReportForm_ParcelMapCheck
 
         ' Parcel info
         str = LocalizedRes.ParcelMapCheck_Html_ParcelName
-        str += " " + oParcel.Parent.Name + " - " + oParcel.Name
+        'dont display parcel parent name in report
+        'str += " " + oParcel.Parent.Name + " - " + oParcel.Name
+        str += " " + " - " + oParcel.Name
         oHtmlWriter.RenderLine(str)
 
         str = String.Format(LocalizedRes.Common_Html_Description_One_Param, oParcel.Description)
-        oHtmlWriter.RenderLine(str)
+        'Dont show description in report
+        'oHtmlWriter.RenderLine(str)
 
         If bCounterClockWise = True Then
             str = LocalizedRes.ParcelMapCheck_Html_CounterClockwise_True
         Else
             str = LocalizedRes.ParcelMapCheck_Html_CounterClockwise_False
         End If
-        oHtmlWriter.RenderLine(str)
+        'Don't disply across chord info in report
+        'oHtmlWriter.RenderLine(str)
 
         If bAcrossChord = True Then
             str = LocalizedRes.ParcelMapCheck_Html_MapCheck_True
         Else
             str = LocalizedRes.ParcelMapCheck_Html_MapCheck_False
         End If
-        oHtmlWriter.RenderLine(str)
+        'Don't disply accross chord info in report
+        'oHtmlWriter.RenderLine(str)
 
-        'POB
-        oHtmlWriter.TableBegin(, 550.ToString())
+        'POB N/E Don't show in report
+        oHtmlWriter.TableBegin(, 750.ToString())
 
-        AppendOneRecordInTable(oHtmlWriter, _
-                    LocalizedRes.ParcelMapCheck_Html_North + _
-                        ParcelMapCheck_ExtractData.FormateCoordSettings_Parcel( _
-                            ParcelMapCheck_ExtractData.ParcelCheckData.POB_North), _
-                    LocalizedRes.ParcelMapCheck_Html_East + _
-                        ParcelMapCheck_ExtractData.FormateCoordSettings_Parcel( _
-                            ParcelMapCheck_ExtractData.ParcelCheckData.POB_East))
+        'AppendOneRecordInTable(oHtmlWriter, _
+        'LocalizedRes.ParcelMapCheck_Html_North + _
+        'ParcelMapCheck_ExtractData.FormateCoordSettings_Parcel( _
+        'ParcelMapCheck_ExtractData.ParcelCheckData.POB_North), _
+        'LocalizedRes.ParcelMapCheck_Html_East + _
+        'ParcelMapCheck_ExtractData.FormateCoordSettings_Parcel( _
+        'ParcelMapCheck_ExtractData.ParcelCheckData.POB_East))
 
         BreakLine(oHtmlWriter)
 
@@ -468,7 +473,7 @@ Friend Class ReportForm_ParcelMapCheck
                 ErrorCourse, ErrorNorth, ErrorEast, ErrorPrecision)
 
 
-        Call AppendOneRecordInTable(oHtmlWriter, _
+        Call AppendOneRecordInTable2(oHtmlWriter, _
                 LocalizedRes.ParcelMapCheck_Html_Perimeter + " " + _
                     ParcelMapCheck_ExtractData.FormatDistSettings_Parcel(ParcelMapCheck_ExtractData.ParcelCheckData.Perimeter), _
                 LocalizedRes.ParcelMapCheck_Html_Area + " " + _
@@ -479,24 +484,30 @@ Friend Class ReportForm_ParcelMapCheck
         coordPrecision = ReportApplication.AeccXDatabase.Settings.ParcelSettings.AmbientSettings.CoordinateSettings.Precision.Value
         Dim formatString As String
         formatString = "N" + coordPrecision.ToString()
-        Call AppendOneRecordInTable(oHtmlWriter, _
+        Call AppendOneRecordInTable2(oHtmlWriter, _
                                     LocalizedRes.ParcelMapCheck_Html_ErrClosure + " " + _
                                         ErrorClosure.ToString(formatString), _
                                     LocalizedRes.ParcelMapCheck_Html_Course + " " + _
                                         ParcelMapCheck_ExtractData.FormatDirSettings_Parcel(ErrorCourse))
-        Call AppendOneRecordInTable(oHtmlWriter, _
+
+        Dim distPrecision As Integer
+        distPrecision = ReportApplication.AeccXDatabase.Settings.ParcelSettings.AmbientSettings.DistanceSettings.Precision.Value
+
+        Call AppendOneRecordInTable3(oHtmlWriter, _
                                     LocalizedRes.ParcelMapCheck_Html_ErrNorth + " " + _
                                         ReportFormat.RoundVal(ErrorNorth, coordPrecision + 1), _
                                     LocalizedRes.ParcelMapCheck_Html_East + " " + _
-                                        ReportFormat.RoundVal(ErrorEast, coordPrecision + 1))
+                                        ReportFormat.RoundVal(ErrorEast, coordPrecision + 1), _
+                                    LocalizedRes.ParcelMapCheck_Html_Precision1 + _
+                                        " " + ReportFormat.RoundVal(ErrorPrecision, distPrecision))
 
-        BreakLine(oHtmlWriter)
+        'BreakLine(oHtmlWriter)
 
-        'Precision
-        Dim distPrecision As Integer
-        distPrecision = ReportApplication.AeccXDatabase.Settings.ParcelSettings.AmbientSettings.DistanceSettings.Precision.Value
-        Call AppendOneRecordInTable(oHtmlWriter, LocalizedRes.ParcelMapCheck_Html_Precision1 + _
-            " " + ReportFormat.RoundVal(ErrorPrecision, distPrecision), "&nbsp")
+        'Precision - relocate behind Err N&E & remove breakline (above) from report
+        'Dim distPrecision As Integer
+        'distPrecision = ReportApplication.AeccXDatabase.Settings.ParcelSettings.AmbientSettings.DistanceSettings.Precision.Value
+        'Call AppendOneRecordInTable1(oHtmlWriter, LocalizedRes.ParcelMapCheck_Html_Precision1 + _
+        '" " + ReportFormat.RoundVal(ErrorPrecision, distPrecision))
     End Sub
 
     Private Sub AppendSegments(ByVal oHtmlWriter As ReportWriter)
@@ -511,52 +522,59 @@ Friend Class ReportForm_ParcelMapCheck
             seg = ParcelMapCheck_ExtractData.ParcelCheckData.Item(i)
             If TypeOf seg Is SegmentLine Then
                 segLine = seg
-                AppendOneRecordInTable(oHtmlWriter, _
-                            String.Format(LocalizedRes.ParcelMapCheck_Html_Line, i.ToString()), "&nbsp")
-                AppendOneRecordInTable(oHtmlWriter, _
-                            LocalizedRes.ParcelMapCheck_Html_Course + " " + _
+                ' Create 3 cell row instead of 2
+                'AppendOneRecordInTable1(oHtmlWriter, _
+                'String.Format(LocalizedRes.ParcelMapCheck_Html_Line, i.ToString()))
+                AppendOneRecordInTable3(oHtmlWriter, _
+                            String.Format(LocalizedRes.ParcelMapCheck_Html_Line, i.ToString()), _
+                        LocalizedRes.ParcelMapCheck_Html_Course + " " + _
                                 ParcelMapCheck_ExtractData.FormatDirSettings_Parcel(segLine.Course), _
                             LocalizedRes.ParcelMapCheck_Html_Length + " " + _
                                 ParcelMapCheck_ExtractData.FormatDistSettings_Parcel(segLine.Length))
-                AppendOneRecordInTable(oHtmlWriter, _
-                            LocalizedRes.ParcelMapCheck_Html_North + " " + _
-                                ParcelMapCheck_ExtractData.FormateCoordSettings_Parcel(segLine.End_North), _
-                            LocalizedRes.ParcelMapCheck_Html_East + " " + _
-                                ParcelMapCheck_ExtractData.FormateCoordSettings_Parcel(segLine.End_East))
+                'No N/E Calls
+                'AppendOneRecordInTable(oHtmlWriter, _
+                'LocalizedRes.ParcelMapCheck_Html_North + " " + _
+                'ParcelMapCheck_ExtractData.FormateCoordSettings_Parcel(segLine.End_North), _
+                'LocalizedRes.ParcelMapCheck_Html_East + " " + _
+                'ParcelMapCheck_ExtractData.FormateCoordSettings_Parcel(segLine.End_East))
             Else
                 segCurve = seg
-                AppendOneRecordInTable(oHtmlWriter, _
-                            String.Format(LocalizedRes.ParcelMapCheck_Html_Curve, i.ToString()), "&nbsp")
-                AppendOneRecordInTable(oHtmlWriter, _
+                'create 3 cell row instead of 2
+                'AppendOneRecordInTable1(oHtmlWriter, _
+                'String.Format(LocalizedRes.ParcelMapCheck_Html_Curve, i.ToString()))
+                AppendOneRecordInTable3(oHtmlWriter, _
+                            String.Format(LocalizedRes.ParcelMapCheck_Html_Curve, i.ToString()), _
                             LocalizedRes.ParcelMapCheck_Html_Length + " " + _
                                 ParcelMapCheck_ExtractData.FormatDistSettings_Parcel(segCurve.Length), _
                             LocalizedRes.ParcelMapCheck_Html_Radius + " " + _
                                 ParcelMapCheck_ExtractData.FormatDistSettings_Parcel(segCurve.Radius))
-                AppendOneRecordInTable(oHtmlWriter, _
+                AppendOneRecordInTable3(oHtmlWriter, "&nbsp", _
                             LocalizedRes.ParcelMapCheck_Html_Delta + " " + _
                                 ParcelMapCheck_ExtractData.FormatAngleSettings_Parcel(segCurve.Delta), _
                             LocalizedRes.ParcelMapCheck_Html_Tangent + " " + _
                                 ParcelMapCheck_ExtractData.FormatDistSettings_Parcel(segCurve.Tangent))
-                AppendOneRecordInTable(oHtmlWriter, _
+                'flip ch bearing and ch length around
+                AppendOneRecordInTable3(oHtmlWriter, "&nbsp", _
+                            LocalizedRes.ParcelMapCheck_Html_ChCourse + " " + _
+                                ParcelMapCheck_ExtractData.FormatDirSettings_Parcel(segCurve.Course), _
                             LocalizedRes.ParcelMapCheck_Html_Chord + " " + _
-                                ParcelMapCheck_ExtractData.FormatDistSettings_Parcel(segCurve.Chord), _
-                            LocalizedRes.ParcelMapCheck_Html_Course + " " + _
-                                ParcelMapCheck_ExtractData.FormatDirSettings_Parcel(segCurve.Course))
-                AppendOneRecordInTable(oHtmlWriter, _
+                                ParcelMapCheck_ExtractData.FormatDistSettings_Parcel(segCurve.Chord))
+                AppendOneRecordInTable3(oHtmlWriter, "&nbsp", _
                             LocalizedRes.ParcelMapCheck_Html_CourseIn + " " + _
                                 ParcelMapCheck_ExtractData.FormatDirSettings_Parcel(segCurve.CourseIn), _
                             LocalizedRes.ParcelMapCheck_Html_CourseOut + " " + _
                                 ParcelMapCheck_ExtractData.FormatDirSettings_Parcel(segCurve.CourseOut))
-                AppendOneRecordInTable(oHtmlWriter, _
-                            LocalizedRes.ParcelMapCheck_Html_RPNorth + " " + _
-                                ParcelMapCheck_ExtractData.FormateCoordSettings_Parcel(segCurve.RP_North), _
-                            LocalizedRes.ParcelMapCheck_Html_East + " " + _
-                                ParcelMapCheck_ExtractData.FormateCoordSettings_Parcel(segCurve.RP_East))
-                AppendOneRecordInTable(oHtmlWriter, _
-                            LocalizedRes.ParcelMapCheck_Html_EndNorth + " " + _
-                                ParcelMapCheck_ExtractData.FormateCoordSettings_Parcel(segCurve.End_North), _
-                            LocalizedRes.ParcelMapCheck_Html_East + " " + _
-                                ParcelMapCheck_ExtractData.FormateCoordSettings_Parcel(segCurve.End_East))
+                'No N/E calls
+                'AppendOneRecordInTable(oHtmlWriter, _
+                'LocalizedRes.ParcelMapCheck_Html_RPNorth + " " + _
+                'ParcelMapCheck_ExtractData.FormateCoordSettings_Parcel(segCurve.RP_North), _
+                'LocalizedRes.ParcelMapCheck_Html_East + " " + _
+                'ParcelMapCheck_ExtractData.FormateCoordSettings_Parcel(segCurve.RP_East))
+                'AppendOneRecordInTable(oHtmlWriter, _
+                'LocalizedRes.ParcelMapCheck_Html_EndNorth + " " + _
+                'ParcelMapCheck_ExtractData.FormateCoordSettings_Parcel(segCurve.End_North), _
+                'LocalizedRes.ParcelMapCheck_Html_East + " " + _
+                'ParcelMapCheck_ExtractData.FormateCoordSettings_Parcel(segCurve.End_East))
             End If
 
             BreakLine(oHtmlWriter)
@@ -564,15 +582,31 @@ Friend Class ReportForm_ParcelMapCheck
     End Sub
 
     Private Sub BreakLine(ByVal oHtmlWriter As ReportWriter)
-        AppendOneRecordInTable(oHtmlWriter, "&nbsp", "&nbsp")
+        AppendOneRecordInTable1(oHtmlWriter, "&nbsp")
     End Sub
 
 
-    Private Sub AppendOneRecordInTable(ByVal oHtmlWriter As ReportWriter, _
+    Private Sub AppendOneRecordInTable1(ByVal oHtmlWriter As ReportWriter, _
+                                        ByVal strTd1 As String)
+        oHtmlWriter.TrBegin()
+        oHtmlWriter.RenderTd(strTd1)
+        oHtmlWriter.TrEnd()
+    End Sub
+
+    Private Sub AppendOneRecordInTable2(ByVal oHtmlWriter As ReportWriter, _
                                         ByVal strTd1 As String, ByVal strTd2 As String)
         oHtmlWriter.TrBegin()
         oHtmlWriter.RenderTd(strTd1)
         oHtmlWriter.RenderTd(strTd2)
+        oHtmlWriter.TrEnd()
+    End Sub
+
+    Private Sub AppendOneRecordInTable3(ByVal oHtmlWriter As ReportWriter, _
+                                            ByVal strTd1 As String, ByVal strTd2 As String, ByVal strTd3 As String)
+        oHtmlWriter.TrBegin()
+        oHtmlWriter.RenderTd(strTd1)
+        oHtmlWriter.RenderTd(strTd2)
+        oHtmlWriter.RenderTd(strTd3)
         oHtmlWriter.TrEnd()
     End Sub
 

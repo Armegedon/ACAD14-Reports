@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AlignCriVer_Html_Align_CirCurve" xml:space="preserve">
     <value>Circular Curve</value>
@@ -512,7 +512,7 @@
     <value>Process segment order counterclockwise: True</value>
   </data>
   <data name="ParcelMapCheck_Html_Course" xml:space="preserve">
-    <value>Course:</value>
+    <value>Bearing:</value>
   </data>
   <data name="ParcelMapCheck_Html_CourseIn" xml:space="preserve">
     <value>Course In:</value>
@@ -521,7 +521,7 @@
     <value>Course Out:</value>
   </data>
   <data name="ParcelMapCheck_Html_Curve" xml:space="preserve">
-    <value>Segment# {0}: Curve</value>
+    <value>Segment {0}: Curve</value>
   </data>
   <data name="ParcelMapCheck_Html_Delta" xml:space="preserve">
     <value>Delta:</value>
@@ -545,7 +545,7 @@
     <value>Length:</value>
   </data>
   <data name="ParcelMapCheck_Html_Line" xml:space="preserve">
-    <value>Segment# {0}: Line</value>
+    <value>Segment {0}: Line</value>
   </data>
   <data name="ParcelMapCheck_Html_MapCheck_True" xml:space="preserve">
     <value>Enable mapcheck across chord: True</value>
@@ -1812,5 +1812,8 @@
   </data>
   <data name="CorridorSlopeStake_Msg_NoSampleLine_In_Corridor" xml:space="preserve">
     <value>The selected sample line group has no Sample line in {0}. {0} will be exculded.</value>
+  </data>
+  <data name="ParcelMapCheck_Html_ChCourse" xml:space="preserve">
+    <value>Ch Bearing:</value>
   </data>
 </root>

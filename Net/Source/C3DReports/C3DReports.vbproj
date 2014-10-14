@@ -77,6 +77,18 @@
   <PropertyGroup>
     <OptionStrict>Off</OptionStrict>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'">
+    <IntermediateOutputPath>C:\Users\Mathew\AppData\Local\Temp\vs3043.tmp\Win32\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <IntermediateOutputPath>C:\Users\Mathew\AppData\Local\Temp\vs3043.tmp\x64\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'">
+    <IntermediateOutputPath>C:\Users\Mathew\AppData\Local\Temp\vs3043.tmp\Win32\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <IntermediateOutputPath>C:\Users\Mathew\AppData\Local\Temp\vs3043.tmp\x64\Release\</IntermediateOutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="AcdbMgd">
       <Private>False</Private>
@@ -152,9 +164,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
