@@ -203,16 +203,35 @@ function formatAngleNumber(number)
 	return strFormatted;
 }
 
+
+// Try to reformat DMS to include leading zeros for single place deg/min/sec (need to revisit, may not take rounding into effect correctly, test phase)
 function formatAngleToDMS(angle)
 {
-	var degrees = Math.floor(angle);
+	
+	var dDeg = Math.floor(angle);
 
-	var dMin = 60. * (angle - degrees);
-	var minutes = Math.floor(dMin);
+	//Reformat to inlude leading zeros to degrees if only single digit (less than 10)
+	if(dDeg < 10)
+	{var degrees = "0" + Math.floor(angle);}
+	else
+	{var degrees = Math.floor(angle);}
+
+	var dMin = 60. * (angle - dDeg);
+	
+	//Reformat to inlude leading zeros to dMin if only single digit (less than 10)
+	if(dMin < 10)
+	{var minutes = "0" + Math.floor(dMin);}
+	else
+	{var minutes = Math.floor(dMin);}
 
 	var dSec = 60. * (dMin - minutes);
-	var seconds = formatAngleNumber(dSec);
 
+	//Reformat to inlude leading zeros to dSec if (less than or equal to 9.5 for rounding up issues)
+	if(dSec <= 9.5)
+	{var seconds = "0" + formatAngleNumber(dSec);}
+	else
+	{var seconds = formatAngleNumber(dSec);}
+	
 	return degrees + "°" + minutes + "'" + seconds + "\"";
 }
 

@@ -59,21 +59,21 @@ This form is valid for LandXML 0.88, 1.0, 1.1 and 1.2 data.-->
 		<xsl:when test="$Parcel.2D_Area.unit='default'">
 			<xsl:choose>
 				<xsl:when test="$SourceAreaUnit='squareFoot'">
-					<xsl:text/><xsl:value-of select="landUtils:FormatNumber(string($ParcelArea), string($SourceAreaUnit), 'squareFoot', string('0.00'), string($Parcel.2D_Area.rounding))"/><xsl:text/>
+					<xsl:text/><xsl:value-of select="landUtils:FormatNumber(string($ParcelArea), string($SourceAreaUnit), 'squareFoot', string('0'), string($Parcel.2D_Area.rounding))"/><xsl:text/>
 					
 				</xsl:when>
 				<xsl:when test="$SourceAreaUnit='squareMeter'">
-					<xsl:text/><xsl:value-of select="landUtils:FormatNumber(string($ParcelArea), string($SourceAreaUnit), 'squareMeter', string('0.00'), string($Parcel.2D_Area.rounding))"/><xsl:text/>
+					<xsl:text/><xsl:value-of select="landUtils:FormatNumber(string($ParcelArea), string($SourceAreaUnit), 'squareMeter', string('0'), string($Parcel.2D_Area.rounding))"/><xsl:text/>
 					
 				</xsl:when>
 			</xsl:choose>
 		</xsl:when>
 		<xsl:when test="$Parcel.2D_Area.unit='squareFoot'">
-			<xsl:text/><xsl:value-of select="landUtils:FormatNumber(string($ParcelArea), string($SourceAreaUnit), 'squareFoot', string('0.00'), string($Parcel.2D_Area.rounding))"/><xsl:text/>
+			<xsl:text/><xsl:value-of select="landUtils:FormatNumber(string($ParcelArea), string($SourceAreaUnit), 'squareFoot', string('0'), string($Parcel.2D_Area.rounding))"/><xsl:text/>
 			
 		</xsl:when>
 		<xsl:when test="$Parcel.2D_Area.unit='squareMeter'">
-			<xsl:text/><xsl:value-of select="landUtils:FormatNumber(string($ParcelArea), string($SourceAreaUnit), 'squareMeter', string('0.00'), string($Parcel.2D_Area.rounding))"/><xsl:text/>
+			<xsl:text/><xsl:value-of select="landUtils:FormatNumber(string($ParcelArea), string($SourceAreaUnit), 'squareMeter', string('0'), string($Parcel.2D_Area.rounding))"/><xsl:text/>
 			
 		</xsl:when>
 	</xsl:choose>
