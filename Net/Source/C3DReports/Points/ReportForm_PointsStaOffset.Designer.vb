@@ -23,33 +23,38 @@ Partial Class ReportForm_PointsStaOffset
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ReportForm_PointsStaOffset))
-        Me.GroupBox_Points = New System.Windows.Forms.GroupBox
-        Me.Button_Deselect = New System.Windows.Forms.Button
-        Me.Button_Select = New System.Windows.Forms.Button
-        Me.ListView_Aligns = New System.Windows.Forms.ListView
-        Me.GroupBox_Settings = New System.Windows.Forms.GroupBox
-        Me.SplitContainer1 = New System.Windows.Forms.SplitContainer
-        Me.Combo_Align = New System.Windows.Forms.ComboBox
-        Me.Label_SelectAlign = New System.Windows.Forms.Label
-        Me.Button_SelectAlign = New System.Windows.Forms.Button
-        Me.TextBox_SaveReport = New System.Windows.Forms.TextBox
-        Me.Label_Save = New System.Windows.Forms.Label
-        Me.Button_Save = New System.Windows.Forms.Button
-        Me.Label_StaEquations = New System.Windows.Forms.Label
-        Me.Label_StaRange = New System.Windows.Forms.Label
-        Me.Label_StaEquationValue = New System.Windows.Forms.Label
-        Me.Label_StaRangeValue = New System.Windows.Forms.Label
-        Me.Label_AlignNameValue = New System.Windows.Forms.Label
-        Me.Label_AlignName = New System.Windows.Forms.Label
-        Me.GroupBox_ReportDesc = New System.Windows.Forms.GroupBox
-        Me.Label_ReportDesc = New System.Windows.Forms.Label
-        Me.GroupBox_Progress = New System.Windows.Forms.GroupBox
-        Me.ProgressBar_Creating = New System.Windows.Forms.ProgressBar
-        Me.Button_CreateReport = New System.Windows.Forms.Button
-        Me.Button_Help = New System.Windows.Forms.Button
-        Me.Button_Done = New System.Windows.Forms.Button
+        Me.GroupBox_Points = New System.Windows.Forms.GroupBox()
+        Me.Combo_Pgroup = New System.Windows.Forms.ComboBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button_Deselect = New System.Windows.Forms.Button()
+        Me.Button_Select = New System.Windows.Forms.Button()
+        Me.ListView_Aligns = New System.Windows.Forms.ListView()
+        Me.GroupBox_Settings = New System.Windows.Forms.GroupBox()
+        Me.Label_PgroupNameValue = New System.Windows.Forms.Label()
+        Me.Label_PgroupName = New System.Windows.Forms.Label()
+        Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
+        Me.Combo_Align = New System.Windows.Forms.ComboBox()
+        Me.Label_SelectAlign = New System.Windows.Forms.Label()
+        Me.Button_SelectAlign = New System.Windows.Forms.Button()
+        Me.TextBox_SaveReport = New System.Windows.Forms.TextBox()
+        Me.Label_Save = New System.Windows.Forms.Label()
+        Me.Button_Save = New System.Windows.Forms.Button()
+        Me.Label_StaEquations = New System.Windows.Forms.Label()
+        Me.Label_StaRange = New System.Windows.Forms.Label()
+        Me.Label_StaEquationValue = New System.Windows.Forms.Label()
+        Me.Label_StaRangeValue = New System.Windows.Forms.Label()
+        Me.Label_AlignNameValue = New System.Windows.Forms.Label()
+        Me.Label_AlignName = New System.Windows.Forms.Label()
+        Me.GroupBox_ReportDesc = New System.Windows.Forms.GroupBox()
+        Me.Label_ReportDesc = New System.Windows.Forms.Label()
+        Me.GroupBox_Progress = New System.Windows.Forms.GroupBox()
+        Me.ProgressBar_Creating = New System.Windows.Forms.ProgressBar()
+        Me.Button_CreateReport = New System.Windows.Forms.Button()
+        Me.Button_Help = New System.Windows.Forms.Button()
+        Me.Button_Done = New System.Windows.Forms.Button()
         Me.GroupBox_Points.SuspendLayout()
         Me.GroupBox_Settings.SuspendLayout()
+        CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.Panel1.SuspendLayout()
         Me.SplitContainer1.Panel2.SuspendLayout()
         Me.SplitContainer1.SuspendLayout()
@@ -60,11 +65,27 @@ Partial Class ReportForm_PointsStaOffset
         'GroupBox_Points
         '
         resources.ApplyResources(Me.GroupBox_Points, "GroupBox_Points")
+        Me.GroupBox_Points.Controls.Add(Me.Combo_Pgroup)
+        Me.GroupBox_Points.Controls.Add(Me.Label1)
         Me.GroupBox_Points.Controls.Add(Me.Button_Deselect)
         Me.GroupBox_Points.Controls.Add(Me.Button_Select)
         Me.GroupBox_Points.Controls.Add(Me.ListView_Aligns)
         Me.GroupBox_Points.Name = "GroupBox_Points"
         Me.GroupBox_Points.TabStop = False
+        '
+        'Combo_Pgroup
+        '
+        resources.ApplyResources(Me.Combo_Pgroup, "Combo_Pgroup")
+        Me.Combo_Pgroup.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
+        Me.Combo_Pgroup.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
+        Me.Combo_Pgroup.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Combo_Pgroup.FormattingEnabled = True
+        Me.Combo_Pgroup.Name = "Combo_Pgroup"
+        '
+        'Label1
+        '
+        resources.ApplyResources(Me.Label1, "Label1")
+        Me.Label1.Name = "Label1"
         '
         'Button_Deselect
         '
@@ -92,6 +113,8 @@ Partial Class ReportForm_PointsStaOffset
         'GroupBox_Settings
         '
         resources.ApplyResources(Me.GroupBox_Settings, "GroupBox_Settings")
+        Me.GroupBox_Settings.Controls.Add(Me.Label_PgroupNameValue)
+        Me.GroupBox_Settings.Controls.Add(Me.Label_PgroupName)
         Me.GroupBox_Settings.Controls.Add(Me.SplitContainer1)
         Me.GroupBox_Settings.Controls.Add(Me.Label_StaEquations)
         Me.GroupBox_Settings.Controls.Add(Me.Label_StaRange)
@@ -101,6 +124,16 @@ Partial Class ReportForm_PointsStaOffset
         Me.GroupBox_Settings.Controls.Add(Me.Label_AlignName)
         Me.GroupBox_Settings.Name = "GroupBox_Settings"
         Me.GroupBox_Settings.TabStop = False
+        '
+        'Label_PgroupNameValue
+        '
+        resources.ApplyResources(Me.Label_PgroupNameValue, "Label_PgroupNameValue")
+        Me.Label_PgroupNameValue.Name = "Label_PgroupNameValue"
+        '
+        'Label_PgroupName
+        '
+        resources.ApplyResources(Me.Label_PgroupName, "Label_PgroupName")
+        Me.Label_PgroupName.Name = "Label_PgroupName"
         '
         'SplitContainer1
         '
@@ -246,12 +279,14 @@ Partial Class ReportForm_PointsStaOffset
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
         Me.GroupBox_Points.ResumeLayout(False)
+        Me.GroupBox_Points.PerformLayout()
         Me.GroupBox_Settings.ResumeLayout(False)
         Me.GroupBox_Settings.PerformLayout()
         Me.SplitContainer1.Panel1.ResumeLayout(False)
         Me.SplitContainer1.Panel1.PerformLayout()
         Me.SplitContainer1.Panel2.ResumeLayout(False)
         Me.SplitContainer1.Panel2.PerformLayout()
+        CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.SplitContainer1.ResumeLayout(False)
         Me.GroupBox_ReportDesc.ResumeLayout(False)
         Me.GroupBox_Progress.ResumeLayout(False)
@@ -283,4 +318,8 @@ Partial Class ReportForm_PointsStaOffset
     Friend WithEvents Button_Save As System.Windows.Forms.Button
     Friend WithEvents TextBox_SaveReport As System.Windows.Forms.TextBox
     Friend WithEvents SplitContainer1 As System.Windows.Forms.SplitContainer
+    Friend WithEvents Combo_Pgroup As System.Windows.Forms.ComboBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label_PgroupNameValue As System.Windows.Forms.Label
+    Friend WithEvents Label_PgroupName As System.Windows.Forms.Label
 End Class

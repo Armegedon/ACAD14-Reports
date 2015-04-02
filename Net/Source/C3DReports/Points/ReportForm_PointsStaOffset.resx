@@ -112,26 +112,80 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="GroupBox_Points.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="Combo_Pgroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Combo_Pgroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 32</value>
+  </data>
+  <data name="Combo_Pgroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 21</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Combo_Pgroup.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Combo_Pgroup.Name" xml:space="preserve">
+    <value>Combo_Pgroup</value>
+  </data>
+  <data name="&gt;&gt;Combo_Pgroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Combo_Pgroup.Parent" xml:space="preserve">
+    <value>GroupBox_Points</value>
+  </data>
+  <data name="&gt;&gt;Combo_Pgroup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 13</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Select Point Group :</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>GroupBox_Points</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="Button_Deselect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Button_Deselect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>373, 19</value>
+    <value>549, 30</value>
   </data>
   <data name="Button_Deselect.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 23</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Button_Deselect.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
@@ -142,19 +196,19 @@
     <value>Button_Deselect</value>
   </data>
   <data name="&gt;&gt;Button_Deselect.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Button_Deselect.Parent" xml:space="preserve">
     <value>GroupBox_Points</value>
   </data>
   <data name="&gt;&gt;Button_Deselect.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="Button_Select.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
   <data name="Button_Select.Location" type="System.Drawing.Point, System.Drawing">
-    <value>277, 19</value>
+    <value>453, 30</value>
   </data>
   <data name="Button_Select.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 23</value>
@@ -169,22 +223,22 @@
     <value>Button_Select</value>
   </data>
   <data name="&gt;&gt;Button_Select.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Button_Select.Parent" xml:space="preserve">
     <value>GroupBox_Points</value>
   </data>
   <data name="&gt;&gt;Button_Select.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="ListView_Aligns.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="ListView_Aligns.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 48</value>
+    <value>6, 59</value>
   </data>
   <data name="ListView_Aligns.Size" type="System.Drawing.Size, System.Drawing">
-    <value>457, 83</value>
+    <value>633, 145</value>
   </data>
   <data name="ListView_Aligns.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -193,19 +247,19 @@
     <value>ListView_Aligns</value>
   </data>
   <data name="&gt;&gt;ListView_Aligns.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ListView_Aligns.Parent" xml:space="preserve">
     <value>GroupBox_Points</value>
   </data>
   <data name="&gt;&gt;ListView_Aligns.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="GroupBox_Points.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 90</value>
   </data>
   <data name="GroupBox_Points.Size" type="System.Drawing.Size, System.Drawing">
-    <value>469, 137</value>
+    <value>645, 210</value>
   </data>
   <data name="GroupBox_Points.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -217,7 +271,7 @@
     <value>GroupBox_Points</value>
   </data>
   <data name="&gt;&gt;GroupBox_Points.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;GroupBox_Points.Parent" xml:space="preserve">
     <value>$this</value>
@@ -227,6 +281,66 @@
   </data>
   <data name="GroupBox_Settings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
+  </data>
+  <data name="Label_PgroupNameValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Label_PgroupNameValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_PgroupNameValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 62</value>
+  </data>
+  <data name="Label_PgroupNameValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 13</value>
+  </data>
+  <data name="Label_PgroupNameValue.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Label_PgroupNameValue.Text" xml:space="preserve">
+    <value>&lt;&lt;reports name selected&gt;&gt;</value>
+  </data>
+  <data name="&gt;&gt;Label_PgroupNameValue.Name" xml:space="preserve">
+    <value>Label_PgroupNameValue</value>
+  </data>
+  <data name="&gt;&gt;Label_PgroupNameValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_PgroupNameValue.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;Label_PgroupNameValue.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label_PgroupName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_PgroupName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_PgroupName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 62</value>
+  </data>
+  <data name="Label_PgroupName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="Label_PgroupName.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Label_PgroupName.Text" xml:space="preserve">
+    <value>Point Group Name :</value>
+  </data>
+  <data name="&gt;&gt;Label_PgroupName.Name" xml:space="preserve">
+    <value>Label_PgroupName</value>
+  </data>
+  <data name="&gt;&gt;Label_PgroupName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_PgroupName.Parent" xml:space="preserve">
+    <value>GroupBox_Settings</value>
+  </data>
+  <data name="&gt;&gt;Label_PgroupName.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="SplitContainer1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -244,7 +358,7 @@
     <value>4, 16</value>
   </data>
   <data name="Combo_Align.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 21</value>
+    <value>176, 21</value>
   </data>
   <data name="Combo_Align.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -253,7 +367,7 @@
     <value>Combo_Align</value>
   </data>
   <data name="&gt;&gt;Combo_Align.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Combo_Align.Parent" xml:space="preserve">
     <value>SplitContainer1.Panel1</value>
@@ -280,7 +394,7 @@
     <value>Label_SelectAlign</value>
   </data>
   <data name="&gt;&gt;Label_SelectAlign.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Label_SelectAlign.Parent" xml:space="preserve">
     <value>SplitContainer1.Panel1</value>
@@ -292,7 +406,7 @@
     <value>Top, Right</value>
   </data>
   <data name="Button_SelectAlign.Location" type="System.Drawing.Point, System.Drawing">
-    <value>126, 14</value>
+    <value>184, 14</value>
   </data>
   <data name="Button_SelectAlign.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 23</value>
@@ -304,7 +418,7 @@
     <value>Button_SelectAlign</value>
   </data>
   <data name="&gt;&gt;Button_SelectAlign.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Button_SelectAlign.Parent" xml:space="preserve">
     <value>SplitContainer1.Panel1</value>
@@ -316,7 +430,7 @@
     <value>SplitContainer1.Panel1</value>
   </data>
   <data name="&gt;&gt;SplitContainer1.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;SplitContainer1.Panel1.Parent" xml:space="preserve">
     <value>SplitContainer1</value>
@@ -331,7 +445,7 @@
     <value>6, 16</value>
   </data>
   <data name="TextBox_SaveReport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 20</value>
+    <value>384, 20</value>
   </data>
   <data name="TextBox_SaveReport.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -340,7 +454,7 @@
     <value>TextBox_SaveReport</value>
   </data>
   <data name="&gt;&gt;TextBox_SaveReport.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;TextBox_SaveReport.Parent" xml:space="preserve">
     <value>SplitContainer1.Panel2</value>
@@ -367,7 +481,7 @@
     <value>Label_Save</value>
   </data>
   <data name="&gt;&gt;Label_Save.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Label_Save.Parent" xml:space="preserve">
     <value>SplitContainer1.Panel2</value>
@@ -382,7 +496,7 @@
     <value>NoControl</value>
   </data>
   <data name="Button_Save.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 14</value>
+    <value>396, 14</value>
   </data>
   <data name="Button_Save.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 23</value>
@@ -394,7 +508,7 @@
     <value>Button_Save</value>
   </data>
   <data name="&gt;&gt;Button_Save.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Button_Save.Parent" xml:space="preserve">
     <value>SplitContainer1.Panel2</value>
@@ -406,7 +520,7 @@
     <value>SplitContainer1.Panel2</value>
   </data>
   <data name="&gt;&gt;SplitContainer1.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;SplitContainer1.Panel2.Parent" xml:space="preserve">
     <value>SplitContainer1</value>
@@ -415,10 +529,10 @@
     <value>1</value>
   </data>
   <data name="SplitContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>460, 41</value>
+    <value>636, 41</value>
   </data>
   <data name="SplitContainer1.SplitterDistance" type="System.Int32, mscorlib">
-    <value>153</value>
+    <value>211</value>
   </data>
   <data name="SplitContainer1.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -427,13 +541,13 @@
     <value>SplitContainer1</value>
   </data>
   <data name="&gt;&gt;SplitContainer1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;SplitContainer1.Parent" xml:space="preserve">
     <value>GroupBox_Settings</value>
   </data>
   <data name="&gt;&gt;SplitContainer1.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="Label_StaEquations.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -454,13 +568,13 @@
     <value>Label_StaEquations</value>
   </data>
   <data name="&gt;&gt;Label_StaEquations.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Label_StaEquations.Parent" xml:space="preserve">
     <value>GroupBox_Settings</value>
   </data>
   <data name="&gt;&gt;Label_StaEquations.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="Label_StaRange.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -481,13 +595,13 @@
     <value>Label_StaRange</value>
   </data>
   <data name="&gt;&gt;Label_StaRange.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Label_StaRange.Parent" xml:space="preserve">
     <value>GroupBox_Settings</value>
   </data>
   <data name="&gt;&gt;Label_StaRange.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="Label_StaEquationValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -496,7 +610,7 @@
     <value>129, 110</value>
   </data>
   <data name="Label_StaEquationValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>334, 13</value>
+    <value>510, 13</value>
   </data>
   <data name="Label_StaEquationValue.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -508,13 +622,13 @@
     <value>Label_StaEquationValue</value>
   </data>
   <data name="&gt;&gt;Label_StaEquationValue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Label_StaEquationValue.Parent" xml:space="preserve">
     <value>GroupBox_Settings</value>
   </data>
   <data name="&gt;&gt;Label_StaEquationValue.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="Label_StaRangeValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -523,7 +637,7 @@
     <value>129, 86</value>
   </data>
   <data name="Label_StaRangeValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>334, 13</value>
+    <value>510, 13</value>
   </data>
   <data name="Label_StaRangeValue.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -535,13 +649,13 @@
     <value>Label_StaRangeValue</value>
   </data>
   <data name="&gt;&gt;Label_StaRangeValue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Label_StaRangeValue.Parent" xml:space="preserve">
     <value>GroupBox_Settings</value>
   </data>
   <data name="&gt;&gt;Label_StaRangeValue.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="Label_AlignNameValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -550,7 +664,7 @@
     <value>129, 62</value>
   </data>
   <data name="Label_AlignNameValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>334, 13</value>
+    <value>510, 13</value>
   </data>
   <data name="Label_AlignNameValue.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -562,13 +676,13 @@
     <value>Label_AlignNameValue</value>
   </data>
   <data name="&gt;&gt;Label_AlignNameValue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Label_AlignNameValue.Parent" xml:space="preserve">
     <value>GroupBox_Settings</value>
   </data>
   <data name="&gt;&gt;Label_AlignNameValue.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="Label_AlignName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -577,31 +691,31 @@
     <value>7, 62</value>
   </data>
   <data name="Label_AlignName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 13</value>
+    <value>90, 13</value>
   </data>
   <data name="Label_AlignName.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
   <data name="Label_AlignName.Text" xml:space="preserve">
-    <value>Alignment name :</value>
+    <value>Alignment Name :</value>
   </data>
   <data name="&gt;&gt;Label_AlignName.Name" xml:space="preserve">
     <value>Label_AlignName</value>
   </data>
   <data name="&gt;&gt;Label_AlignName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Label_AlignName.Parent" xml:space="preserve">
     <value>GroupBox_Settings</value>
   </data>
   <data name="&gt;&gt;Label_AlignName.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="GroupBox_Settings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 233</value>
+    <value>11, 306</value>
   </data>
   <data name="GroupBox_Settings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>469, 135</value>
+    <value>645, 135</value>
   </data>
   <data name="GroupBox_Settings.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -613,7 +727,7 @@
     <value>GroupBox_Settings</value>
   </data>
   <data name="&gt;&gt;GroupBox_Settings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;GroupBox_Settings.Parent" xml:space="preserve">
     <value>$this</value>
@@ -624,29 +738,11 @@
   <data name="GroupBox_ReportDesc.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <data name="Label_ReportDesc.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="Label_ReportDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Label_ReportDesc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 16</value>
-  </data>
-  <data name="Label_ReportDesc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>456, 53</value>
-  </data>
-  <data name="Label_ReportDesc.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="Label_ReportDesc.Text" xml:space="preserve">
-    <value>The Station offset report option displays the station and offset values of the selected points relative to the selected alignment.</value>
-  </data>
   <data name="&gt;&gt;Label_ReportDesc.Name" xml:space="preserve">
     <value>Label_ReportDesc</value>
   </data>
   <data name="&gt;&gt;Label_ReportDesc.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Label_ReportDesc.Parent" xml:space="preserve">
     <value>GroupBox_ReportDesc</value>
@@ -658,7 +754,7 @@
     <value>12, 12</value>
   </data>
   <data name="GroupBox_ReportDesc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>468, 72</value>
+    <value>644, 72</value>
   </data>
   <data name="GroupBox_ReportDesc.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -670,7 +766,7 @@
     <value>GroupBox_ReportDesc</value>
   </data>
   <data name="&gt;&gt;GroupBox_ReportDesc.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;GroupBox_ReportDesc.Parent" xml:space="preserve">
     <value>$this</value>
@@ -678,29 +774,44 @@
   <data name="&gt;&gt;GroupBox_ReportDesc.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="GroupBox_Progress.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
+  <data name="Label_ReportDesc.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="ProgressBar_Creating.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="ProgressBar_Creating.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Label_ReportDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="ProgressBar_Creating.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
+  <data name="Label_ReportDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
   </data>
-  <data name="ProgressBar_Creating.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 12</value>
+  <data name="Label_ReportDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>632, 53</value>
   </data>
-  <data name="ProgressBar_Creating.TabIndex" type="System.Int32, mscorlib">
+  <data name="Label_ReportDesc.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="Label_ReportDesc.Text" xml:space="preserve">
+    <value>The Station Offset Report option displays the station and offset values of the selected points relative to the selected alignment. (Cut-Sheet Report)</value>
+  </data>
+  <data name="&gt;&gt;Label_ReportDesc.Name" xml:space="preserve">
+    <value>Label_ReportDesc</value>
+  </data>
+  <data name="&gt;&gt;Label_ReportDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_ReportDesc.Parent" xml:space="preserve">
+    <value>GroupBox_ReportDesc</value>
+  </data>
+  <data name="&gt;&gt;Label_ReportDesc.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox_Progress.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
   </data>
   <data name="&gt;&gt;ProgressBar_Creating.Name" xml:space="preserve">
     <value>ProgressBar_Creating</value>
   </data>
   <data name="&gt;&gt;ProgressBar_Creating.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ProgressBar_Creating.Parent" xml:space="preserve">
     <value>GroupBox_Progress</value>
@@ -709,10 +820,10 @@
     <value>0</value>
   </data>
   <data name="GroupBox_Progress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 374</value>
+    <value>12, 447</value>
   </data>
   <data name="GroupBox_Progress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 37</value>
+    <value>351, 37</value>
   </data>
   <data name="GroupBox_Progress.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -724,12 +835,39 @@
     <value>GroupBox_Progress</value>
   </data>
   <data name="&gt;&gt;GroupBox_Progress.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;GroupBox_Progress.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;GroupBox_Progress.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ProgressBar_Creating.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ProgressBar_Creating.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProgressBar_Creating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="ProgressBar_Creating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>339, 12</value>
+  </data>
+  <data name="ProgressBar_Creating.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar_Creating.Name" xml:space="preserve">
+    <value>ProgressBar_Creating</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar_Creating.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar_Creating.Parent" xml:space="preserve">
+    <value>GroupBox_Progress</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar_Creating.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="Button_CreateReport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -739,7 +877,7 @@
     <value>NoControl</value>
   </data>
   <data name="Button_CreateReport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>193, 382</value>
+    <value>369, 455</value>
   </data>
   <data name="Button_CreateReport.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 23</value>
@@ -754,7 +892,7 @@
     <value>Button_CreateReport</value>
   </data>
   <data name="&gt;&gt;Button_CreateReport.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Button_CreateReport.Parent" xml:space="preserve">
     <value>$this</value>
@@ -769,7 +907,7 @@
     <value>NoControl</value>
   </data>
   <data name="Button_Help.Location" type="System.Drawing.Point, System.Drawing">
-    <value>405, 382</value>
+    <value>581, 455</value>
   </data>
   <data name="Button_Help.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -784,7 +922,7 @@
     <value>Button_Help</value>
   </data>
   <data name="&gt;&gt;Button_Help.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Button_Help.Parent" xml:space="preserve">
     <value>$this</value>
@@ -799,7 +937,7 @@
     <value>NoControl</value>
   </data>
   <data name="Button_Done.Location" type="System.Drawing.Point, System.Drawing">
-    <value>324, 382</value>
+    <value>500, 455</value>
   </data>
   <data name="Button_Done.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -814,7 +952,7 @@
     <value>Button_Done</value>
   </data>
   <data name="&gt;&gt;Button_Done.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Button_Done.Parent" xml:space="preserve">
     <value>$this</value>
@@ -822,14 +960,14 @@
   <data name="&gt;&gt;Button_Done.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>492, 423</value>
+    <value>668, 496</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>500, 450</value>
@@ -844,6 +982,6 @@
     <value>ReportForm_PointsStaOffset</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

@@ -33,7 +33,10 @@ Imports LocalizedRes = Report.My.Resources.LocalizedStrings
 Friend Class ReportForm_PointsStaOffset
 
     Private m_Alignments As Collections.Generic.SortedList(Of String, AeccLandLib.IAeccAlignment)
+    Private m_Pointgroups As Collections.Generic.SortedList(Of String, AeccLandLib.IAeccPointGroup)
+
     Private m_oCurAlign As AeccLandLib.IAeccAlignment
+    Private m_oCurPgroup As AeccLandLib.IAeccPointGroup
 
     Private ctlProgressBar As CtrlProgressBar
     Private ctlSavePath As CtrlSaveReportFile
@@ -93,6 +96,19 @@ Friend Class ReportForm_PointsStaOffset
             Exit Sub
         End If
 
+        'get Point Groups
+        m_Pointgroups = New Collections.Generic.SortedList(Of String, AeccLandLib.IAeccPointGroup)
+        For Each oPgroup As AeccLandLib.AeccPointGroup In ReportApplication.AeccXDocument.PointGroups
+            m_Pointgroups.Add(oPgroup.Name, oPgroup)
+        Next
+
+        'fill Point Group combo box
+        For Each PgroupName As String In m_Pointgroups.Keys()
+            Combo_Pgroup.Items.Add(PgroupName)
+        Next
+
+        Combo_Pgroup.SelectedIndex = 0
+
         'get Alignments
         m_Alignments = New Collections.Generic.SortedList(Of String, AeccLandLib.IAeccAlignment)
         For Each oAlign As AeccLandLib.AeccAlignment In ReportApplication.AeccXDocument.AlignmentsSiteless
@@ -131,12 +147,13 @@ Friend Class ReportForm_PointsStaOffset
             80, HorizontalAlignment.Left)
         ListView_Aligns.Columns.Add(LocalizedRes.PointsStaOffset_Form_ColumnTitle_Name, _
             40, HorizontalAlignment.Left)
-        ListView_Aligns.Columns.Add(LocalizedRes.PointsStaOffset_Form_ColumnTitle_RawDesc, _
-            100, HorizontalAlignment.Left)
+        'Don't need RawDesc with FullDesc 
+        'ListView_Aligns.Columns.Add(LocalizedRes.PointsStaOffset_Form_ColumnTitle_RawDesc, _
+        '    100, HorizontalAlignment.Left)
         ListView_Aligns.Columns.Add(LocalizedRes.PointsStaOffset_Form_ColumnTitle_FullDesc, _
             100, HorizontalAlignment.Left)
 
-        'fill grid
+        'fill grid <Need to figure out how to list the points according to the selected point group>
         For Each oPoint As AeccLandLib.AeccPoint In ReportApplication.AeccXDatabase.Points
             Dim li As New ListViewItem
             li.SubItems.Add(oPoint.Number.ToString())
@@ -149,7 +166,8 @@ Friend Class ReportForm_PointsStaOffset
             name = oPoint.Name
             On Error GoTo 0
             li.SubItems.Add(name)
-            li.SubItems.Add(oPoint.RawDescription)
+            'Don't need RawDesc with FullDesc
+            'li.SubItems.Add(oPoint.RawDescription)
             li.SubItems.Add(oPoint.FullDescription)
             li.Checked = True
             ListView_Aligns.Items.Add(li)
@@ -385,5 +403,20 @@ Friend Class ReportForm_PointsStaOffset
 
     Private Sub openHelp()
         ReportApplication.InvokeHelp(ReportHelpID.IDH_AECC_REPORTS_CREATE_STATION_OFFSET_TO_POINTS_REPORT)
+    End Sub
+
+    Private Sub ListView_Aligns_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListView_Aligns.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub Combo_Pgroup_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Combo_Pgroup.SelectedIndexChanged
+        If Combo_Pgroup.SelectedIndex < 0 Then
+            Exit Sub
+        End If
+
+        m_oCurPgroup = m_Pointgroups(Combo_Pgroup.SelectedItem.ToString())
+
+        Label_PgroupNameValue.Text = m_oCurPgroup.Name
+
     End Sub
 End Class
