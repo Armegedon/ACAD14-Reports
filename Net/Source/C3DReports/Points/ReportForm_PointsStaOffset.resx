@@ -121,17 +121,41 @@
   <data name="GroupBox_Points.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ListBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 125</value>
+  </data>
+  <data name="ListBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>633, 43</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ListBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ListBox1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ListBox1.Name" xml:space="preserve">
+    <value>ListBox1</value>
+  </data>
+  <data name="&gt;&gt;ListBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListBox1.Parent" xml:space="preserve">
+    <value>GroupBox_Points</value>
+  </data>
+  <data name="&gt;&gt;ListBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="Combo_Pgroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Combo_Pgroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 32</value>
+    <value>6, 32</value>
   </data>
   <data name="Combo_Pgroup.Size" type="System.Drawing.Size, System.Drawing">
     <value>176, 21</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Combo_Pgroup.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
@@ -145,7 +169,7 @@
     <value>GroupBox_Points</value>
   </data>
   <data name="&gt;&gt;Combo_Pgroup.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -157,13 +181,13 @@
     <value>6, 16</value>
   </data>
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 13</value>
+    <value>99, 13</value>
   </data>
   <data name="Label1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="Label1.Text" xml:space="preserve">
-    <value>Select Point Group :</value>
+    <value>Select Point Group:</value>
   </data>
   <data name="&gt;&gt;Label1.Name" xml:space="preserve">
     <value>Label1</value>
@@ -175,7 +199,7 @@
     <value>GroupBox_Points</value>
   </data>
   <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="Button_Deselect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -202,7 +226,7 @@
     <value>GroupBox_Points</value>
   </data>
   <data name="&gt;&gt;Button_Deselect.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="Button_Select.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -229,7 +253,7 @@
     <value>GroupBox_Points</value>
   </data>
   <data name="&gt;&gt;Button_Select.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="ListView_Aligns.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -238,7 +262,7 @@
     <value>6, 59</value>
   </data>
   <data name="ListView_Aligns.Size" type="System.Drawing.Size, System.Drawing">
-    <value>633, 145</value>
+    <value>633, 168</value>
   </data>
   <data name="ListView_Aligns.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -253,19 +277,19 @@
     <value>GroupBox_Points</value>
   </data>
   <data name="&gt;&gt;ListView_Aligns.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="GroupBox_Points.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 90</value>
+    <value>12, 67</value>
   </data>
   <data name="GroupBox_Points.Size" type="System.Drawing.Size, System.Drawing">
-    <value>645, 210</value>
+    <value>645, 233</value>
   </data>
   <data name="GroupBox_Points.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="GroupBox_Points.Text" xml:space="preserve">
-    <value>List of points</value>
+    <value>List of points: (These are all the points that that will be on the report) </value>
   </data>
   <data name="&gt;&gt;GroupBox_Points.Name" xml:space="preserve">
     <value>GroupBox_Points</value>
@@ -382,13 +406,13 @@
     <value>1, 0</value>
   </data>
   <data name="Label_SelectAlign.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 13</value>
+    <value>92, 13</value>
   </data>
   <data name="Label_SelectAlign.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="Label_SelectAlign.Text" xml:space="preserve">
-    <value>Select alignment :</value>
+    <value>Select Alignment :</value>
   </data>
   <data name="&gt;&gt;Label_SelectAlign.Name" xml:space="preserve">
     <value>Label_SelectAlign</value>
@@ -469,13 +493,13 @@
     <value>3, 0</value>
   </data>
   <data name="Label_Save.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 13</value>
+    <value>88, 13</value>
   </data>
   <data name="Label_Save.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
   <data name="Label_Save.Text" xml:space="preserve">
-    <value>Save report to :</value>
+    <value>Save Report As :</value>
   </data>
   <data name="&gt;&gt;Label_Save.Name" xml:space="preserve">
     <value>Label_Save</value>
@@ -754,7 +778,7 @@
     <value>12, 12</value>
   </data>
   <data name="GroupBox_ReportDesc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>644, 72</value>
+    <value>644, 49</value>
   </data>
   <data name="GroupBox_ReportDesc.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -784,13 +808,13 @@
     <value>6, 16</value>
   </data>
   <data name="Label_ReportDesc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>632, 53</value>
+    <value>632, 30</value>
   </data>
   <data name="Label_ReportDesc.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="Label_ReportDesc.Text" xml:space="preserve">
-    <value>The Station Offset Report option displays the station and offset values of the selected points relative to the selected alignment. (Cut-Sheet Report)</value>
+    <value>The Station Offset Report option displays the station and offset values of the selected points relative to the selected alignment with the option to select individual point groups.</value>
   </data>
   <data name="&gt;&gt;Label_ReportDesc.Name" xml:space="preserve">
     <value>Label_ReportDesc</value>
@@ -829,7 +853,7 @@
     <value>30</value>
   </data>
   <data name="GroupBox_Progress.Text" xml:space="preserve">
-    <value>Creating report</value>
+    <value>Creating report : </value>
   </data>
   <data name="&gt;&gt;GroupBox_Progress.Name" xml:space="preserve">
     <value>GroupBox_Progress</value>
@@ -877,10 +901,10 @@
     <value>NoControl</value>
   </data>
   <data name="Button_CreateReport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>369, 455</value>
+    <value>374, 455</value>
   </data>
   <data name="Button_CreateReport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 23</value>
+    <value>90, 29</value>
   </data>
   <data name="Button_CreateReport.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -907,10 +931,10 @@
     <value>NoControl</value>
   </data>
   <data name="Button_Help.Location" type="System.Drawing.Point, System.Drawing">
-    <value>581, 455</value>
+    <value>566, 455</value>
   </data>
   <data name="Button_Help.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>90, 29</value>
   </data>
   <data name="Button_Help.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -937,16 +961,16 @@
     <value>NoControl</value>
   </data>
   <data name="Button_Done.Location" type="System.Drawing.Point, System.Drawing">
-    <value>500, 455</value>
+    <value>470, 455</value>
   </data>
   <data name="Button_Done.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>90, 29</value>
   </data>
   <data name="Button_Done.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="Button_Done.Text" xml:space="preserve">
-    <value>Done</value>
+    <value>Close</value>
   </data>
   <data name="&gt;&gt;Button_Done.Name" xml:space="preserve">
     <value>Button_Done</value>

@@ -1,0 +1,2369 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+C3DReport
+</name>
+</assembly>
+<members>
+<member name="T:Report.ReportHelpID">
+	<summary>
+ Help ID definition, copy from Source\Locale\Inc\_Idh_Aecc.h
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Form_ReportSettings_A">
+	<summary>
+  Looks up a localized string similar to A:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Form_ReportSettings_DesignSpeed">
+	<summary>
+  Looks up a localized string similar to Design Speed:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Form_ReportSettings_EndSta">
+	<summary>
+  Looks up a localized string similar to End Station:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Form_ReportSettings_Length">
+	<summary>
+  Looks up a localized string similar to Length:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Form_ReportSettings_MinTransLen">
+	<summary>
+  Looks up a localized string similar to Minimum Transition Length:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Form_ReportSettings_Radius">
+	<summary>
+  Looks up a localized string similar to Radius:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Form_ReportSettings_StartSta">
+	<summary>
+  Looks up a localized string similar to Start Station:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_Align_CirCurve">
+	<summary>
+  Looks up a localized string similar to Circular Curve.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_Align_Cleared">
+	<summary>
+  Looks up a localized string similar to Cleared.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_Align_DesignChecks">
+	<summary>
+  Looks up a localized string similar to Design Checks:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_Align_DesignCriteria">
+	<summary>
+  Looks up a localized string similar to Design Criteria:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_Align_MinRadius">
+	<summary>
+  Looks up a localized string similar to Minimum Radius:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_Align_Name">
+	<summary>
+  Looks up a localized string similar to Alignment Name:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_Align_SpiralCurve">
+	<summary>
+  Looks up a localized string similar to Spiral Curve:Clothoid.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_Align_Tangent">
+	<summary>
+  Looks up a localized string similar to Tangent.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_Align_Violated">
+	<summary>
+  Looks up a localized string similar to Violated.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_BiQuadratic">
+	<summary>
+  Looks up a localized string similar to BiQuadratic.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_Bloss">
+	<summary>
+  Looks up a localized string similar to Bloss.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_Clothoid">
+	<summary>
+  Looks up a localized string similar to Clothoid.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_CS">
+	<summary>
+  Looks up a localized string similar to CS.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_CubicParabola">
+	<summary>
+  Looks up a localized string similar to CubicParabola.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_End">
+	<summary>
+  Looks up a localized string similar to End.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_Header">
+	<summary>
+  Looks up a localized string similar to Alignment Design Criteria Verification Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_JapCubic">
+	<summary>
+  Looks up a localized string similar to JapCubic.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_Left">
+	<summary>
+  Looks up a localized string similar to LEFT.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_PC">
+	<summary>
+  Looks up a localized string similar to PC.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_PCC">
+	<summary>
+  Looks up a localized string similar to PCC.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_PRC">
+	<summary>
+  Looks up a localized string similar to PRC.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_PT">
+	<summary>
+  Looks up a localized string similar to PT.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_Right">
+	<summary>
+  Looks up a localized string similar to RIGHT.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_RP">
+	<summary>
+  Looks up a localized string similar to RP.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_SC">
+	<summary>
+  Looks up a localized string similar to SC.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_SineHalfWave">
+	<summary>
+  Looks up a localized string similar to SineHalfWave.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_Sinusoidal">
+	<summary>
+  Looks up a localized string similar to Sinusoidal.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_SS">
+	<summary>
+  Looks up a localized string similar to SS.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_ST">
+	<summary>
+  Looks up a localized string similar to ST.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_Start">
+	<summary>
+  Looks up a localized string similar to Start.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_Title">
+	<summary>
+  Looks up a localized string similar to Alignment Design Criteria Verification.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignCriVer_Html_TS">
+	<summary>
+  Looks up a localized string similar to TS.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Alignment_Html_Chainage_Range">
+	<summary>
+  Looks up a localized string similar to Chainage Range: Start: {0}, End: {1}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Alignment_Html_Station_Range">
+	<summary>
+  Looks up a localized string similar to Station Range: Start: {0}, End: {1}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Alignment_Msg_SelectOneCBFirst">
+	<summary>
+  Looks up a localized string similar to Select at least one output check box firstly..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Alignment_Msg_SelectOneFirst">
+	<summary>
+  Looks up a localized string similar to Please select at least one alignment..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignSta_Html_Align_Name">
+	<summary>
+  Looks up a localized string similar to Alignment Name:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignSta_Html_ReadConfigError">
+	<summary>
+  Looks up a localized string similar to Read config file error..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignSta_Html_TblTitle_Direction">
+	<summary>
+  Looks up a localized string similar to Direction.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignSta_Html_TblTitle_Distance">
+	<summary>
+  Looks up a localized string similar to Distance.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignSta_Html_TblTitle_Easting">
+	<summary>
+  Looks up a localized string similar to Easting.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignSta_Html_TblTitle_Northing">
+	<summary>
+  Looks up a localized string similar to Northing.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignSta_Html_TblTitle_Sta">
+	<summary>
+  Looks up a localized string similar to PI Station.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignSta_Html_Title">
+	<summary>
+  Looks up a localized string similar to Alignment PI Station Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignSta_Msg_InitErr">
+	<summary>
+  Looks up a localized string similar to Error: Unable to initialize Civil 3D Object Model..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStaInc_Html_Increment">
+	<summary>
+  Looks up a localized string similar to Station Increment:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStaInc_Html_TblTitle_Direction">
+	<summary>
+  Looks up a localized string similar to Tangential Direction.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStaInc_Html_TblTitle_Easting">
+	<summary>
+  Looks up a localized string similar to Easting.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStaInc_Html_TblTitle_Northing">
+	<summary>
+  Looks up a localized string similar to Northing.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStaInc_Html_TblTitle_Sta">
+	<summary>
+  Looks up a localized string similar to Station.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStaInc_Html_Title">
+	<summary>
+  Looks up a localized string similar to Alignment Incremental Station Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Form_SelectPoint">
+	<summary>
+  Looks up a localized string similar to Select a point.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Form_SelectReject">
+	<summary>
+  Looks up a localized string similar to Please select a point.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Html_AngleType_DeflectMinus">
+	<summary>
+  Looks up a localized string similar to DeflectMinus.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Html_AngleType_DeflectPlus">
+	<summary>
+  Looks up a localized string similar to DeflectPlus.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Html_AngleType_Direction">
+	<summary>
+  Looks up a localized string similar to Direction.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Html_AngleType_TurnedMinus">
+	<summary>
+  Looks up a localized string similar to TurnedMinus.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Html_AngleType_TurnedPlus">
+	<summary>
+  Looks up a localized string similar to TurnedPlus.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Html_BacksightPt">
+	<summary>
+  Looks up a localized string similar to BackSight Pt:  Northing {0}, Easting {1}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Html_OccupiedPt">
+	<summary>
+  Looks up a localized string similar to Occupied Pt: Northing {0}, Easting {1}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Html_Offset">
+	<summary>
+  Looks up a localized string similar to Offset:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Html_StakeoutAngleType">
+	<summary>
+  Looks up a localized string similar to Stakeout Angle Type:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Html_TblTitle_CoordinateE">
+	<summary>
+  Looks up a localized string similar to Coordinate.E.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Html_TblTitle_CoordinateN">
+	<summary>
+  Looks up a localized string similar to Coordinate.N.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Html_TblTitle_DeflL">
+	<summary>
+  Looks up a localized string similar to Deflect.Left.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Html_TblTitle_DeflR">
+	<summary>
+  Looks up a localized string similar to Deflect.Right.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Html_TblTitle_Direction">
+	<summary>
+  Looks up a localized string similar to Direction.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Html_TblTitle_Distance">
+	<summary>
+  Looks up a localized string similar to Distance.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Html_TblTitle_Station">
+	<summary>
+  Looks up a localized string similar to Station.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Html_TblTitle_TurnedL">
+	<summary>
+  Looks up a localized string similar to Turned.Left.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Html_TblTitle_TurnedR">
+	<summary>
+  Looks up a localized string similar to Turned.Right.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Html_Title">
+	<summary>
+  Looks up a localized string similar to Stakeout Alignment Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Msg_2Points">
+	<summary>
+  Looks up a localized string similar to Less than 2 points in current drawing..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Msg_InputPoint">
+	<summary>
+  Looks up a localized string similar to Please input the correct point number.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Msg_SamePoint">
+	<summary>
+  Looks up a localized string similar to The backsight point can not be the same as occupied point.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Msg_SelectBacksightPoint">
+	<summary>
+  Looks up a localized string similar to Please select a backsight point..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.AlignStakeout_Msg_SelectOccupiedPoint">
+	<summary>
+  Looks up a localized string similar to Please select a occupied point..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Common_Html_Date">
+	<summary>
+  Looks up a localized string similar to Date: {0}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Common_Html_Description_One_Param">
+	<summary>
+  Looks up a localized string similar to Description: {0}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Form_ColumnTitle_Check">
+	<summary>
+  Looks up a localized string similar to Select.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Form_ColumnTitle_Codes">
+	<summary>
+  Looks up a localized string similar to Point codes.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Form_ColumnTitle_LinkCodes">
+	<summary>
+  Looks up a localized string similar to Link codes.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Form_ColumnTitle_PointCodes">
+	<summary>
+  Looks up a localized string similar to Point codes.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Form_ColumnTitle_Surfaces">
+	<summary>
+  Looks up a localized string similar to Surfaces.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Form_List_FeatLns">
+	<summary>
+  Looks up a localized string similar to List of feature lines.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Form_List_Links">
+	<summary>
+  Looks up a localized string similar to List of corridor links.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Form_List_Surfaces">
+	<summary>
+  Looks up a localized string similar to List of surfaces.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Html_Alignment">
+	<summary>
+  Looks up a localized string similar to Alignment :.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Html_Alignment_StaEnd">
+	<summary>
+  Looks up a localized string similar to ,  End:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Html_Alignment_StaRange">
+	<summary>
+  Looks up a localized string similar to Station Range:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Html_Alignment_StaStart">
+	<summary>
+  Looks up a localized string similar to Start:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Html_AlignmentDescription">
+	<summary>
+  Looks up a localized string similar to Description:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Html_AlignmentNameLabel">
+	<summary>
+  Looks up a localized string similar to Base Alignment Name:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Html_Chainage">
+	<summary>
+  Looks up a localized string similar to Station.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Html_ChainageInterval">
+	<summary>
+  Looks up a localized string similar to Corridor Coordinates and Elevations at Station Interval.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Html_CorridorName">
+	<summary>
+  Looks up a localized string similar to Corridor Name:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Html_TblTitle_Crown">
+	<summary>
+  Looks up a localized string similar to Crown.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Html_TblTitle_Left">
+	<summary>
+  Looks up a localized string similar to Left.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Html_TblTitle_Right">
+	<summary>
+  Looks up a localized string similar to Right.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Html_TblTitleEasting">
+	<summary>
+  Looks up a localized string similar to Easting.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Html_TblTitleLevel">
+	<summary>
+  Looks up a localized string similar to Elevation.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Html_TblTitleNorthing">
+	<summary>
+  Looks up a localized string similar to Northing.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Html_Title">
+	<summary>
+  Looks up a localized string similar to Feature Line Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Html_To">
+	<summary>
+  Looks up a localized string similar to to.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Msg_CorridorRebuild">
+	<summary>
+  Looks up a localized string similar to The sample lines occur at a different increment than the value specified for Station Interval. Would you like to add sample stations to the corridor?.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Msg_NoAlignment">
+	<summary>
+  Looks up a localized string similar to No Alignment available..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Msg_NoCorridors">
+	<summary>
+  Looks up a localized string similar to No corridors in  &amp;DrawingName&amp; exist..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Msg_NoCorridorsOrSurfaces">
+	<summary>
+  Looks up a localized string similar to No corridors or surfaces in  &amp;DrawingName&amp; exist..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Msg_NoFeatureLine">
+	<summary>
+  Looks up a localized string similar to No feature line for any corridor exist..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Msg_NoFeatureLinesSelected">
+	<summary>
+  Looks up a localized string similar to Please select at least a feature line from list first..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Msg_NoLinkCode">
+	<summary>
+  Looks up a localized string similar to No Link Code Availablde.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorCrossSection_Msg_NoSLG">
+	<summary>
+  Looks up a localized string similar to No Sample Line Group available..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorGrinding_Area">
+	<summary>
+  Looks up a localized string similar to Area.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorGrinding_Html_Title">
+	<summary>
+  Looks up a localized string similar to Corridor Milling Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorGrinding_OffsetAtBegin">
+	<summary>
+  Looks up a localized string similar to Offset from CL @ Begin.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorGrinding_OffsetAtEnd">
+	<summary>
+  Looks up a localized string similar to Offset from CL @ End.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorGrinding_OffsetFrom">
+	<summary>
+  Looks up a localized string similar to From.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorGrinding_OffsetTo">
+	<summary>
+  Looks up a localized string similar to To.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorGrinding_Station">
+	<summary>
+  Looks up a localized string similar to Station.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorGrinding_StationBegin">
+	<summary>
+  Looks up a localized string similar to Begin.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorGrinding_StationEnd">
+	<summary>
+  Looks up a localized string similar to End.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSectionPoints_Html_Chainage">
+	<summary>
+  Looks up a localized string similar to CHAINAGE           {0}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSectionPoints_Html_CorridorName">
+	<summary>
+  Looks up a localized string similar to Corridor Name: {0}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSectionPoints_Html_Offset">
+	<summary>
+  Looks up a localized string similar to OFFSET.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSectionPoints_Html_Point">
+	<summary>
+  Looks up a localized string similar to POINT.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSectionPoints_Html_StringCut">
+	<summary>
+  Looks up a localized string similar to STRING CUT.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSectionPoints_Html_Title">
+	<summary>
+  Looks up a localized string similar to Corridor Section Points Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSectionPoints_Html_X">
+	<summary>
+  Looks up a localized string similar to X.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSectionPoints_Html_Y">
+	<summary>
+  Looks up a localized string similar to Y.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSectionPoints_Html_Z">
+	<summary>
+  Looks up a localized string similar to Z.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSectionPoints_Msg_CorridorRebuild">
+	<summary>
+  Looks up a localized string similar to The sample lines occur at a different increment than the value specified for Station Interval. Would you like to add sample stations to the corridor?.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSectionPoints_Msg_NoAlignment">
+	<summary>
+  Looks up a localized string similar to No Alignment available..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSectionPoints_Msg_NoCorridors">
+	<summary>
+  Looks up a localized string similar to No corridors in  &amp;DrawingName&amp; exist..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_At">
+	<summary>
+  Looks up a localized string similar to @.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_BaseAlign">
+	<summary>
+  Looks up a localized string similar to Base Alignment Name:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_C">
+	<summary>
+  Looks up a localized string similar to C.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_Code">
+	<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_CorridorName">
+	<summary>
+  Looks up a localized string similar to Corridor Name: {0}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_CorridorName_Emia">
+	<summary>
+  Looks up a localized string similar to Corridor Name:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_Cumulative_Net_Volume">
+	<summary>
+  Looks up a localized string similar to Cumulative Net Volume: {0}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_Cut_Area">
+	<summary>
+  Looks up a localized string similar to Cut Area: {0}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_Description">
+	<summary>
+  Looks up a localized string similar to Description:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_Easting">
+	<summary>
+  Looks up a localized string similar to Easting.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_F">
+	<summary>
+  Looks up a localized string similar to F.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_Fill_Area">
+	<summary>
+  Looks up a localized string similar to Fill Area: {0}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_Level">
+	<summary>
+  Looks up a localized string similar to Elevation.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_LineGrp">
+	<summary>
+  Looks up a localized string similar to Sample Line Group Name:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_Link">
+	<summary>
+  Looks up a localized string similar to Link Code Name:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_Northing">
+	<summary>
+  Looks up a localized string similar to Northing.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_Offset">
+	<summary>
+  Looks up a localized string similar to Offset.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_One">
+	<summary>
+  Looks up a localized string similar to 1:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_Range">
+	<summary>
+  Looks up a localized string similar to Station Range: Start: &amp;StartStation&amp;, End: &amp;EndStation&amp;.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_SampleLineGroupName">
+	<summary>
+  Looks up a localized string similar to Sample Line Group Name:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_Slope">
+	<summary>
+  Looks up a localized string similar to Slope.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_Station">
+	<summary>
+  Looks up a localized string similar to Station: {0}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_Station_Emia">
+	<summary>
+  Looks up a localized string similar to Station:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_Surface">
+	<summary>
+  Looks up a localized string similar to Surface name:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Html_Title">
+	<summary>
+  Looks up a localized string similar to Corridor Slope Stake Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Msg_Added">
+	<summary>
+  Looks up a localized string similar to The component has already been reported..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Msg_NoAlignment">
+	<summary>
+  Looks up a localized string similar to No Alignment available..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Msg_NoAlignment_In_Corridor">
+	<summary>
+  Looks up a localized string similar to No Alignment available in {0}. {0} will be exculded..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Msg_NoComponent">
+	<summary>
+  Looks up a localized string similar to Please add at least one component..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Msg_NoLine">
+	<summary>
+  Looks up a localized string similar to No link available in select alignment..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Msg_NoLine_In_Corridor">
+	<summary>
+  Looks up a localized string similar to No link available in select alignment in {0}. {0} will be exculded..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Msg_NoLineGrp">
+	<summary>
+  Looks up a localized string similar to No sample line group available in selected alignment..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Msg_NoLineGrp_In_Corridor">
+	<summary>
+  Looks up a localized string similar to No sample line group available in selected alignment in {0}. {0} will be exculded..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Msg_NoSampleLine">
+	<summary>
+  Looks up a localized string similar to The selected sample line group has no Sample line..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Msg_NoSampleLine_In_Corridor">
+	<summary>
+  Looks up a localized string similar to The selected sample line group has no Sample line in {0}. {0} will be exculded..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Msg_SelectCorridor">
+	<summary>
+  Looks up a localized string similar to Select a corridor.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_Msg_SelectReject">
+	<summary>
+  Looks up a localized string similar to Please select a corridor..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorSlopeStake_None">
+	<summary>
+  Looks up a localized string similar to none.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_Html_Alignment">
+	<summary>
+  Looks up a localized string similar to Aignment: {0}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_Html_CumCutVolume">
+	<summary>
+  Looks up a localized string similar to Cum. Cut Vol. ({0}).
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_Html_CumFillVolume">
+	<summary>
+  Looks up a localized string similar to Cum. Fill Vol. ({0}).
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_Html_CumNetVol">
+	<summary>
+  Looks up a localized string similar to Cum. Net Vol. ({0}).
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_Html_CumReusableVolume">
+	<summary>
+  Looks up a localized string similar to Cum. Reusable Vol. ({0}).
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_Html_CutArea">
+	<summary>
+  Looks up a localized string similar to Cut Area ({0}).
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_Html_CutVolume">
+	<summary>
+  Looks up a localized string similar to Cut Volume ({0}).
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_Html_EndStation">
+	<summary>
+  Looks up a localized string similar to End Sta: {0}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_Html_FillArea">
+	<summary>
+  Looks up a localized string similar to Fill Area ({0}).
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_Html_FillVolume">
+	<summary>
+  Looks up a localized string similar to Fill Volume ({0}).
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_Html_MassHaulDiagram">
+	<summary>
+  Looks up a localized string similar to Mass Haul Diagram: {0}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_Html_ReusableVolume">
+	<summary>
+  Looks up a localized string similar to Reusable Volume ({0}).
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_Html_SampleLineGroup">
+	<summary>
+  Looks up a localized string similar to Sample Line Group: {0}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_Html_StartStation">
+	<summary>
+  Looks up a localized string similar to Start Sta: {0}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_Html_Station">
+	<summary>
+  Looks up a localized string similar to Station.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_Html_Title">
+	<summary>
+  Looks up a localized string similar to Volume Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_Msg_NoAlignment">
+	<summary>
+  Looks up a localized string similar to No alignment available..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_Msg_NoMaterialList">
+	<summary>
+  Looks up a localized string similar to No material list available in selected sample line group..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_Msg_NoSampleLineGroup">
+	<summary>
+  Looks up a localized string similar to No sample line group available in selected alignment..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CorridorVolume_None">
+	<summary>
+  Looks up a localized string similar to none.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_Alignment_EndRange">
+	<summary>
+  Looks up a localized string similar to Les pentes de dévers sont calculées en l'axe de la chaussée et le 1er point codé 'Bord de chaussée'.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_Alignment_StaEnd">
+	<summary>
+  Looks up a localized string similar to ,  End:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_Alignment_StaRange">
+	<summary>
+  Looks up a localized string similar to Station Range:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_Alignment_StaStart">
+	<summary>
+  Looks up a localized string similar to Start:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_AlignmentDescription">
+	<summary>
+  Looks up a localized string similar to Description:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_AlignmentNameLabel">
+	<summary>
+  Looks up a localized string similar to Base Alignment Name:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_CorridorName">
+	<summary>
+  Looks up a localized string similar to Corridor Name:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_Header">
+	<summary>
+  Looks up a localized string similar to Lane Slope Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_SampleLineGroupName">
+	<summary>
+  Looks up a localized string similar to Sample Line Group Name:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_TblTitle_DevD">
+	<summary>
+  Looks up a localized string similar to Slope Right.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_TblTitle_DevG">
+	<summary>
+  Looks up a localized string similar to Slope Left.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_TblTitle_Num">
+	<summary>
+  Looks up a localized string similar to SL Name.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_TblTitle_PK">
+	<summary>
+  Looks up a localized string similar to Station.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_TblTitle_X">
+	<summary>
+  Looks up a localized string similar to X.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_TblTitle_Y">
+	<summary>
+  Looks up a localized string similar to Y.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_TblTitle_Z_Proj">
+	<summary>
+  Looks up a localized string similar to Z Proj.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_TblTitle_Z_Proj_LN1">
+	<summary>
+  Looks up a localized string similar to Layout Profile.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_TblTitle_Z_Proj_LN2">
+	<summary>
+  Looks up a localized string similar to Elevation.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_TblTitle_Z_TN">
+	<summary>
+  Looks up a localized string similar to Z TN.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_TblTitle_Z_TN_LN1">
+	<summary>
+  Looks up a localized string similar to Existing Ground.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_TblTitle_Z_TN_LN2">
+	<summary>
+  Looks up a localized string similar to Elevation.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Html_Title">
+	<summary>
+  Looks up a localized string similar to Lane Slope Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_ListView_ColumnTitle_Alignment">
+	<summary>
+  Looks up a localized string similar to Alignment.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_ListView_ColumnTitle_Corridor">
+	<summary>
+  Looks up a localized string similar to Corridor.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_ListView_ColumnTitle_Description">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_ListView_ColumnTitle_Include">
+	<summary>
+  Looks up a localized string similar to Include.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_ListView_ColumnTitle_Name">
+	<summary>
+  Looks up a localized string similar to Name.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_ListView_ColumnTitle_Profile">
+	<summary>
+  Looks up a localized string similar to Profile.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_ListView_ColumnTitle_StationEnd">
+	<summary>
+  Looks up a localized string similar to Station End.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_ListView_ColumnTitle_StationStart">
+	<summary>
+  Looks up a localized string similar to Station Start.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_ListView_NoCorridorInDrawing">
+	<summary>
+  Looks up a localized string similar to No corridors in &amp;DrawingName&amp; exist..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_ListView_NoProfileInDrawing">
+	<summary>
+  Looks up a localized string similar to No profiles in &amp;DrawingName&amp; exist..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_ListView_NoSampleLineGroupsInDrawing">
+	<summary>
+  Looks up a localized string similar to No sample line groups in &amp;DrawingName&amp; exist..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Msg_NoCrownData">
+	<summary>
+  Looks up a localized string similar to No crown data is available. Do you still want to display the columns of crown data in the resulting report?.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSection_Msg_SelectOneFirst">
+	<summary>
+  Looks up a localized string similar to Select at least a sample line groupe firstly..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.CrossSectionListView_NoSurfaceProfile">
+	<summary>
+  Looks up a localized string similar to No surface profile for the corridor baseline..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_Alignment_StaEnd">
+	<summary>
+  Looks up a localized string similar to ,  End:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_Alignment_StaRange">
+	<summary>
+  Looks up a localized string similar to Station Range:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_Alignment_StaStart">
+	<summary>
+  Looks up a localized string similar to Start:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_AlignmentDescription">
+	<summary>
+  Looks up a localized string similar to Description:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_AlignmentNameLabel">
+	<summary>
+  Looks up a localized string similar to Base Alignment Name:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_CorridorName">
+	<summary>
+  Looks up a localized string similar to Corridor Name:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_Header">
+	<summary>
+  Looks up a localized string similar to Daylight Line Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_SampleLineGroupName">
+	<summary>
+  Looks up a localized string similar to Sample Line Group Name:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_TblTitle_EMPD_LN1">
+	<summary>
+  Looks up a localized string similar to Right Daylight.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_TblTitle_EMPD_LN2">
+	<summary>
+  Looks up a localized string similar to Offset.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_TblTitle_EMPG_LN1">
+	<summary>
+  Looks up a localized string similar to Left Daylight.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_TblTitle_EMPG_LN2">
+	<summary>
+  Looks up a localized string similar to Offset.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_TblTitle_Num">
+	<summary>
+  Looks up a localized string similar to SL Name.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_TblTitle_PK">
+	<summary>
+  Looks up a localized string similar to Station.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_TblTitle_XD">
+	<summary>
+  Looks up a localized string similar to X Right.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_TblTitle_XG">
+	<summary>
+  Looks up a localized string similar to X Left.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_TblTitle_YD">
+	<summary>
+  Looks up a localized string similar to Y Right.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_TblTitle_YG">
+	<summary>
+  Looks up a localized string similar to Y Left.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_TblTitle_ZD">
+	<summary>
+  Looks up a localized string similar to Z Right.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_TblTitle_ZG">
+	<summary>
+  Looks up a localized string similar to Z Left.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Html_Title">
+	<summary>
+  Looks up a localized string similar to Daylight Line Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Daylight_Msg_SelectOneFirst">
+	<summary>
+  Looks up a localized string similar to Select at least a sample line groupe firstly..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_AnnotationEnd">
+	<summary>
+  Looks up a localized string similar to End.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_AnnotationStart">
+	<summary>
+  Looks up a localized string similar to Start.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_BeginOfAlignment">
+	<summary>
+  Looks up a localized string similar to Begin of Alignment.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_CompCurveCurve">
+	<summary>
+  Looks up a localized string similar to Curve - Curve.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_CompTransitionTransition">
+	<summary>
+  Looks up a localized string similar to Transition - Transition.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_CPI">
+	<summary>
+  Looks up a localized string similar to CPI.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_CreatedFromSameAlignment">
+	<summary>
+  Looks up a localized string similar to Profiles must be referenced to the same Alignment!.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_CurveLine">
+	<summary>
+  Looks up a localized string similar to Curve - Line.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_CurveTransition">
+	<summary>
+  Looks up a localized string similar to Curve - Transition.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_EndOfAlignment">
+	<summary>
+  Looks up a localized string similar to End of Alignment.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_EndStartVerticalTP">
+	<summary>
+  Looks up a localized string similar to End Vertical TP.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_Existing">
+	<summary>
+  Looks up a localized string similar to Existing.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_HighPoint">
+	<summary>
+  Looks up a localized string similar to High Point.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_Html_Alignment_End">
+	<summary>
+  Looks up a localized string similar to , End:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_Html_Alignment_Start">
+	<summary>
+  Looks up a localized string similar to Start:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_Html_Alignment_StationRange">
+	<summary>
+  Looks up a localized string similar to Station Range:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_Html_Description">
+	<summary>
+  Looks up a localized string similar to Description:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_Html_ExistingProfileName">
+	<summary>
+  Looks up a localized string similar to Existing Profile:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_Html_Header">
+	<summary>
+  Looks up a localized string similar to Profile Elevation Differences Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_Html_TblTitle_Easting">
+	<summary>
+  Looks up a localized string similar to Easting.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_Html_TblTitle_ElevationDesign">
+	<summary>
+  Looks up a localized string similar to Elevation Design.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_Html_TblTitle_ElevationDifference">
+	<summary>
+  Looks up a localized string similar to Elevation Difference.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_Html_TblTitle_ElevationExisting">
+	<summary>
+  Looks up a localized string similar to Elevation Existing.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_Html_TblTitle_Northing">
+	<summary>
+  Looks up a localized string similar to Northing.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_Html_TblTitle_PointType">
+	<summary>
+  Looks up a localized string similar to Point Type.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_Html_TblTitle_PVI">
+	<summary>
+  Looks up a localized string similar to PVI.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_Html_TblTitle_Station">
+	<summary>
+  Looks up a localized string similar to Station.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_Html_Title">
+	<summary>
+  Looks up a localized string similar to Profile Elevation Differences Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_Html_VertAlignName">
+	<summary>
+  Looks up a localized string similar to Vertical Alignment:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_LineCurve">
+	<summary>
+  Looks up a localized string similar to Line - Curve.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_LineLine">
+	<summary>
+  Looks up a localized string similar to Line - Line.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_LineTransition">
+	<summary>
+  Looks up a localized string similar to Line - Transition.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_LowPoint">
+	<summary>
+  Looks up a localized string similar to Low Point.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_Msg_NoProfiles">
+	<summary>
+  Looks up a localized string similar to No profiles in &amp;DrawingName&amp; exist..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_PI">
+	<summary>
+  Looks up a localized string similar to PI.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_Regular">
+	<summary>
+  Looks up a localized string similar to Regular.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_RevCurveCurve">
+	<summary>
+  Looks up a localized string similar to Curve - Curve.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_RevTransitionTransition">
+	<summary>
+  Looks up a localized string similar to Transition - Transition.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_SPI">
+	<summary>
+  Looks up a localized string similar to SPI.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_StartVerticalTP">
+	<summary>
+  Looks up a localized string similar to Start Vertical TP.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_TransitionCurve">
+	<summary>
+  Looks up a localized string similar to Transition - Curve.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_TransitionLine">
+	<summary>
+  Looks up a localized string similar to Transition - Line.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ExistingProfilePoints_VPI">
+	<summary>
+  Looks up a localized string similar to PVI.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.FileDialog_Error_Ext">
+	<summary>
+  Looks up a localized string similar to Please Choose the right file type..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.FileDialog_Filter_All">
+	<summary>
+  Looks up a localized string similar to All Files|*.*.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.FileDialog_Filter_Doc">
+	<summary>
+  Looks up a localized string similar to Word 97-2003 Document|*.DOC.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.FileDialog_Filter_Geo">
+	<summary>
+  Looks up a localized string similar to GEO Files|*.GEO.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.FileDialog_Filter_Html">
+	<summary>
+  Looks up a localized string similar to HTML Files|*.HTML.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.FileDialog_Filter_Pdf">
+	<summary>
+  Looks up a localized string similar to Adobe PDF Files|*.PDF.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.FileDialog_Filter_Txt">
+	<summary>
+  Looks up a localized string similar to Text Documents|*.TXT.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.FileDialog_Filter_Xls">
+	<summary>
+  Looks up a localized string similar to Excel 97-2003 Workbook|*.XLS.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.FileDialog_Title_ReportFile">
+	<summary>
+  Looks up a localized string similar to Select a Report File.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Form_ColumnTitle_BeginPt">
+	<summary>
+  Looks up a localized string similar to Begin Point.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Form_ColumnTitle_EndPt">
+	<summary>
+  Looks up a localized string similar to End Point.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Form_ColumnTitle_Name">
+	<summary>
+  Looks up a localized string similar to Name.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Form_SelectFile">
+	<summary>
+  Looks up a localized string similar to Select a File.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Msg_AddErr">
+	<summary>
+  Looks up a localized string similar to The reach's name already exists, or there is an input error in the begin or end point..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Msg_NoAlignment">
+	<summary>
+  Looks up a localized string similar to There is no alignment with an associated sample line group..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Msg_NoReach">
+	<summary>
+  Looks up a localized string similar to Please create at least one reach..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_BeginCross">
+	<summary>
+  Looks up a localized string similar to BEGIN CROSS SECTIONS:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_BeginHeader">
+	<summary>
+  Looks up a localized string similar to BEGIN HEADER:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_BeginStream">
+	<summary>
+  Looks up a localized string similar to BEGIN STREAM NETWORK:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_CenterLine">
+	<summary>
+  Looks up a localized string similar to CENTERLINE:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_CenterLine_Value">
+	<summary>
+  Looks up a localized string similar to {0}, {1}, {2}, {3}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_Complete">
+	<summary>
+  Looks up a localized string similar to FILE COMPLETE:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_CrossSection">
+	<summary>
+  Looks up a localized string similar to CROSS SECTION:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_CutLine">
+	<summary>
+  Looks up a localized string similar to CUT LINE:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_CutLine_Value">
+	<summary>
+  Looks up a localized string similar to {0}, {1}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_Data">
+	<summary>
+  Looks up a localized string similar to Date:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_Datum">
+	<summary>
+  Looks up a localized string similar to DATUM:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_Dtm">
+	<summary>
+  Looks up a localized string similar to DTM:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_DtmType">
+	<summary>
+  Looks up a localized string similar to DTM TYPE:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_End">
+	<summary>
+  Looks up a localized string similar to End:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_EndCross">
+	<summary>
+  Looks up a localized string similar to END CROSS SECTIONS:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_EndHeader">
+	<summary>
+  Looks up a localized string similar to END HEADER:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_EndPoint">
+	<summary>
+  Looks up a localized string similar to ENDPOINT: {0}, {1}, {2}, {3}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_EndStream">
+	<summary>
+  Looks up a localized string similar to END STREAM NETWORK:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_English">
+	<summary>
+  Looks up a localized string similar to ENGLISH.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_FromPt">
+	<summary>
+  Looks up a localized string similar to FROM POINT:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_Grid">
+	<summary>
+  Looks up a localized string similar to GRID.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_GridVolume">
+	<summary>
+  Looks up a localized string similar to GRIDVOLUME.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_MapProj">
+	<summary>
+  Looks up a localized string similar to MAP PROJECTION:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_Metric">
+	<summary>
+  Looks up a localized string similar to METRIC.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_Reach">
+	<summary>
+  Looks up a localized string similar to REACH:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_ReachID">
+	<summary>
+  Looks up a localized string similar to REACH ID:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_ReachNum">
+	<summary>
+  Looks up a localized string similar to NUMBER OF REACHES:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_Report">
+	<summary>
+  Looks up a localized string similar to HEC-RAS Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_SectionNum">
+	<summary>
+  Looks up a localized string similar to NUMBER OF CROSS-SECTIONS:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_Station">
+	<summary>
+  Looks up a localized string similar to STATION:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_StreamID">
+	<summary>
+  Looks up a localized string similar to STREAM ID:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_Tin">
+	<summary>
+  Looks up a localized string similar to TIN.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_TinVolume">
+	<summary>
+  Looks up a localized string similar to TINVOLUME.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_ToPt">
+	<summary>
+  Looks up a localized string similar to TO POINT:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.HECRAS_Txt_Units">
+	<summary>
+  Looks up a localized string similar to UNITS:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ListView_Column_Alignment">
+	<summary>
+  Looks up a localized string similar to Alignment.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ListView_Column_Corridor_LinkCode">
+	<summary>
+  Looks up a localized string similar to Link.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ListView_Column_Corridor_SampleLineGroup">
+	<summary>
+  Looks up a localized string similar to Sample Line Group.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ListView_Column_Description">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ListView_Column_Include">
+	<summary>
+  Looks up a localized string similar to Include.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ListView_Column_Material_List">
+	<summary>
+  Looks up a localized string similar to Material List.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ListView_Column_Name">
+	<summary>
+  Looks up a localized string similar to Name.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ListView_Column_StationEnd">
+	<summary>
+  Looks up a localized string similar to Station End.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ListView_Column_StationStart">
+	<summary>
+  Looks up a localized string similar to Station Start.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.MS_Excel_range_ERR">
+	<summary>
+  Looks up a localized string similar to Error: MS Excel range == null.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.MS_Excel_save_ERR">
+	<summary>
+  Looks up a localized string similar to Error: Can not save to Excel file!.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.MS_Excel_worksheet_ERR">
+	<summary>
+  Looks up a localized string similar to Error: MS Excel worksheet == null.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.MS_ExcelNotFound">
+	<summary>
+  Looks up a localized string similar to Microsoft Excel was not found..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Msg_EndStation_Greater_StartStation">
+	<summary>
+  Looks up a localized string similar to The end station should be greater than the start station..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Msg_Input_Right_Format_Station">
+	<summary>
+  Looks up a localized string similar to Please input right format for station..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Msg_No_Alignments_In_Drawing">
+	<summary>
+  Looks up a localized string similar to No alignments in {0}..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Msg_No_Corridors_In_Drawing">
+	<summary>
+  Looks up a localized string similar to No corridors in  {0}..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Msg_No_FG_Profile_In_Drawing">
+	<summary>
+  Looks up a localized string similar to No FG profiles in {0}..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Msg_No_Parcels_In_Drawing">
+	<summary>
+  Looks up a localized string similar to No parcels in  {0}..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Msg_No_Points_In_Drawing">
+	<summary>
+  Looks up a localized string similar to No points in {0}..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Msg_No_Profile_In_Drawing">
+	<summary>
+  Looks up a localized string similar to No profiles in {0}..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Msg_No_VolSurface_Parcel_In_Drawing">
+	<summary>
+  Looks up a localized string similar to No volume surfaces or parcels in {0}..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Msg_StartStation_Less_EndStation">
+	<summary>
+  Looks up a localized string similar to The start station should be less than the end station..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Msg_Station_Out_Range">
+	<summary>
+  Looks up a localized string similar to The station value is out of range..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_Area">
+	<summary>
+  Looks up a localized string similar to Area:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_ChCourse">
+	<summary>
+  Looks up a localized string similar to Ch Bearing:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_Chord">
+	<summary>
+  Looks up a localized string similar to Chord:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_CounterClockwise_False">
+	<summary>
+  Looks up a localized string similar to Process segment order counterclockwise: False.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_CounterClockwise_True">
+	<summary>
+  Looks up a localized string similar to Process segment order counterclockwise: True.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_Course">
+	<summary>
+  Looks up a localized string similar to Bearing:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_CourseIn">
+	<summary>
+  Looks up a localized string similar to Course In:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_CourseOut">
+	<summary>
+  Looks up a localized string similar to Course Out:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_Curve">
+	<summary>
+  Looks up a localized string similar to Segment {0}: Curve.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_Delta">
+	<summary>
+  Looks up a localized string similar to Delta:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_East">
+	<summary>
+  Looks up a localized string similar to East:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_EndNorth">
+	<summary>
+  Looks up a localized string similar to End North:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_ErrClosure">
+	<summary>
+  Looks up a localized string similar to Error Closure:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_ErrNorth">
+	<summary>
+  Looks up a localized string similar to Error North :.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_Length">
+	<summary>
+  Looks up a localized string similar to Length:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_Line">
+	<summary>
+  Looks up a localized string similar to Segment {0}: Line.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_MapCheck_False">
+	<summary>
+  Looks up a localized string similar to Enable mapcheck across chord: False.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_MapCheck_True">
+	<summary>
+  Looks up a localized string similar to Enable mapcheck across chord: True.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_North">
+	<summary>
+  Looks up a localized string similar to North:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_ParcelName">
+	<summary>
+  Looks up a localized string similar to Parcel Name:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_Perimeter">
+	<summary>
+  Looks up a localized string similar to Perimeter:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_Precision1">
+	<summary>
+  Looks up a localized string similar to Precision 1:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_Radius">
+	<summary>
+  Looks up a localized string similar to Radius:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_RPNorth">
+	<summary>
+  Looks up a localized string similar to RP North:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_Tangent">
+	<summary>
+  Looks up a localized string similar to Tangent:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Html_Title">
+	<summary>
+  Looks up a localized string similar to Parcel Map Check Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelMapCheck_Msg_SelectParcel">
+	<summary>
+  Looks up a localized string similar to Please select at least one parcel..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelVol_Form_Grid">
+	<summary>
+  Looks up a localized string similar to Grid.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelVol_Form_SelectParcel">
+	<summary>
+  Looks up a localized string similar to Select a parcel.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelVol_Form_SelectReject">
+	<summary>
+  Looks up a localized string similar to Please select a parcel.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelVol_Form_Tin">
+	<summary>
+  Looks up a localized string similar to Tin.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelVol_Html_Cut">
+	<summary>
+  Looks up a localized string similar to Cut correction:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelVol_Html_Ele">
+	<summary>
+  Looks up a localized string similar to Elevation Tolerance:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelVol_Html_Fill">
+	<summary>
+  Looks up a localized string similar to Fill correction:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelVol_Html_TblTitle_Cut">
+	<summary>
+  Looks up a localized string similar to Cut Volume.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelVol_Html_TblTitle_Fill">
+	<summary>
+  Looks up a localized string similar to Fill Volume.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelVol_Html_TblTitle_Net">
+	<summary>
+  Looks up a localized string similar to Net Volume.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelVol_Html_Title">
+	<summary>
+  Looks up a localized string similar to Parcel Volume Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelVol_Html_VolSurface">
+	<summary>
+  Looks up a localized string similar to Volume Surface:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelVol_Msg_EleInput">
+	<summary>
+  Looks up a localized string similar to Please input a number between 0.000 and 1.000..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelVol_Msg_FillCutInput">
+	<summary>
+  Looks up a localized string similar to Please input a number between 1.000 and 2.000..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParcelVol_Msg_SelectParcelSurface">
+	<summary>
+  Looks up a localized string similar to Please select a parcel and a volume surface.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParceMapCheck_Form_ColumnTitle_Area">
+	<summary>
+  Looks up a localized string similar to Area.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParceMapCheck_Form_ColumnTitle_Description">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParceMapCheck_Form_ColumnTitle_Include">
+	<summary>
+  Looks up a localized string similar to Include.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParceMapCheck_Form_ColumnTitle_Name">
+	<summary>
+  Looks up a localized string similar to Name.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParceMapCheck_Form_ColumnTitle_Number">
+	<summary>
+  Looks up a localized string similar to Number.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParceMapCheck_Form_ColumnTitle_Perimeter">
+	<summary>
+  Looks up a localized string similar to Perimeter.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParceMapCheck_Form_Settings_Format_D">
+	<summary>
+  Looks up a localized string similar to (d).
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParceMapCheck_Form_Settings_Format_DDMS">
+	<summary>
+  Looks up a localized string similar to DD.MMSSSS.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParceMapCheck_Form_Settings_Format_DMS">
+	<summary>
+  Looks up a localized string similar to DD°MM'SS.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ParceMapCheck_Form_Settings_Format_DMSS">
+	<summary>
+  Looks up a localized string similar to DD° MM' SS.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Form_ColumnTitle_Easting">
+	<summary>
+  Looks up a localized string similar to Easting.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Form_ColumnTitle_Elevation">
+	<summary>
+  Looks up a localized string similar to Point Elevation.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Form_ColumnTitle_FullDesc">
+	<summary>
+  Looks up a localized string similar to Full Description.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Form_ColumnTitle_Include">
+	<summary>
+  Looks up a localized string similar to Include.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Form_ColumnTitle_Name">
+	<summary>
+  Looks up a localized string similar to Name.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Form_ColumnTitle_Northing">
+	<summary>
+  Looks up a localized string similar to Northing.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Form_ColumnTitle_PointNum">
+	<summary>
+  Looks up a localized string similar to Point Number.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Form_ColumnTitle_RawDesc">
+	<summary>
+  Looks up a localized string similar to Raw Description.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Form_EquationApp">
+	<summary>
+  Looks up a localized string similar to Applied.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Form_EquationNone">
+	<summary>
+  Looks up a localized string similar to None.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Form_OutRange">
+	<summary>
+  Looks up a localized string similar to Out of range.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Form_Reject">
+	<summary>
+  Looks up a localized string similar to Please select an alignment..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Form_SelectAlign">
+	<summary>
+  Looks up a localized string similar to Select an alignment.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Form_StaRange">
+	<summary>
+  Looks up a localized string similar to Start: {0} -- End: {1}.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Html_AlignName">
+	<summary>
+  Looks up a localized string similar to Alignment Name:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Html_TblTitle_Desc">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Html_TblTitle_Ele">
+	<summary>
+  Looks up a localized string similar to Elevation.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Html_TblTitle_Offset">
+	<summary>
+  Looks up a localized string similar to Offset.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Html_TblTitle_OutRange">
+	<summary>
+  Looks up a localized string similar to Out of Range: The Point is not adjacent to alignment..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Html_TblTitle_Point">
+	<summary>
+  Looks up a localized string similar to Point.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Html_TblTitle_Station">
+	<summary>
+  Looks up a localized string similar to Station.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Html_Title">
+	<summary>
+  Looks up a localized string similar to Station Offset to Points Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.PointsStaOffset_Msg_SelectPoint">
+	<summary>
+  Looks up a localized string similar to Please select at least one Point..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Profile_Msg_NoStaticProfiles">
+	<summary>
+  Looks up a localized string similar to There are no static profiles. No existing ground elevation data will be reported. Do you want to continue?.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Profile_Msg_SelectOneFirst">
+	<summary>
+  Looks up a localized string similar to Please select at least one profile..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_Cleared">
+	<summary>
+  Looks up a localized string similar to Cleared.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_CrestCurve">
+	<summary>
+  Looks up a localized string similar to Crest Curve:Parabolic.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_CurveLength">
+	<summary>
+  Looks up a localized string similar to Curve Length:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_DesignChecks">
+	<summary>
+  Looks up a localized string similar to Design Checks:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_DesignCriteria">
+	<summary>
+  Looks up a localized string similar to Design Criteria:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_DesignSpeed">
+	<summary>
+  Looks up a localized string similar to Design Speed:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_GradeIn">
+	<summary>
+  Looks up a localized string similar to Grade in(%):.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_GradeOut">
+	<summary>
+  Looks up a localized string similar to Grade out(%):.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_Header">
+	<summary>
+  Looks up a localized string similar to Profile Design Criteria Verification Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_K">
+	<summary>
+  Looks up a localized string similar to K:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_MinKForHeadlightSightDis">
+	<summary>
+  Looks up a localized string similar to Minimum K for Headlight Sight Distance:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_MinKForPassingSightDis">
+	<summary>
+  Looks up a localized string similar to Minimum K for Passing Sight Distance:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_MinKForStoppingSightDis">
+	<summary>
+  Looks up a localized string similar to Minimum K for Stopping Sight Distance:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_ProfileNameLabel">
+	<summary>
+  Looks up a localized string similar to Vertical Alignment:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_PVCStation">
+	<summary>
+  Looks up a localized string similar to PVC Station:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_PVIStation">
+	<summary>
+  Looks up a localized string similar to PVI Station:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_PVTStation">
+	<summary>
+  Looks up a localized string similar to PVT Station:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_SagCurve">
+	<summary>
+  Looks up a localized string similar to Sag Curve:Parabolic.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_Title">
+	<summary>
+  Looks up a localized string similar to Profile Design Criteria Verification.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileCriVer_Html_Violated">
+	<summary>
+  Looks up a localized string similar to Violated.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileListView_ColumnTitle_Alignment">
+	<summary>
+  Looks up a localized string similar to Alignment.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileListView_ColumnTitle_Description">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileListView_ColumnTitle_Include">
+	<summary>
+  Looks up a localized string similar to Include.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileListView_ColumnTitle_Name">
+	<summary>
+  Looks up a localized string similar to Name.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileListView_ColumnTitle_StationEnd">
+	<summary>
+  Looks up a localized string similar to Station End.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileListView_ColumnTitle_StationStart">
+	<summary>
+  Looks up a localized string similar to Station Start.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileListView_NoProfile">
+	<summary>
+  Looks up a localized string similar to No FG profiles in &amp;DrawingName&amp; exist..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfileListView_NoProfileInDrawing">
+	<summary>
+  Looks up a localized string similar to No profiles in &amp;DrawingName&amp; exist..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVCurve_Html_CurveRadius">
+	<summary>
+  Looks up a localized string similar to Curve Radius.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVCurve_Html_Header">
+	<summary>
+  Looks up a localized string similar to Profile Vertical Curve Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVCurve_Html_Title">
+	<summary>
+  Looks up a localized string similar to Vertical Curve Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_Change">
+	<summary>
+  Looks up a localized string similar to Change:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_CrestCurve">
+	<summary>
+  Looks up a localized string similar to Vertical Curve Information:(crest curve).
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_CurveLength">
+	<summary>
+  Looks up a localized string similar to Curve Length:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_Elevation">
+	<summary>
+  Looks up a localized string similar to Elevation:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_GradeIn">
+	<summary>
+  Looks up a localized string similar to Grade in:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_GradeOut">
+	<summary>
+  Looks up a localized string similar to Grade out:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_Header">
+	<summary>
+  Looks up a localized string similar to Profile PVI Station &amp; Curve Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_HeadlightDistance">
+	<summary>
+  Looks up a localized string similar to Headlight Distance:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_HighPoint">
+	<summary>
+  Looks up a localized string similar to High Point:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_K">
+	<summary>
+  Looks up a localized string similar to K:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_LowPoint">
+	<summary>
+  Looks up a localized string similar to Low Point:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_PassingDistance">
+	<summary>
+  Looks up a localized string similar to Passing Distance:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_ProfileNameLabel">
+	<summary>
+  Looks up a localized string similar to Vertical Alignment:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_PVCStation">
+	<summary>
+  Looks up a localized string similar to PVC Station:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_PVIStation">
+	<summary>
+  Looks up a localized string similar to PVI Station:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_PVTStation">
+	<summary>
+  Looks up a localized string similar to PVT Station:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_SagCurve">
+	<summary>
+  Looks up a localized string similar to Vertical Curve Information:(sag curve).
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_StoppingDistance">
+	<summary>
+  Looks up a localized string similar to Stopping Distance:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_TblTitle_CurveLength">
+	<summary>
+  Looks up a localized string similar to Curve Length.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_TblTitle_GradeOut">
+	<summary>
+  Looks up a localized string similar to Grade Out.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_TblTitle_PVI">
+	<summary>
+  Looks up a localized string similar to PVI.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_TblTitle_Station">
+	<summary>
+  Looks up a localized string similar to Station.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfPVICurve_Html_Title">
+	<summary>
+  Looks up a localized string similar to PVI Station&amp;Curve Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfStaInc_Html_Crest">
+	<summary>
+  Looks up a localized string similar to Crest.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfStaInc_Html_Profile_Name">
+	<summary>
+  Looks up a localized string similar to Vertical Alignment:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfStaInc_Html_PVC">
+	<summary>
+  Looks up a localized string similar to PVC.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfStaInc_Html_PVI">
+	<summary>
+  Looks up a localized string similar to PVI.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfStaInc_Html_PVT">
+	<summary>
+  Looks up a localized string similar to PVT.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfStaInc_Html_Sag">
+	<summary>
+  Looks up a localized string similar to Sag.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfStaInc_Html_StationInc">
+	<summary>
+  Looks up a localized string similar to Station Increment:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfStaInc_Html_TblTitle_Elevation">
+	<summary>
+  Looks up a localized string similar to Elevation.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfStaInc_Html_TblTitle_GradePercent">
+	<summary>
+  Looks up a localized string similar to Grade Percent (%).
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfStaInc_Html_TblTitle_Location">
+	<summary>
+  Looks up a localized string similar to Location.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfStaInc_Html_TblTitle_Station">
+	<summary>
+  Looks up a localized string similar to Station.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ProfStaInc_Html_Title">
+	<summary>
+  Looks up a localized string similar to PVI Station Increment Report.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.Report_InitError">
+	<summary>
+  Looks up a localized string similar to Civil 3D Reports.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportForm_CrossSection_NoSurfaceProfile">
+	<summary>
+  Looks up a localized string similar to Can't find surface profile for alignment {0}, no existing ground elevation data will be reported.{1}Do you want to continue?.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_Acre">
+	<summary>
+  Looks up a localized string similar to Acre.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_CuFt">
+	<summary>
+  Looks up a localized string similar to Cu.Ft.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_CuM">
+	<summary>
+  Looks up a localized string similar to Cu.M..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_CuYd">
+	<summary>
+  Looks up a localized string similar to Cu.Yd.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_Decimal">
+	<summary>
+  Looks up a localized string similar to (d).
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_Dms">
+	<summary>
+  Looks up a localized string similar to (dms).
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_EastLowercase">
+	<summary>
+  Looks up a localized string similar to east.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_EastTitleCaps">
+	<summary>
+  Looks up a localized string similar to East.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_EastUppercase">
+	<summary>
+  Looks up a localized string similar to EAST.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_ELowercase">
+	<summary>
+  Looks up a localized string similar to e.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_EUppercase">
+	<summary>
+  Looks up a localized string similar to E.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_Foot">
+	<summary>
+  Looks up a localized string similar to '.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_G">
+	<summary>
+  Looks up a localized string similar to (g).
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_Hectare">
+	<summary>
+  Looks up a localized string similar to Hectare.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_Inch">
+	<summary>
+  Looks up a localized string similar to ".
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_Km">
+	<summary>
+  Looks up a localized string similar to km.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_M">
+	<summary>
+  Looks up a localized string similar to m.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_Miles">
+	<summary>
+  Looks up a localized string similar to miles.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_NLowercase">
+	<summary>
+  Looks up a localized string similar to n.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_NorthLowercase">
+	<summary>
+  Looks up a localized string similar to north.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_NorthTitleCaps">
+	<summary>
+  Looks up a localized string similar to North.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_NorthUppercase">
+	<summary>
+  Looks up a localized string similar to NORTH.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_NUppercase">
+	<summary>
+  Looks up a localized string similar to N.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_R">
+	<summary>
+  Looks up a localized string similar to (r).
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_SLowercase">
+	<summary>
+  Looks up a localized string similar to s.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_SouthLowercase">
+	<summary>
+  Looks up a localized string similar to south.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_SouthTitleCaps">
+	<summary>
+  Looks up a localized string similar to South.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_SouthUppercase">
+	<summary>
+  Looks up a localized string similar to SOUTH.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_SqFt">
+	<summary>
+  Looks up a localized string similar to Sq.Ft..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_SqKm">
+	<summary>
+  Looks up a localized string similar to Sq.Km..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_SqM">
+	<summary>
+  Looks up a localized string similar to Sq.M..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_SqMile">
+	<summary>
+  Looks up a localized string similar to Sq.Mile.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_SqYd">
+	<summary>
+  Looks up a localized string similar to Sq.Yd..
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_SUppercase">
+	<summary>
+  Looks up a localized string similar to S.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_WestLowercase">
+	<summary>
+  Looks up a localized string similar to west.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_WestTitleCaps">
+	<summary>
+  Looks up a localized string similar to West.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_WestUppercase">
+	<summary>
+  Looks up a localized string similar to WEST.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_WLowercase">
+	<summary>
+  Looks up a localized string similar to w.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_WUppercase">
+	<summary>
+  Looks up a localized string similar to W.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportFormat_yd">
+	<summary>
+  Looks up a localized string similar to yd.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportUtilitie_Msg_Title">
+	<summary>
+  Looks up a localized string similar to AutoCAD Civil 3D.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportWriter_Client">
+	<summary>
+  Looks up a localized string similar to Client:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.ReportWriter_PreparedBy">
+	<summary>
+  Looks up a localized string similar to Prepared by:.
+</summary>
+</member><member name="P:Report.My.Resources.LocalizedStrings.WarningDialog_Title">
+	<summary>
+  Looks up a localized string similar to Warning.
+</summary>
+</member><member name="T:Report.My.Resources.LocalizedStrings">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Report.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Report.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Report.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Report.ReportConverter.AeccConvertHtmlToPdf(System.String,System.String)">
+	<summary>
+ Convert a Html file to Pdf format file.
+ </summary>
+	<param name="fileFrom">Html file name.</param>
+	<param name="fileTo">Pdf file name.</param>
+	<remarks>This is implemented in AeccDotNetUtils.</remarks>
+</member><member name="M:Report.ReportCommand.Run(System.String)">
+	<summary>
+ Run AutoCAD command.
+ </summary>
+	<param name="commandName"></param>
+	<remarks>
+ Since toolbox will clear any command and partially typed command 
+ on the command line before calling the shared method for the command,
+ <c>Run()</c> sends command name to execute directly.
+ </remarks>
+</member><member name="T:Report.ReportCommand">
+	<summary>
+ Implements AutoCAD .NET extension commands for Reports.
+ </summary>
+	<remarks>
+ Most of the reports are implemented with Interop for Civil3D COM API for now.
+ This is because .NET reports are initially ported from VBA reports. That's 
+ why most of the .NET report code is VBA style, but not .NET style. For example,
+ array o string is used to hold the report data rather than a class or struct.
+ 
+ As Civil 3D .NET API becomes mature, new reports should be implemented using 
+ .NET API. DO NOT just copy the existed report code.
+ </remarks>
+</member><member name="M:Report.ReportApplication.InvokeHelp(System.String)">
+	<summary>
+ Invoke Civil3D help file for specified topic.
+ </summary>
+	<param name="topic"></param>
+	<remarks></remarks>
+</member><member name="T:Report.ReportApplication">
+	<summary>
+ Implement AutoCAD .NET Runtime extension application.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Report.ReportEntry">
+	<summary>
+ Report entries for tool box. The shared method names are used as macro
+ name in the tool box editor.
+ </summary>
+	<remarks>
+ Module <c>ReportEntry</c> holds shared functions for Civil Toolbox.
+ Before Civil 2011, the toolbox can only access shared functions in
+ .NET assembly. We add this to make compatible with legacy toolbox 
+ configuration file. This can be removed after we update the 
+ configuration file to use command names.
+ </remarks>
+</member><member name="P:Report.CtrlProfileListView.AllItemChecked">
+	<summary>
+ Indicates to check all items or only the first item initially.
+ </summary>
+	<value>
+ Set True if to check all item of the profile list initially. 
+ Set False to check the first item only.
+ </value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Report.ReportFormat.convertUnits(System.Double,Autodesk.AECC.Interop.Land.AeccAngleUnitType,Autodesk.AECC.Interop.Land.AeccAngleUnitType)">
+	<summary>
+ convertUnits is used to convert a double value
+ from one type of angular units to another (e.g., radians to degrees,
+ grads to degrees, degrees to grads, and so on.)  The converted value
+ is returned by the method.
+ </summary>
+	<param name="value">numeric angular value to be converted </param>
+	<param name="fromType">current unit type of angular value</param>
+	<param name="toType">desired unit type of angular value</param>
+	<returns>The converted value</returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

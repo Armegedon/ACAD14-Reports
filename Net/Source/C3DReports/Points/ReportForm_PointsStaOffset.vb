@@ -1,3 +1,4 @@
+
 ' -----------------------------------------------------------------------------
 ' <copyright file="ReportForm_PointsStaOffset.vb" company="Autodesk">
 ' Copyright (C) Autodesk, Inc. All rights reserved.
@@ -97,12 +98,14 @@ Friend Class ReportForm_PointsStaOffset
         End If
 
         'get Point Groups
+        'copied from alignment combo box list
         m_Pointgroups = New Collections.Generic.SortedList(Of String, AeccLandLib.IAeccPointGroup)
-        For Each oPgroup As AeccLandLib.AeccPointGroup In ReportApplication.AeccXDocument.PointGroups
-            m_Pointgroups.Add(oPgroup.Name, oPgroup)
+        For Each oPgroups As AeccLandLib.AeccPointGroup In ReportApplication.AeccXDocument.PointGroups
+            m_Pointgroups.Add(oPgroups.Name, oPgroups)
         Next
 
         'fill Point Group combo box
+        'copied from alignment combo box
         For Each PgroupName As String In m_Pointgroups.Keys()
             Combo_Pgroup.Items.Add(PgroupName)
         Next
@@ -128,12 +131,23 @@ Friend Class ReportForm_PointsStaOffset
 
         Combo_Align.SelectedIndex = 0
 
-        ' list view grid setup
-        InitPointsView()
+        ' list view grid setup - 040115, moved initpointsview() to point group selection combobox so the point list will update on point group change
+        ' InitPointsView()
     End Sub
 
+    '033015 - copied from forums, is working to list point group points in the added listbox but cannot display any other point data in place of .Points
+    Function GetPointGroupPoints(ByVal sPointGroupName As String)
+        Dim oPointGroup As AeccLandLib.IAeccPointGroup
+        oPointGroup = ReportApplication.AeccXDatabase.PointGroups.Item(sPointGroupName)
+        GetPointGroupPoints = oPointGroup.Points
+    End Function
+
     Private Sub InitPointsView()
-        'setup columns
+
+        'Added- 040115, Clear list box before populating with data
+        ListView_Aligns.Clear()
+
+        'Setup columns
         ListView_Aligns.View = View.Details
         ListView_Aligns.Columns.Add(LocalizedRes.PointsStaOffset_Form_ColumnTitle_Include, _
             50, HorizontalAlignment.Left)
@@ -145,16 +159,23 @@ Friend Class ReportForm_PointsStaOffset
             60, HorizontalAlignment.Left)
         ListView_Aligns.Columns.Add(LocalizedRes.PointsStaOffset_Form_ColumnTitle_Elevation, _
             80, HorizontalAlignment.Left)
-        ListView_Aligns.Columns.Add(LocalizedRes.PointsStaOffset_Form_ColumnTitle_Name, _
-            40, HorizontalAlignment.Left)
-        'Don't need RawDesc with FullDesc 
-        'ListView_Aligns.Columns.Add(LocalizedRes.PointsStaOffset_Form_ColumnTitle_RawDesc, _
-        '    100, HorizontalAlignment.Left)
-        ListView_Aligns.Columns.Add(LocalizedRes.PointsStaOffset_Form_ColumnTitle_FullDesc, _
+        'Don't need Name
+        'ListView_Aligns.Columns.Add(LocalizedRes.PointsStaOffset_Form_ColumnTitle_Name, _
+        '    40, HorizontalAlignment.Left)
+        ListView_Aligns.Columns.Add(LocalizedRes.PointsStaOffset_Form_ColumnTitle_RawDesc, _
             100, HorizontalAlignment.Left)
+        'Don't need FullDesc with RawDesc 
+        'ListView_Aligns.Columns.Add(LocalizedRes.PointsStaOffset_Form_ColumnTitle_FullDesc, _
+        '   100, HorizontalAlignment.Left)
 
         'fill grid <Need to figure out how to list the points according to the selected point group>
-        For Each oPoint As AeccLandLib.AeccPoint In ReportApplication.AeccXDatabase.Points
+        'This works and fetches the pointgroup points and puts into the temporary listbox. 
+        'ListBox1.DataSource = GetPointGroupPoints(m_oCurPgroup.Name)
+
+        '033015 - removed unneeded point items
+        'this selects all the points in the drawing, how do I get it to only select the points in the selected point group???? 
+        For Each oPointNum As Long In GetPointGroupPoints(m_oCurPgroup.Name)
+            Dim opoint As AeccLandLib.AeccPoint = ReportApplication.AeccXDatabase.Points.Find(oPointNum)
             Dim li As New ListViewItem
             li.SubItems.Add(oPoint.Number.ToString())
             li.SubItems.Add(PointsStaOffset_ExtractData.FormatPtCoordSettings(oPoint.Northing))
@@ -165,36 +186,17 @@ Friend Class ReportForm_PointsStaOffset
             name = ""
             name = oPoint.Name
             On Error GoTo 0
-            li.SubItems.Add(name)
-            'Don't need RawDesc with FullDesc
-            'li.SubItems.Add(oPoint.RawDescription)
-            li.SubItems.Add(oPoint.FullDescription)
+            'Don't need Name
+            'li.SubItems.Add(name)
+            li.SubItems.Add(oPoint.RawDescription)
+            'Don't need FullDesc with RawDesc
+            'li.SubItems.Add(oPoint.FullDescription)
             li.Checked = True
             ListView_Aligns.Items.Add(li)
         Next
+
     End Sub
-
-    Private Sub Combo_Align_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Combo_Align.SelectedIndexChanged
-        If Combo_Align.SelectedIndex < 0 Then
-            Exit Sub
-        End If
-
-        m_oCurAlign = m_Alignments(Combo_Align.SelectedItem.ToString())
-
-        Label_AlignNameValue.Text = m_oCurAlign.Name
-
-        Dim str As String
-        str = String.Format(LocalizedRes.PointsStaOffset_Form_StaRange, _
-                            ReportUtilities.GetStationStringWithDerived(m_oCurAlign, m_oCurAlign.StartingStation), _
-                            ReportUtilities.GetStationStringWithDerived(m_oCurAlign, m_oCurAlign.EndingStation))
-        Label_StaRangeValue.Text = str
-
-        If m_oCurAlign.StationEquations.Count = 0 Then
-            Label_StaEquationValue.Text = LocalizedRes.PointsStaOffset_Form_EquationNone '"None"
-        Else
-            Label_StaEquationValue.Text = LocalizedRes.PointsStaOffset_Form_EquationApp '"Applied"
-        End If
-    End Sub
+    
 
     Private Sub Button_Deselect_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button_Deselect.Click
         For Each item As ListViewItem In ListView_Aligns.Items
@@ -296,7 +298,7 @@ Friend Class ReportForm_PointsStaOffset
 
         ReportUtilities.OpenFileByDefaultBrowser(ctlSavePath.SavePath)
     End Sub
-
+    '// Done Button now says Close
     Private Sub Button_Done_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button_Done.Click
         Close()
     End Sub
@@ -400,23 +402,50 @@ Friend Class ReportForm_PointsStaOffset
         oHtmlWriter.RenderTd(description)
         oHtmlWriter.TrEnd()
     End Sub
+    '// Alignment Combobox
+    Private Sub Combo_Align_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Combo_Align.SelectedIndexChanged
+        If Combo_Align.SelectedIndex < 0 Then
+            Exit Sub
+        End If
 
-    Private Sub openHelp()
-        ReportApplication.InvokeHelp(ReportHelpID.IDH_AECC_REPORTS_CREATE_STATION_OFFSET_TO_POINTS_REPORT)
+        m_oCurAlign = m_Alignments(Combo_Align.SelectedItem.ToString())
+
+        Label_AlignNameValue.Text = m_oCurAlign.Name
+
+        Dim str As String
+        str = String.Format(LocalizedRes.PointsStaOffset_Form_StaRange, _
+                            ReportUtilities.GetStationStringWithDerived(m_oCurAlign, m_oCurAlign.StartingStation), _
+                            ReportUtilities.GetStationStringWithDerived(m_oCurAlign, m_oCurAlign.EndingStation))
+        Label_StaRangeValue.Text = str
+
+        If m_oCurAlign.StationEquations.Count = 0 Then
+            Label_StaEquationValue.Text = LocalizedRes.PointsStaOffset_Form_EquationNone '"None"
+        Else
+            Label_StaEquationValue.Text = LocalizedRes.PointsStaOffset_Form_EquationApp '"Applied"
+        End If
     End Sub
-
-    Private Sub ListView_Aligns_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListView_Aligns.SelectedIndexChanged
-
-    End Sub
-
+    '// Point Group Combobox - 033015 - copied from alignment selection combobox, modified to list and select point groups 
     Private Sub Combo_Pgroup_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Combo_Pgroup.SelectedIndexChanged
         If Combo_Pgroup.SelectedIndex < 0 Then
             Exit Sub
         End If
 
-        m_oCurPgroup = m_Pointgroups(Combo_Pgroup.SelectedItem.ToString())
+        m_oCurPgroup = m_Pointgroups(Combo_Pgroup.SelectedItem())
 
         Label_PgroupNameValue.Text = m_oCurPgroup.Name
+
+        InitPointsView()
+
+    End Sub
+    '// Listview Window
+    Private Sub ListView_Aligns_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListView_Aligns.SelectedIndexChanged
+
+    End Sub
+    '// Help
+    Private Sub openHelp()
+        ReportApplication.InvokeHelp(ReportHelpID.IDH_AECC_REPORTS_CREATE_STATION_OFFSET_TO_POINTS_REPORT)
+    End Sub
+    Private Sub Label_SelectAlign_Click(sender As Object, e As EventArgs)
 
     End Sub
 End Class

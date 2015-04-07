@@ -1,3 +1,4 @@
+C:\ProgramData\Autodesk\C3D 2014\enu\Data\Reports\Net\C3DReport.dll
 C:\ProgramData\Autodesk\C3D 2014\enu\Data\Reports\Net\Source\C3DReports\Obj\x64\Release\Report.ReportForm_AlignCriVer.resources
 C:\ProgramData\Autodesk\C3D 2014\enu\Data\Reports\Net\Source\C3DReports\Obj\x64\Release\Report.ReportForm_AlignSta.resources
 C:\ProgramData\Autodesk\C3D 2014\enu\Data\Reports\Net\Source\C3DReports\Obj\x64\Release\Report.ReportForm_AlignStaInc.resources
@@ -45,6 +46,3 @@ C:\ProgramData\Autodesk\C3D 2014\enu\Data\Reports\Net\Source\C3DReports\Obj\x64\
 C:\ProgramData\Autodesk\C3D 2014\enu\Data\Reports\Net\Source\C3DReports\Obj\x64\Release\C3DReport.dll
 C:\ProgramData\Autodesk\C3D 2014\enu\Data\Reports\Net\Source\C3DReports\Obj\x64\Release\C3DReport.xml
 C:\ProgramData\Autodesk\C3D 2014\enu\Data\Reports\Net\Source\C3DReports\Obj\x64\Release\C3DReport.pdb
-C:\ProgramData\Autodesk\C3D 2014\enu\Data\Reports\Net\C3DReport.dll
-C:\ProgramData\Autodesk\C3D 2014\enu\Data\Reports\Net\C3DReport.pdb
-C:\ProgramData\Autodesk\C3D 2014\enu\Data\Reports\Net\C3DReport.xml

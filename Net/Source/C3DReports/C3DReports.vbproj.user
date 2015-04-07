@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ReferencePath>E:\Program Files\Autodesk\Autodesk AutoCAD Civil 3D 2014\</ReferencePath>
+    <ReferencePath>G:\Program Files\Autodesk\Autodesk AutoCAD Civil 3D 2014\;E:\Temp\AutoDesk\Autodesk_IDSU_2014_English_Win_64bit_dlm\x86\RSA\Autodesk Shared\Extensions 2014\Framework\Interop\Microsoft.Office\;G:\Program Files\Microsoft.Interop\</ReferencePath>
   </PropertyGroup>
 </Project>

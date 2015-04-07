@@ -24,6 +24,7 @@ Partial Class ReportForm_PointsStaOffset
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ReportForm_PointsStaOffset))
         Me.GroupBox_Points = New System.Windows.Forms.GroupBox()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Combo_Pgroup = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button_Deselect = New System.Windows.Forms.Button()
@@ -65,6 +66,7 @@ Partial Class ReportForm_PointsStaOffset
         'GroupBox_Points
         '
         resources.ApplyResources(Me.GroupBox_Points, "GroupBox_Points")
+        Me.GroupBox_Points.Controls.Add(Me.ListBox1)
         Me.GroupBox_Points.Controls.Add(Me.Combo_Pgroup)
         Me.GroupBox_Points.Controls.Add(Me.Label1)
         Me.GroupBox_Points.Controls.Add(Me.Button_Deselect)
@@ -72,6 +74,12 @@ Partial Class ReportForm_PointsStaOffset
         Me.GroupBox_Points.Controls.Add(Me.ListView_Aligns)
         Me.GroupBox_Points.Name = "GroupBox_Points"
         Me.GroupBox_Points.TabStop = False
+        '
+        'ListBox1
+        '
+        Me.ListBox1.FormattingEnabled = True
+        resources.ApplyResources(Me.ListBox1, "ListBox1")
+        Me.ListBox1.Name = "ListBox1"
         '
         'Combo_Pgroup
         '
@@ -322,4 +330,5 @@ Partial Class ReportForm_PointsStaOffset
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label_PgroupNameValue As System.Windows.Forms.Label
     Friend WithEvents Label_PgroupName As System.Windows.Forms.Label
+    Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
 End Class
